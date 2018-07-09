@@ -1,60 +1,1312 @@
-{
-    "quiz": {
-        "sport": {
-            "q1": {
-                "question": "Which one is correct team name in NBA?",
-                "options": [
-                    "New York Bulls",
-                    "Los Angeles Kings",
-                    "Golden State Warriros",
-                    "Huston Rocket"
-                ],
-                "answer": "Huston Rocket"
-            }
-        },
-        "maths": {
-            "q1": {
-                "question": "5 + 7 = ?",
-                "options": [
-                    "10",
-                    "11",
-                    "12",
-                    "13"
-                ],
-                "answer": "12"
-            },
-            "q2": {
-                "question": "12 - 8 = ?",
-                "options": [
-                    "1",
-                    "2",
-                    "3",
-                    "4"
-                ],
-                "answer": "4"
-            }
-        }
-        "test": {
-            "q1": {
-                "question": "5 + 7 = ?",
-                "options": [
-                    "10",
-                    "11",
-                    "12",
-                    "13"
-                ],
-                "answer": "12"
-            },
-            "q2": {
-                "question": "12 - 8 = ?",
-                "options": [
-                    "1",
-                    "2",
-                    "3",
-                    "4"
-                ],
-                "answer": "4"
-            }
-        }
-    }
+/*Better consolidation of data using an array of objects*/
+
+/*Themes A to Z*/
+var preAlphabeticalSeasons = [];
+
+/*Seasons w/Themes A to Z*/
+var seasonsAZ = [];
+
+/*Seasons w/Themes by Date*/
+var seasonsDate = [];
+
+/*Latest Thumbnail for "Coming Soon!"*/
+var latestThumbnail = "https://img.youtube.com/vi/97Dt9urfWkk/mqdefault.jpg";
+
+
+
+
+/*season = i;*/ /*index 0 does not exist, keep i = season#*/
+preAlphabeticalSeasons[1] = [];
+
+seasonsAZ[1] = [];
+
+seasonsDate[1] = [];
+
+preAlphabeticalSeasons[1][0] = seasonsAZ[1][0] = seasonsDate[1][0] = {
+  "date": "1/10/2015",
+  "strength": "Achiever",
+  "title": "The Drive to do More",
+  "watchLink": "http://coaching.gallup.com/2016/01/gwsw-achiever-drive-to-do-more.html",
+  "companion": "http://products.gallup.com/185189/theme-thursday-companion-guide-achiever.aspx",
+  "youtubeEmbed": "k0gjHInPHHc",
+  "description": "This is our first Gallup Weekly Strengths Wisdom (\"GWSW\") theme week -- and appropriately, we are starting with the theme of Achiever. Achievers get things done. They thrive on being busy and accomplishing tasks. It gives them energy. Most Achievers love to check off items on a list. They rarely have a \"day off\" and even consider their weekends to be an opportunity to complete a project. Some may call it a strong work ethic, an Achiever would call it their day-to-day reality."
+}
+preAlphabeticalSeasons[1][1] = seasonsAZ[1][1] = seasonsDate[1][1] = {  
+  "date": "1/17/2015",
+  "strength": "Activator",
+  "title": "Thriving on Moving Forward",
+  "watchLink": "http://coaching.gallup.com/2016/01/gwsw-activator-thriving-on-moving.html",
+  "companion": "http://products.gallup.com/188087/theme-thursday-companion-guide-activator.aspx",
+  "youtubeEmbed": "vNsOp9CSf7U",
+  "description": "For the second GWSW week, we are focusing on the theme of Activator. Activators move, make things happen and initiate. When they are around others who don’t see the need - the imperative - for forward momentum, Activators may become frustrated.  Activators feel an energy and speed around everything they do, from getting out of bed in the morning, to making decisions and being on time. People strong in the Activator theme learn by doing, and fully expect to be judged by the action they take.  They have a loud internal drive that pushes them forward."
+}
+preAlphabeticalSeasons[1][2] = seasonsAZ[1][2] = seasonsDate[1][2] = {  
+  "date": "1/24/2015",
+  "strength": "Adaptability",
+  "title": "The Future One Choice at a Time",
+  "watchLink": "http://coaching.gallup.com/2016/01/gwsw-adaptability-future-one-choice-at.html",
+  "companion": "http://products.gallup.com/188759/theme-thursday-companion-guide-adaptability.aspx",
+  "youtubeEmbed": "3jYUraR4c2c",
+  "description": "This week for GWSW, we will focus on the theme of Adaptability. People with strong Adaptability talents live in the moment. They don’t see the future as a fixed destination. Instead, they see it as a place that they can create out of the choices they make right now. They discover their future one choice at a time. This doesn’t mean that they don’t have plans. But their Adaptability talents enable them to respond willingly to the demands of the moment, even if circumstances pull them away from their plans. They don’t resent sudden requests or unforeseen detours. They expect them."
+}
+preAlphabeticalSeasons[1][3] = seasonsAZ[1][3] = seasonsDate[1][3] = {  
+  "date": "1/31/2015",
+  "strength": "Analytical",
+  "title": "Seeking an Objective Understanding of the World",
+  "watchLink": "http://coaching.gallup.com/2016/01/gwsw-analytical-seeking-objective.html",
+  "companion": "http://products.gallup.com/186104/theme-thursday-companion-guide-analytical.aspx",
+  "youtubeEmbed": "9ntViT4ile4",
+  "description": "Analytical seeks an objective understanding of the world from data and facts. If something isn't measurable, Analytical will try to make it measurable. People with Analytical seek the essence of a subject. They can easily identify patterns and root causes. Their mantra might be, \"Everything should be as simple as possible, but not simpler.\""
+}
+preAlphabeticalSeasons[1][4] = seasonsAZ[1][4] = seasonsDate[1][4] = {  
+  "date": "2/7/2015",
+  "strength": "Arranger",
+  "title": "Bringing People, Processes and Productivity Together",
+  "watchLink": "http://coaching.gallup.com/2016/02/gwsw-arranger-bringing-people-processes.html",
+  "companion": "http://products.gallup.com/189095/theme-thursday-companion-guide-arranger.aspx",
+  "youtubeEmbed": "2Ic7W2DrO_0",
+  "description": "Arrangers are conductors. When faced with a complex situation involving many factors, people with strong Arranger talents enjoy managing all of the variables, aligning and realigning them until they are sure they have arranged them in the most productive configuration possible. Those who have high Arranger talents work tirelessly to implement a solution. They get things done by orchestrating, organizing, and facilitating the work of others. Arrangers are people of multiplicity, thriving on bringing together people, processes, and products to build productivity."
+}
+preAlphabeticalSeasons[1][5] = seasonsAZ[1][5] = seasonsDate[1][5] = {
+  "date": "2/14/2015",
+  "strength": "Belief",
+  "title": "Motivation Ignited by Values",
+  "watchLink": "http://coaching.gallup.com/2016/02/gwsw-belief-motivation-ignited-by-values.html",
+  "companion": "http://products.gallup.com/189197/theme-thursday-companion-guide-belief.aspx",
+  "youtubeEmbed": "FUl6BmgA2m0",
+  "description": "People with strong Belief talents have enduring principles by which they live. These values vary from one person to another, but those with powerful Belief talents have deeply held ideals and a strong sense of purpose in their lives. These core values affect their behavior in many ways. Their sense of mission gives their lives meaning and direction; in their view, success is more than money and prestige."
+}
+preAlphabeticalSeasons[1][6] = seasonsAZ[1][6] = seasonsDate[1][6] = {  
+  "date": "2/21/2015",
+  "strength": "Command",
+  "title": "The Power to Persuade and Inspire Others",
+  "watchLink": "http://coaching.gallup.com/2016/02/gwsw-command-power-to-persuade-and.html",
+  "companion": "http://products.gallup.com/189491/theme-thursday-companion-guide-command.aspx",
+  "youtubeEmbed": "5U9asnG1hds",
+  "description": "Command brings decisiveness and emotional clarity. They have the ability to bring to light what is often avoided or unstated. This gives them the ability to resolve conflicts and misunderstandings. Command falls into the Influencing domain, which reflects its power to persuade people. Individuals with high Command like to be in control of situations. They tend to be highly assertive and thrive in opportunities when they can take charge. Command is as an energizing, persuasive, and inspirational theme."
+}
+preAlphabeticalSeasons[1][7] = seasonsAZ[1][7] = seasonsDate[1][7] = {  
+  "date": "3/6/2015",
+  "strength": "Communication",
+  "title": "Great Speakers and Great Listeners",
+  "watchLink": "http://coaching.gallup.com/2016/03/gwsw-communication-great-speakers-and.html",
+  "companion": "http://products.gallup.com/189572/theme-thursday-companion-guide-communication.aspx",
+  "youtubeEmbed": "MoPC3A00e1A",
+  "description": "The Communication theme is predominant in people who have a natural ability for verbal expression and who can provide conceptual clarity and social connection. Communication is not only a social theme -- it also helps facilitate and guide understanding in conversation. People with Communication typically value being understood; they want people to get what they’re saying. Those with high Communication are not only great speakers, they are also great listeners who value dialogue. Communication energizes people. People with Communication feed off of great conversation."
+}
+preAlphabeticalSeasons[1][8] = seasonsAZ[1][8] = seasonsDate[1][8] = {  
+  "date": "3/13/2015",
+  "strength": "Competition",
+  "title": "Grit, Determination and Boundless Energy",
+  "watchLink": "http://coaching.gallup.com/2016/03/gwsw-competition-grit-determination-and.html",
+  "companion": "http://products.gallup.com/185186/theme-thursday-companion-guide-competition.aspx",
+  "youtubeEmbed": "Fdul6HY56d4",
+  "description": "The essence of the Competition theme is comparison. People with Competition are instinctively aware of other people's performance. They have a deep aspiration for first place. Competition drives them to outwork, outshine and outperform anyone else. They will invest in teaching, research, training and study to win. People with Competition have grit and determination, but also a boundless energy and enthusiasm to chase their goals. They are at their best when they can measure their performance against others."
+}
+preAlphabeticalSeasons[1][9] = seasonsAZ[1][9] = seasonsDate[1][9] = {  
+  "date": "3/20/2015",
+  "strength": "Connectedness",
+  "title": "Seeing the Bigger Picture",
+  "watchLink": "http://coaching.gallup.com/2016/03/gwsw-connectedness-seeing-bigger-picture.html",
+  "companion": "http://products.gallup.com/190070/theme-thursday-companion-guide-connectedness.aspx",
+  "youtubeEmbed": "67hZGcUk5oc",
+  "description": "Things happen for a reason. Those with strong Connectedness talents are sure of it. They have a powerful conviction that everyone is connected. While each person is responsible for his or her own judgments and actions, those with strong Connectedness believe everyone is part of something larger. Connectedness is global spiritual perspective that produces an integrated holistic practice. Those with high Connectedness talents typically have strong faith -- religious or otherwise -- and often view things in the context of how they fit into the bigger picture."
+}
+preAlphabeticalSeasons[1][10] = seasonsAZ[1][10] = seasonsDate[1][10] = {  
+  "date": "3/27/2015",
+  "strength": "Consistency",
+  "title": "Even-handed, Egalitarian and Fair",
+  "watchLink": "http://coaching.gallup.com/2016/03/gwsw-consistency-even-handed.html",
+  "companion": "http://products.gallup.com/186113/theme-thursday-companion-guide-consistency.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
+  "youtubeEmbed": "oieCeKNv0qE",
+  "description": "Consistency is a keen awareness about the need to treat people the same by setting clear rules and applying them evenhandedly. Words that best represent the Consistency theme are: uniformity, rules, efficiency, balance and fairness. Someone with Consistency often acts as the conscience of a group or team. They are egalitarian, even-handed and selfless. People with Consistency focus on the group, not on individuals.  They accomplish tasks in a fair and consistent manner.  Consistency believe that the rules are the same for everyone, so individuals with high Consistency are great at giving credit where credit is due. Consistency believes, \"It's not what we do once in a while that shapes our lives, it is what we do every day.\""
+}
+preAlphabeticalSeasons[1][11] = seasonsAZ[1][11] = seasonsDate[1][11] = { 
+  "date": "4/3/2015",
+  "strength": "Context",
+  "title": "Understanding the Present and Future Through the Past",
+  "watchLink": "http://coaching.gallup.com/2016/04/gwsw-context-understanding-present-and.html",
+  "companion": "http://products.gallup.com/183008/theme-thursday-companion-guide-context.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
+  "youtubeEmbed": "TO-6NlKz9iw",
+  "description": "Perspective and background are important for people with strong Context talents. They value the retrospective viewpoint because they believe that is where the answers lie. They look back to understand the present. From the past, they can discern blueprints for direction. And, counterintuitively, they become wiser about the future because they can see its seeds sown in the past."
+}
+preAlphabeticalSeasons[1][12] = seasonsAZ[1][12] = seasonsDate[1][12] = { 
+  "date": "4/17/2015",
+  "strength": "Deliberative",
+  "title": "Approaching Issues with Thought and Care",
+  "watchLink": "http://coaching.gallup.com/2016/04/gwsw-deliberative-approaching-issues.html",
+  "companion": "http://products.gallup.com/190805/theme-thursday-companion-guide-deliberative.aspx?utm_source=coaches%27blog&utm_medium=copy&utm_campaign=coaches%27blog",
+  "youtubeEmbed": "p9EgVFQbjUo",
+  "description": "People with high Deliberative have a keen awareness and sensitivity to risk. This drives them to be careful decision-makers, constantly striving to prevent adverse things from happening. The Deliberative theme plays a significant role in a person's tendency to make well thought out decisions. Deliberators aren’t cautious for the sake of being cautious; people who are high in Deliberative exercise calculated restraint for the sake of success. One phrase that rings true for Deliberative is, “An ounce of prevention is worth a pound of cure.” That is, not all successful people are “early birds who get the worm.” Sometimes it is imperative to use caution and think things through. This is something that those with Deliberative in their top five do well."
+}
+preAlphabeticalSeasons[1][13] = seasonsAZ[1][13] = seasonsDate[1][13] = {  
+  "date": "4/24/2015",
+  "strength": "Developer",
+  "title": "Rejoicing in the Growth of Others",
+  "watchLink": "http://coaching.gallup.com/2016/04/gwsw-developer-rejoicing-in-growth-of.html",
+  "companion": "http://products.gallup.com/186116/theme-thursday-companion-guide-developer.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
+  "youtubeEmbed": "CO0KEL1Nmj4",
+  "description": "People talented in the Developer theme recognize and cultivate the potential of others. They can quickly recognize the talent of others and derive satisfaction from others' growth. Developer has the vision to see the potential in others. When people grow in their talents and strengths, it gives Developers fuel. Developers are patient, growth-oriented, encouraging, effective, self-sacrificing and helpful. Developer acts as an advisor, stimulator, investor, coach, mentor, teacher, encourager and \"stretcher\" -- they help people stretch their talents. Developers rejoice in helping others grow and cultivate their talents."
+}
+preAlphabeticalSeasons[1][14] = seasonsAZ[1][14] = seasonsDate[1][14] = { 
+  "date": "5/1/2015",
+  "strength": "Discipline",
+  "title": "Embracing Routines and Order",
+  "watchLink": "http://coaching.gallup.com/2016/05/gwsw-discipline-embracing-routines-and.html",
+  "companion": "http://products.gallup.com/191165/theme-thursday-companion-guide-discipline.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
+  "youtubeEmbed": "BRstTrD4Whs",
+  "description": "People with strong Discipline talents love things that are organized and orderly. They meet deadlines. And they can efficiently manage limited resources. They bring a high level of organization, order and stability to the projects and groups in which they work. People who have high Discipline are great at managing limited resources by creating a plan and following it. They often bring order to chaos to get things done.  Discipline’s key purpose is that it helps people be more productive when used properly. Those without high Discipline may find routines dull and redundant, but Discipline embraces such routine."
+}
+preAlphabeticalSeasons[1][15] = seasonsAZ[1][15] = seasonsDate[1][15] = { 
+  "date": "5/8/2015",
+  "strength": "Empathy",
+  "title": "Attentiveness to the Emotions of Others",
+  "watchLink": "http://coaching.gallup.com/2016/05/gwsw-empathy-attentiveness-to-emotions.html",
+  "companion": "http://products.gallup.com/182822/theme-thursday-companion-guide-empathy.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
+  "youtubeEmbed": "w8zRzxCNylg",
+  "description": "People with strong Empathy talents are able to build and form relationships that have great emotional depth. Others feel understood by them and seek their company. Their innate ability to understand the emotions of those around them provides comfort and stability. The Empathy theme is most accurately defined as the attention to the emotional state of others. Individuals with Empathy are also in touch with their own emotions and know how to effectively express them to others. Those with high Empathy talents have a knack for creating customizable approaches to other people. Empathy can help people find clarity, whether it is in their business or their personal life."
+}
+preAlphabeticalSeasons[1][16] = seasonsAZ[1][16] = seasonsDate[1][16] = { 
+  "date": "5/15/2015",
+  "strength": "Focus",
+  "title": "Starting with the End in Mind",
+  "watchLink": "http://coaching.gallup.com/2016/05/gwsw-focus-starting-with-end-in-mind.html",
+  "companion": "http://products.gallup.com/184454/theme-thursday-companion-guide-focus.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
+  "youtubeEmbed": "FwWHEUUgDL0",
+  "description": "People with strong Focus talents prioritize and then take action. They set goals. These goals serve as their compass, helping them determine priorities and make alterations when needed to get back on course. Their Focus is powerful because it forces them to filter; they instinctively evaluate each action before taking it to determine whether it will help them reach their goal. In the end, strong Focus talents push them to be efficient. They are extremely valuable team members because their single-mindedness enhances the speed and quality of their performance and keeps the team on track. A person with high focus is single-minded and goal oriented. They see the light at the end of the tunnel -- and will stay on track, despite distractions. Focus allows people to take direction and follow through with given tasks. They start with the end in mind."
+}
+preAlphabeticalSeasons[1][17] = seasonsAZ[1][17] = seasonsDate[1][17] = { 
+  "date": "5/22/2015",
+  "strength": "Futuristic",
+  "title": "A Vision for Tomorrow and Beyond",
+  "watchLink": "http://coaching.gallup.com/2016/05/futuristic-s2-vision-for-tomorrow-and.html",
+  "companion": "http://products.gallup.com/186119/theme-thursday-companion-guide-futuristic.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
+  "youtubeEmbed": "Vg5tefE5OQg",
+  "description": "People talented in the Furturistic have the innate ability to envision clearly and inspirationally describe a better tomorrow. Futuristic is a strategic thinking theme and while it is \"in someone's head,\" it is also the ability to inspire others with a vision of the future. Futuristic is the telescope that looks forward and says, \"What do you see? What is possible?\" Adjectives used to describe the Futuristic strength are creative, inspiring, vivid, expressive, perceptive, future-oriented and visionary.  A person with Futuristic is a forecaster -- they can anticipate what is next. They are dreamers and imaginers -- and they can also articulate their dreams. They are not content with the status quo."
+}
+preAlphabeticalSeasons[1][18] = seasonsAZ[1][18] = seasonsDate[1][18] = { 
+  "date": "5/29/2015",
+  "strength": "Harmony",
+  "title": "Getting Along with People and Getting Things Done",
+  "watchLink": "http://coaching.gallup.com/2016/05/gwsw-harmony-getting-along-with-people.html",
+  "companion": "http://products.gallup.com/191930/theme-thursday-companion-guide-harmony.aspx?utm_source=coaches%27blog&utm_medium=copy&utm_campaign=coaches%27blog",
+  "youtubeEmbed": "aotLnc0wS9w",
+  "description": "The particular brilliance of the Harmony theme is its natural practicality and preference for emotional balance. By reducing friction, people especially talented in the Harmony theme can enhance collaboration. They avert many contentious interactions before they start and quickly help others find a resolution. People with Harmony promote collaboration by managing conflict and maintaining practicality. Simply put, they get along with people, so they can get things done. Although Harmony falls into the Relationship Building domain, it often has a strong performance orientation. Those with Harmony sometimes fight an inner battle where they want to get along with everyone, but they want to get things done without creating any conflict."                                                                                                           
+}
+preAlphabeticalSeasons[1][19] = seasonsAZ[1][19] = seasonsDate[1][19] = { 
+  "date": "6/12/2015",
+  "strength": "Ideation",
+  "title": "Energy from Creativity and Connectivity",
+  "watchLink": "http://coaching.gallup.com/2016/06/gwsw-ideation-energy-from-creativity.html",
+  "companion": "http://products.gallup.com/186110/theme-thursday-companion-guide-ideation.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
+  "youtubeEmbed": "m2JR78CCfQk",
+  "description": "Ideation is all about ideas. People with Ideation are fascinated by ideas and a new idea makes their day. Ideation revels in taking the world as we know it and turning it around so it can be viewed in a strange, but strangely enlightening, way. Ideation generates excitement and energy for those who possess it. Creativity, Complexity and Connectivity are the \"Three Cs\" of Ideation. Creativity drives those with Ideation to ask, \"What if?\" and explore new ideas. Ideation loves complexity for complexity's sake, but Ideation is also keen on complexity because people with Ideation want to make the complex simple. People with Ideation are adept at connecting seemingly disparate ideas -- this is their love of Connectivity in action."
+}
+preAlphabeticalSeasons[1][20] = seasonsAZ[1][20] = seasonsDate[1][20] = { 
+  "date": "6/19/2015",
+  "strength": "Includer",
+  "title": "Bringing Others In",
+  "watchLink": "http://coaching.gallup.com/2016/06/gwsw-includer-bringing-others-in.html",
+  "companion": "http://products.gallup.com/192593/theme-thursday-companion-guide-includer.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
+  "youtubeEmbed": "4LCgQaspnEI",
+  "description": "Includers are sensitive to those who are excluded and have an innate desire and capacity to bring them into the group. Their thoughtful approach to others not only increases participation and communication as they ensure everyone is considered, but it also brings a level of tolerance and acceptance of diversity."
+}
+preAlphabeticalSeasons[1][21] = seasonsAZ[1][21] = seasonsDate[1][21] = { 
+  "date": "6/26/2015",
+  "strength": "Individualization",
+  "title": "Appreciating the Uniqueness of Others",
+  "watchLink": "http://coaching.gallup.com/2016/06/gwsw-individualization-appreciating.html",
+  "companion": "http://products.gallup.com/193130/theme-thursday-companion-guide-individualization.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
+  "youtubeEmbed": "oUmHrE9dKng",
+  "description": "People with strong Individualization talents notice and appreciate the unique characteristics of each person and can customize their approach accordingly. Like a casting director, they use their intelligence about people to position them to do what they do best. This creates a type of team synergy that leads to a more enjoyable experience and increased effectiveness. Individualization falls into the Relationship Building domain, giving those who possess the strength a clear perception of human uniqueness. That perception allows people to treat and approach others in a relevant way, making it easier to make connections. People with strong Individualization talents have a great sense of and appreciation for diversity by getting to know others on an individual level. The Individualization theme creates an awareness of unique qualities in not only oneself, but in others as well."
+}
+preAlphabeticalSeasons[1][22] = seasonsAZ[1][22] = seasonsDate[1][22] = { 
+  "date": "7/3/2015",
+  "strength": "Input",
+  "title": "Sharing Resources and Curiosity with Others",
+  "watchLink": "http://coaching.gallup.com/2016/07/gwsw-input-sharing-resources-and.html",
+  "companion": "http://products.gallup.com/193367/theme-thursday-companion-guide-input.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
+  "youtubeEmbed": "R6BQKA_-soc",
+  "description": "People with strong Input talents bring tools that can facilitate growth and performance. They love to provide relevant and tangible help to others. Their resourcefulness and curiosity lead them to store knowledge that can be culled and shared. Those with high Input as seeing the value in \"stuff.\" Whether it is something tangible, like a tool, or intangible, like information and resources, people with Input are likely to have a strong appreciation for it. Input shines the most when some people have the opportunity to absorb information. The trait of constantly reading and soaking up knowledge is common for those with Input."
+}
+preAlphabeticalSeasons[1][23] = seasonsAZ[1][23] = seasonsDate[1][23] = {
+  "date": "7/10/2015",
+  "strength": "Intellection",
+  "title": "The Reward is in Truly Understanding",
+  "watchLink": "http://coaching.gallup.com/2016/07/gwsw-intellection-reward-is-in-truly.html",
+  "companion": "http://products.gallup.com/193475/theme-thursday-companion-guide-intellection.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
+  "youtubeEmbed": "yLqbv94VZ38",
+  "description": "People with strong Intellection talents like to think. They like mental activity. They like to exercise the \"muscles\" of their brain, stretching them in multiple directions. Intellection is a solitary or philosophical contemplation that deepens wisdom and understanding. Those with high Intellection like to think deeply about things, and often prefer their own time in a quiet space for such contemplation. People who have strong Intellection talents find clarity by taking the time to think about a subject until they come away with a thorough understanding of it. They aren’t satisfied with simply gathering knowledge; the real reward comes with true understanding."
+}
+preAlphabeticalSeasons[1][24] = seasonsAZ[1][24] = seasonsDate[1][24] = {
+  "date": "7/17/2015",
+  "strength": "Learner",
+  "title": "A Natural Curiosity and Love of Learning",
+  "watchLink": "http://coaching.gallup.com/2016/07/gwsw-learner-natural-curiosity-and-love.html",
+  "companion": "http://products.gallup.com/193784/theme-thursday-companion-guide-learner.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
+  "youtubeEmbed": "8KIQUGW-Ozs",
+  "description": "People with strong Learner talents not only love to learn, but they also intuitively know how they learn best. They can learn quickly, and when focused, they can keep a group, team and organization on the cutting edge. Those with high Learner have a natural curiosity and enjoyment of the learning experience that leads to ever-evolving paradigms and ever-evolving perspectives. Much like a runner getting a high from a long run, people with strong Learner talent tend to experience a similar emotional boost when presented with the opportunity to learn something new. That those with Learner enjoy the process of learning, while those with Input are more attracted to the tangible aspects of learning, such as books and specific subject matter."
+}
+preAlphabeticalSeasons[1][25] = seasonsAZ[1][25] = seasonsDate[1][25] = {
+  "date": "7/31/2015",
+ "strength": "Maximizer",
+  "title": "Taking Things From Good to Great",
+  "watchLink": "http://coaching.gallup.com/2016/07/gwsw-maximizer-taking-things-from-good.html",
+  "companion": "http://products.gallup.com/193928/theme-thursday-companion-guide-maximizer.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
+  "youtubeEmbed": "tcOKFHjlmTg",
+  "description": "Maximizers have and bring to others a focus on quality. They naturally prefer working with and for the best. They create strengths within groups by enabling each person to do what he or she naturally does best. Their drive toward excellence can lead to a new standard of success. Those who have high Maximizer have a strong orientation toward and commitment to excellence that leads to quality outcomes. The inner compass of these individuals continually points to quality and a desire for quality in all areas of life. Maximizer falls under the Influencing domain and inhabits roughly 17% of all individuals’ top five strengths. The Strategic and Achiever themes are most likely to be paired with Maximizer, while Restorative is the least likely theme to be found in the same top five as Maximizer. Those with Restorative fix things that are broken, but Maximizers tend to take things that are good and make them great."
+}
+preAlphabeticalSeasons[1][26] = seasonsAZ[1][26] = seasonsDate[1][26] = {
+  "date": "8/7/2015",
+  "strength": "Positivity",
+  "title": "Bringing Enthusiasm to Others",
+  "watchLink": "http://coaching.gallup.com/2016/08/gwsw-positivity-bringing-enthusiasm-to.html",
+  "companion": "http://products.gallup.com/193937/theme-thursday-companion-guide-positivity.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
+  "youtubeEmbed": "noQh1fcWVvA",
+  "description": "People with strong Positivity talents are generous with praise, quick to smile and always on the lookout for the upside of the situation. They bring enthusiasm to people, groups and organizations. They can stimulate others to be more productive and hopeful. They always seem to find a way to lighten the spirits of those around them. Those with high Positivity talents exhibit a level of emotional influence by expressing their natural optimism and enthusiasm in everyday situations. They know how to make others feel good and lift the spirits of those around them. Categorized in the Relationship Building domain, Positivity helps people build rapport with others in nearly every situation, whether in the workplace or at home. Positivity, in its raw, undeveloped form, can cause those who have it to purposefully avoid others who are negative. However, individuals who have developed their Positivity talents approach negative people with the hopes that they can turn their attitude around and bring optimism into their lives."
+}
+preAlphabeticalSeasons[1][27] = seasonsAZ[1][27] = seasonsDate[1][27] = {
+  "date": "8/14/2015",
+  "strength": "Relator",
+  "title": "Caring Deeply for Others",
+  "watchLink": "http://coaching.gallup.com/2016/08/gwsw-relator-caring-deeply-for-others.html",
+  "companion": "http://products.gallup.com/193940/theme-thursday-companion-guide-relator.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
+  "youtubeEmbed": "cI4JymHdJEQ",
+  "description": "People especially strong in Relator talents form solid, genuine and mutually rewarding relationships. Their relationships are close, caring and trusting. Those who have high Relator tend to value close, lasting relationships with friends and family. They often prefer informal relationships, as opposed to those with formal undertones, which can diminish the personal side of a relationship. Relators are often at their best when they have one-on-one interactions with others. They care deeply for others, and seek people with whom they can develop long-term, meaningful relationships."
+}
+preAlphabeticalSeasons[1][28] = seasonsAZ[1][28] = seasonsDate[1][28] = {
+  "date": "8/21/2015",
+  "strength": "Responsibility",
+  "title": "Driven by Commitments to Others",
+  "watchLink": "http://coaching.gallup.com/2016/08/gwsw-responsibility-driven-by.html",
+  "companion": "http://products.gallup.com/193943/theme-thursday-companion-guide-responsibility.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
+  "youtubeEmbed": "Fhk_GFIsLGE",
+  "description": "People with strong Responsibility talents take psychological ownership for anything they commit to, whether it is large or small, and they feel emotionally bound to follow it through to completion. They keep their promises and honor their commitments. They don’t let people down, and they work very hard to fulfill all of their responsibilities and keep their word. Those who have high Responsibility are People who are serious and conscientious about keeping commitments to others and doing things right. People with strong Responsibility talents like to be asked to do something, rather than to ask someone else to do something. Responsibility points heavily to how people get things done. These individuals are driven not necessarily by their own motivation, but by their commitments to other people. The ability and desire to respond to other people’s needs also carries a service orientation with the Responsibility theme."
+}
+preAlphabeticalSeasons[1][29] = seasonsAZ[1][29] = seasonsDate[1][29] = {
+  "date": "9/4/2015",
+  "strength": "Restorative",
+  "title": "Finding the Root of the Problem",
+  "watchLink": "http://coaching.gallup.com/2016/09/gwsw-restorative-finding-root-of-problem.html",
+  "companion": "http://products.gallup.com/193946/theme-thursday-companion-guide-restorative.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
+  "youtubeEmbed": "YzzA-yjYMmo",
+  "description": "Those with strong Restorative talents bring a solution-oriented mindset to daily problems. They readily take on projects that others believe \"can’t be saved.\" They can analyze a situation, identify potential shortcomings, and make the necessary adjustments. Individuals with high Restorative talents tend to be more comfortable with problems than others, and they have the ability to find the root of a problem. The motivating factor for finding the origin of a problem is the subsequent quest to land on a solution. This is why the Restorative theme falls into the Executing domain. Having strong Restorative talents doesn’t necessarily mean that an individual is actively anticipating problems. But when a problem arises, they are quick to react confidently."
+}
+preAlphabeticalSeasons[1][30] = seasonsAZ[1][30] = seasonsDate[1][30] = {
+  "date": "9/25/2015",
+  "strength": "Significance",
+  "title": "Champion, Change Agent and Advocate",
+  "watchLink": "http://coaching.gallup.com/2016/09/gwsw-signifcance-champion-change-agent.html",
+  "companion": "http://products.gallup.com/184127/theme-thursday-companion-guide-significance.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
+  "youtubeEmbed": "-OM51OvUOVM",
+  "description": "People with strong Significance talents want others to see their worth. They want to be recognized, heard and valued. Particularly, they want to be known and appreciated for the unique strengths they bring. They seek to have an impact on people, groups and society as a whole. They want their contributions viewed as substantial, powerful and significant. They are motivated by their intense yearning to be recognized, and as a result, they keep reaching. Their Significance theme pulls them upward, away from the mediocre and toward the exceptional. People with significance are lead by a desire to leave a legacy. They want to be seen and noticed for meaningful work. They are attracted to evidence-based work. People with strong significance can be described as a champion, a change agent or an advocate."
+}
+preAlphabeticalSeasons[1][31] = seasonsAZ[1][31] = seasonsDate[1][31] = {
+  "date": "10/9/2015",
+  "strength": "Strategic",
+  "title": "A Distinct Way of Thinking",
+  "watchLink": "http://coaching.gallup.com/2016/10/gwsw-distinct-way-of-thinking.html",
+  "companion": "http://products.gallup.com/186101/theme-thursday-companion-guide-strategic.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
+  "youtubeEmbed": "rrb8t8jhGyg",
+  "description": "People with strong Strategic talents have the ability to sort through the clutter and find the best route. This is not a skill that can be taught. It is a distinct way of thinking — a special perspective on the world at large. This outlook allows them to see patterns where others simply see complexity. Mindful of these patterns, they are able to envision alternative scenarios, always asking, \"What if this happened?\" This recurring question helps them see, plan, and prepare for future situations. They see a way when others assume there is no way. Armed with this strategy, they strike forward."
+}
+preAlphabeticalSeasons[1][32] = seasonsAZ[1][32] = seasonsDate[1][32] = {
+  "date": "10/16/2015",
+  "strength": "WOO",
+  "title": "Not Afraid to Start Conversations With Strangers",
+  "watchLink": "http://coaching.gallup.com/2016/10/gwsw-woo-not-afraid-to-start.html",
+  "companion": "http://products.gallup.com/193952/theme-thursday-companion-guide-woo.aspx",
+  "youtubeEmbed": "bhzWdtgoRWc",
+  "description": "People with strong Woo talents bring energy to social situations. They can connect with others and act as catalysts in helping people connect with one another. They have an exceptional ability to draw others out of their shell. Woo is an acronym for Winning Others Over. People who have high Woo are not afraid to start conversations with strangers. They typically have a large network of friends and acquaintances, as they thrive on getting to know as many people as possible. About 13% of individuals who have completed the Clifton StrengthsFinder assessment have Woo as one of their top five strengths."
+}
+preAlphabeticalSeasons[1][33] = seasonsAZ[1][33] = seasonsDate[1][33] = {
+  "date": "10/30/2015",
+  "strength": "Self-Assurance",
+  "title": "Self-Assurance Leads the Way",
+  "watchLink": "http://coaching.gallup.com/2016/10/people-with-strong-self-assurance.html",
+  "companion": "http://products.gallup.com/193949/theme-thursday-companion-guide-self-assurance.aspx",
+  "youtubeEmbed": "vzh5vzmEdUc",
+  "description": "People with strong Self-Assurance talents can lead the way. Because they deeply trust their own instincts, they can forge ahead confidently, even on risky paths. They can instill confidence in others and show initiative in the midst of turbulence and uncertainty."
+}
+
+
+
+
+
+
+preAlphabeticalSeasons[2] = [];
+
+seasonsAZ[2] = [];
+
+seasonsDate[2] = [];
+
+preAlphabeticalSeasons[2][0] = seasonsAZ[2][0] = seasonsDate[2][0] = {
+  "date": "1/22/2016",
+  "strength": "Achiever",
+  "title": "Satisfaction from Trimming the Roses",
+  "watchLink": "http://coaching.gallup.com/2016/01/achiever-s2-satisfaction-from-trimming.html",
+  "companion": "http://products.gallup.com/185192/theme-thursday-companion-guide-achiever.aspx",
+  "youtubeEmbed": "18hEJqowZkE",
+  "description": "Achiever is the \"do it\" theme. Achiever is an engine that moves people forward. It is the most commonly occurring theme in Gallup's strengths database. People talented in the Achiever theme focus on completing things. They love to check items off of their \"to do\" lists. Achievers provide the energy to turn concepts and ideas into concrete steps and milestones. They are grounded and have an excellent work ethic. Maika explained, \"Achievers don't derive satisfaction from stopping and smelling the roses, they get that pleasure from trimming them.\""
+}
+preAlphabeticalSeasons[2][1] = seasonsAZ[2][1] = seasonsDate[2][1] = {  
+  "date": "2/5/2016",
+  "strength": "Activator",
+  "title": "Impatient is not a Bad Word",
+  "watchLink": "http://coaching.gallup.com/2016/02/activator-s2-impatient-is-not-bad-word.html",
+  "companion": "http://products.gallup.com/188084/theme-thursday-companion-guide-pdf-activator.aspx",
+  "youtubeEmbed": "hxZqPB2JsYw",
+  "description": "Activators are always thinking, \"Let's get started. Let's go.\" They are impatient for action, but that impatience is not a negative thing. It represents Activators innate ability to energize and mobilize others to act. People talented in the Activator are comfortable with risk, as long as action is taken. Activators are catalysts -- they turn ideas into action. When other people share ideas, Activators are listening for openings in those ideas for action. Their energy can be engaging and contagious."
+}
+preAlphabeticalSeasons[2][2] = seasonsAZ[2][2] = seasonsDate[2][2] = {  
+  "date": "2/12/2016",
+  "strength": "Adaptability",
+  "title": "Engaging with Change Enthusiastically",
+  "watchLink": "http://coaching.gallup.com/2016/02/adaptability-s2-engaging-with-change.html",
+  "companion": "http://products.gallup.com/188762/theme-thursday-companion-guide-pdf-adaptability.aspx",
+  "youtubeEmbed": "phF5X3LvIkY",
+  "description": "People with high Adaptability engage with change enthusiastically. Adaptability likes to be \"in the now\" and the present moment -- it is a relationship-building theme. People exceptionally talented in the Adaptability theme like to go with the flow. Adaptability discovers the future one day at a time. People with Adaptability don't need to plan far in the future because they prefer to plan for the immediate present. They are excited and energized by change. They are attracted to a morphing situation."
+}
+preAlphabeticalSeasons[2][3] = seasonsAZ[2][3] = seasonsDate[2][3] = {  
+  "date": "2/13/2016",
+  "strength": "Analytical",
+  "title": "Taking Information to the Lowest Common Denominator",
+  "watchLink": "http://coaching.gallup.com/2016/02/analytical-s2-taking-information-to.html",
+  "companion": "http://products.gallup.com/186125/theme-thursday-companion-guide-analytical.aspx",
+  "youtubeEmbed": "BoucFTJp8dY",
+  "description": "Analytical seeks the truth by understanding the components of what the rest of the world sees as an assumption. Analytical loves data and numbers, but this love is an affect of Analytical -- not the core of it. The core of Analytical boils things down to their lowest common denominator. People talented in the Analytical theme engage easily with the elements of an idea. They don't take things at face value. Analytical breaks information down into smaller pieces than anyone else might see. It captures facts by understanding the details. Analytical is always searching for reasons and causes. People with Analytical can help others become clear on what excellence is and how it can be obtained."
+}
+preAlphabeticalSeasons[2][4] = seasonsAZ[2][4] = seasonsDate[2][4] = {  
+  "date": "2/25/2016",
+  "strength": "Arranger",
+  "title": "Turning Chaos into Progress",
+  "watchLink": "http://coaching.gallup.com/2016/02/arranger-s2-turning-chaos-into-progress.html",
+  "companion": "http://products.gallup.com/189101/theme-thursday-companion-guide-pdf-arranger.aspx",
+  "youtubeEmbed": "bw4WgHFBNFY",
+  "description": "Maika explained, \"Arranger has the ability to hold a dozen ping pong balls under water at the same time.\" A person talented in the Arranger theme can see the chaos in a situation ad bring it together into a cohesive production. Arranger takes a mess at turn it into order -- and that happens in real time. That is, Arranger lives in the moment and can fix a problem right now. Maika likes to think about a bunch of gears that are all turning, but that aren't touching and pushing each other forward. An Arranger can bring those gears together so their teeth touch and they move in harmony and with more productivity. Arranger puts the pieces together in the most efficient way possible."
+}
+preAlphabeticalSeasons[2][5] = seasonsAZ[2][5] = seasonsDate[2][5] = {  
+  "date": "3/3/2016",
+  "strength": "Belief",
+  "title": "An Anchor that Grounds You During the Storm",
+  "watchLink": "http://coaching.gallup.com/2016/03/belief-s2-anchor-that-grounds-you.html",
+  "companion": "http://products.gallup.com/189209/theme-thursday-companion-guide-pdf-belief.aspx",
+  "youtubeEmbed": "gRINmbVJZn4",
+  "description": "People exceptionally talented in the Belief theme have core values that are unchanging. Belief provides purpose to their lives. Belief is an executing theme -- it drives people to do what they believe and to participate in things they hold up as important. Belief is like an out of this come the purpose for their lives. Belief is like a lighthouse. It is a beacon in the darkness for others to see a person's values. Maika explained, \"Gallup doesn't give a set of values to Belief, but people with high Belief often can tell you their values.\""
+}
+preAlphabeticalSeasons[2][6] = seasonsAZ[2][6] = seasonsDate[2][6] = {  
+  "date": "3/16/2016",
+  "strength": "Command",
+  "title": "Leadership and Inspiration for Others",
+  "watchLink": "http://coaching.gallup.com/2016/03/command-s2-leadership-and-inspiration.html",
+  "companion": "http://products.gallup.com/189497/theme-thursday-companion-guide-pdf-command.aspx",
+  "youtubeEmbed": "mYmcLkxu__M",
+  "description": "Command is the least common theme, and therefore, it can become a caricature of a strength because people don't interact with others with high Command as often as other themes.  But once Command is understood, it easy strength to love. Command is about explosion and presence. It is never passive, but not aggressive either. Command is the kid on the playground that everyone else tends to follow. Command is the leader that pushes teams through barriers and beyond obstacles. Command has the presence, courage and ability to be clear and dispassionate in an influential way. People with Command are decisive, sometimes controlling and incredibly inspirational. They believe and operate in absolutes. People talented in the Command theme have no uncertainty."
+}
+preAlphabeticalSeasons[2][7] = seasonsAZ[2][7] = seasonsDate[2][7] = {  
+  "date": "3/28/2016",
+  "strength": "Communication",
+  "title": "A Passionate Relationship with Words",
+  "watchLink": "http://coaching.gallup.com/2016/03/communication-s2-passionate.html",
+  "companion": "http://products.gallup.com/189575/theme-thursday-companion-guide-pdf-communication.aspx",
+  "youtubeEmbed": "UUKB0ojISf0",
+  "description": "Maika explained, \"Communication is a theme and way of being, it is not a 'thing you do.'\" Communication is rich in verbal currency. People highly talented in the Communication theme are good with words. They have a natural ability to process thought out loud. They are great at communicating with others either through speaking or writing. As Communication is an influencing theme, it works best when others are involved. Communication can easily translate thoughts into words. People with high Communication are good conversationalists and presenters."
+}
+preAlphabeticalSeasons[2][8] = seasonsAZ[2][8] = seasonsDate[2][8] = {  
+  "date": "3/30/2016",
+  "strength": "Competition",
+  "title": "Being at the Very Top is Success",
+  "watchLink": "http://coaching.gallup.com/2016/03/competition-s2-being-at-very-top-is.html",
+  "companion": "http://products.gallup.com/185195/theme-thursday-companion-guide-competition.aspx",
+  "youtubeEmbed": "gjMDUNfgJMw",
+  "description": "People talented in the Competition theme have an enduring relationship with victory. They constantly seek it and learn deeply from their wins and losses. Competition has a close relationship with winning. Competition is keenly aware of benchmarks and constantly compares itself to others. Competition is emotive and passionate. It comes from the guy. While Competition may seem intimidating to others, Maika said, \"Don't apologize for it. It is a great strength. It is an awareness that winning does matter.\""
+}
+preAlphabeticalSeasons[2][9] = seasonsAZ[2][9] = seasonsDate[2][9] = {  
+  "date": "4/5/2016",
+  "strength": "Connectedness",
+  "title": "An Innate Understanding of the Links Between Everything",
+  "watchLink": "http://coaching.gallup.com/2016/04/connectedness-s2-innate-understanding.html",
+  "companion": "http://products.gallup.com/190076/theme-thursday-companion-guide-pdf-connectedness.aspx",
+  "youtubeEmbed": "BXSObxdo5PU",
+  "description": "Connectedness is about seeing, thinking, feeling and believing in the connections between things. When speaking with people talented in the Connectedness theme, they might describe it as spiritual or mystic, but Connectedness does not have to have a spiritual component. Connectedness is about understanding human behavior, it is engaged in and fascinated by  the links between people, ideas and happenings. Connectedness can build bridges between groups, ideas and individuals. Connectedness can give people perspective, guidance and hope. People with high Connectedness understand that nothing happens in isolation. It sees the connections between facts and occurrences that others may miss."
+}
+preAlphabeticalSeasons[2][10] = seasonsAZ[2][10] = seasonsDate[2][10] = {  
+  "date": "4/13/2016",
+  "strength": "Consistency",
+  "title": "Driven by Fairness, Equality and the Rules",
+  "watchLink": "http://coaching.gallup.com/2016/04/consistency-s2-driven-by-fairness.html",
+  "companion": "http://products.gallup.com/186131/theme-thursday-companion-guide-consistency.aspx",
+  "youtubeEmbed": "fJ5Mg2g1bIM",
+  "description": "Consistency is about having a great understanding of fairness and balance. People with Consistency are great at repeated motion in processes with people and things.  Consistency loves to find what works and replicate it. As a theme, Consistency used to be called \"fairness\" and understanding that history is essential to understanding this strength. According to Maika, \"There are beautiful leadership capabilities within this theme.\" People exceptionally talented in Consistency are keenly aware of treating everyone fairly and setting clear rules and following them. They thrive in giving everyone an opportunity and a fair advantage. Consistency is a guardian and a conscience. Consistency can sense when things are out of balance and bring that balance back. Consistency derives energy from repeating a motion. Consistency hungers for equality because that's how people get the most and best work done."
+}
+preAlphabeticalSeasons[2][11] = seasonsAZ[2][11] = seasonsDate[2][11] = { 
+  "date": "4/29/2016",
+  "strength": "Context",
+  "title": "Using the Past to Frame the Present",
+  "watchLink": "http://coaching.gallup.com/2016/04/context-s2-using-past-to-frame-present.html",
+  "companion": "http://products.gallup.com/182999/theme-thursday-companion-guide-context.aspx",
+  "youtubeEmbed": "jppTi2QOVGY",
+  "description": "People talented in the context theme can weave together a beautiful tapestry with their history and foundational knowledge -- and not many people can see what they see. Context is not high in the strengths database; it is a rare strength. The motivation behind context is to feed the brain. People with high context want to know more so they have a better understanding -- so they can frame situations and provide reference for everything. Context exists in the world of thoughtfulness; it is a strategic thinking theme. It brings depth to conversation. It can look creative, although it is not about creativity; it’s about facts, knowing where things came from and making connections, not about fictionalizing."
+}
+preAlphabeticalSeasons[2][12] = seasonsAZ[2][12] = seasonsDate[2][12] = { 
+  "date": "5/11/2016",
+  "strength": "Deliberative",
+  "title": "Wisdom in Slowing Down",
+  "watchLink": "http://coaching.gallup.com/2016/05/deliberative-s2-wisdom-in-slowing-down.html",
+  "companion": "http://products.gallup.com/190811/theme-thursday-companion-guide-pdf-deliberative.aspx",
+  "youtubeEmbed": "zryNCydsBM8",
+  "description": "Deliberative is care. People with high deliberative are committed to making the very best choices. They are excellent assessors and make outstanding decisions. They engage with what could go wrong to overcome obstacles before they become a danger. Deliberative may seem critical when asking a lot of questions and assessing options, but they are reducing risk and preventing problems. Where others avoid obstacles and risk, Deliberative is bold and brave enough to search for the danger and face it. It is an executing theme; it is about executing cautiously."
+}
+preAlphabeticalSeasons[2][13] = seasonsAZ[2][13] = seasonsDate[2][13] = {  
+  "date": "5/18/2016",
+  "strength": "Developer",
+  "title": "Celebrating in the Moment Improvement",
+  "watchLink": "http://coaching.gallup.com/2016/05/developer-s2-celebrating-in-moment.html",
+  "companion": "http://products.gallup.com/186134/theme-thursday-companion-guide-developer.aspx",
+  "youtubeEmbed": "2buoLZVvmT8",
+  "description": "People exceptionally talented in the Developer theme derive satisfaction from evidence of progress. Developer is the ability to eagerly participate in the growth of other people. Developer has a radar out for potential. People with high Developer are comfortable with what is not there yet which can make them bold, brave and determined. Developer is always about other people and human growth, which sets developer apart from Restorative and Maximizer, it is definitely about human growth. Developer celebrates incremental progress. Developer is on an infinite adventure because there is no end point as each piece of progress is meaningful. constant development along the way. living in the moment in improving. Developer actively invest in furthering the development of others. Developer helps groups develop \"bench strengths,\" which means there is someone who can take your place on the team."
+}
+preAlphabeticalSeasons[2][14] = seasonsAZ[2][14] = seasonsDate[2][14] = { 
+  "date": "5/20/2016",
+  "strength": "Discipline",
+  "title": "Preempting Chaos with Structure and Order",
+  "watchLink": "http://coaching.gallup.com/2016/05/discipline-s2-preempting-chaos-with.html",
+  "companion": "http://products.gallup.com/191171/theme-thursday-companion-guide-pdf-discipline.aspx",
+  "youtubeEmbed": "N7-SOo6HdeA",
+  "description": "People talented in the Discipline theme engage with and love creating order. Discipline creates strong avenues and channels to work in, so a myriad of options don't become overwhelming. Discipline creates a structure and order so people can get where they need to go. People with high Discipline enjoy routine and structure and the order that they create. Discipline is an internal way of creating order so you can get going and move forward. People with strong Discipline love things that are organized and orderly. They meet deadlines. Discipline can efficiently manage limited resources. Discipline enjoys what is real, pragmatic and  available. Discipline has a radar for structure, clean channels and working in an orderly fashion."
+}
+preAlphabeticalSeasons[2][15] = seasonsAZ[2][15] = seasonsDate[2][15] = { 
+  "date": "6/1/2016",
+  "strength": "Empathy",
+  "title": "The X-ray of Other People's Feelings",
+  "watchLink": "http://coaching.gallup.com/2016/06/empathy-s2-x-ray-of-other-peoples.html",
+  "companion": "http://products.gallup.com/182834/theme-thursday-companion-guide-empathy.aspx",
+  "youtubeEmbed": "_hP1YSxjoB4",
+  "description": "People talented in the Empathy theme can sense other people's feelings by imagining themselves in others' lives and circumstances. Simply put, Empathy is feeling with other people. Empathy has a sixth sense of how other people feel and it can perceive and understand complex emotions.  Empathy is not a cerebral understanding of others' emotions, but rather a gut level relationship to other's emotions. People with strong Empathy can build and form relationships that have great emotional depth. Others seek them out and feel emotionally connected to them. Compassion is one of the four pillars of being an effective leader -- and people with Empathy have a head start on being an excellent leader in this way."
+}
+preAlphabeticalSeasons[2][16] = seasonsAZ[2][16] = seasonsDate[2][16] = { 
+  "date": "6/2/2016",
+  "strength": "Focus",
+  "title": "A Laser Beam to What Matters",
+  "watchLink": "http://coaching.gallup.com/2016/06/focus-s2-laser-beam-to-what-matters.html",
+  "companion": "http://products.gallup.com/184460/theme-thursday-companion-guide-focus.aspx",
+  "youtubeEmbed": "BEZJZkU7nq8",
+  "description": "People exceptionally talented in the Focus theme can take a direction, follow through and make the corrections necessary to stay on track. They prioritize, then act. While others start to wander down divergent avenues, people with Focus stay on the main road. They have laser focus and can help others avoid time consuming distractions. Focus is an Executing theme, it gets things done by doing one thing at a time."
+}
+preAlphabeticalSeasons[2][17] = seasonsAZ[2][17] = seasonsDate[2][17] = { 
+  "date": "6/10/2016",
+  "strength": "Harmony",
+  "title": "Harmony Wants Progress, Harmony Gets Progress",
+  "watchLink": "http://coaching.gallup.com/2016/06/harmony-s2-harmony-wants-progress.html",
+  "companion": "http://products.gallup.com/191936/theme-thursday-companion-guide-pdf-harmony.aspx",
+  "youtubeEmbed": "HvG3WrtSb3g",
+  "description": "The word harmony can denote flowers and \"kumbaya\". People with high Harmony worry, \"Do I have no weight or influence with Harmony?\". People with low Harmony worry, \"Do I not care about collaboration?\". Neither are true. Instead, Harmony is more aware of conflict than others and brings fighting groups together to make them function better. What harmony wants, more than anything, is efficient, forward progress. And Harmony gets that progress by understanding the opinions, the needs and the abilities of people around them. They look for consensus and areas of agreement to find the best way for people to work together."                                                                                                                                                                                                       
+}
+preAlphabeticalSeasons[2][18] = seasonsAZ[2][18] = seasonsDate[2][18] = { 
+  "date": "6/16/2016",
+  "strength": "Futuristic",
+  "title": "A Catalyst to New Heights",
+  "watchLink": "http://coaching.gallup.com/2016/06/s2-futuristic-catalyst-to-new-heights.html",
+  "companion": "http://products.gallup.com/186137/theme-thursday-companion-guide-futuristic.aspx",
+  "youtubeEmbed": "wgQgfaKBrlk",
+  "description": "Futuristic inspires today by seeing tomorrow. It is a strategic thinking theme and it’s imaginative, but not like Ideation. It’s imagining what the future can be with a timeline. It drives you past today and creates excitement about the future. It avoids the paralysis of the analysis of the now, to inspire with visions of the future. When the present fills like quick sand to some people, those with Futuristic don’t get sucked in because they know where they are going. Futuristic has the power and edge to lead others to new heights. Their emotional anticipation and visualization of what the future can be can inspires themselves or others to make their plan a reality. People with futuristic can be a catalyst in conversation and in groups, helping groups see farther than what they would normally think."
+}
+preAlphabeticalSeasons[2][19] = seasonsAZ[2][19] = seasonsDate[2][19] = { 
+  "date": "6/24/2016",
+  "strength": "Ideation",
+  "title": "Are All Ideas Good?",
+  "watchLink": "http://coaching.gallup.com/2016/06/s2-ideation-are-all-ideas-good.html",
+  "companion": "http://products.gallup.com/186128/theme-thursday-companion-guide-ideation.aspx",
+  "youtubeEmbed": "sf7Uj9CERFw",
+  "description": "People with Ideation are fascinated with ideas. Their creativity can generate brand new, original notions. They can also see the connection between two existing things, when no one else can see it. It is a spontaneous creativity with a natural sense of innovation that defies conventional thinking. Ideation is a popcorn popper of ideas. Are all the ideas good? Ideation’s innovative approach to projects can be a valuable source of new ideas, but not every idea is accepted and Ideation alone does not put value or judgement on ideas. Raw ideation throws every idea out and sees what sticks, it can be overwhelming for others. Mature Ideation looks for fertile soil first and discerns which audience is open to new ideas. It is patient, understanding that not everyone creates at the speed they do – and that not everyone is comfortable with the \"not yet proven\".  People with Ideation need to create a safe space for ideas, letting people know they are brainstorming versus making a decision."
+}
+preAlphabeticalSeasons[2][20] = seasonsAZ[2][20] = seasonsDate[2][20] = { 
+  "date": "7/6/2016",
+  "strength": "Includer",
+  "title": "An Awareness and Drive to Invite Others In",
+  "watchLink": "http://coaching.gallup.com/2016/07/includer-s2-awareness-and-drive-to.html",
+  "companion": "http://products.gallup.com/192599/theme-thursday-companion-guide-pdf-includer.aspx",
+  "youtubeEmbed": "iRmeYtnxcTo",
+  "description": "Includer is always making the circle wider. Includer believes everyone is an insider and involves the tireless pursuit of others. Includer involves the appreciation of others who step up and become part of something. People exceptionally talented in the Includer them accept others. They have an awareness of others that are left out and make an effort to include them. Includer has a sense-driven ability to make people feel like they are a part of something. Includer is tolerant, inviting, welcoming and aware. Includers are sensitive to those who are excluded and have an innate desire and capacity to bring them into the group. Their thoughtful approach to others increases communication and productivity.  Includer brings a level of tolerance and acceptance of diversity."
+}
+preAlphabeticalSeasons[2][21] = seasonsAZ[2][21] = seasonsDate[2][21] = { 
+  "date": "7/12/2016",
+  "strength": "Individualization",
+  "title": "Knowing People Intuitively",
+  "watchLink": "http://coaching.gallup.com/2016/07/individualization-s2-knowing-people.html",
+  "companion": "http://products.gallup.com/193136/theme-thursday-companion-guide-pdf-individualization.aspx",
+  "youtubeEmbed": "AVjKmSFO9ng",
+  "description": "Maika feels an immediate connection to those with Individualization. It is a relationship-building theme and is all about embracing the uniqueness of human beings. Individualization notices and loves what is different about people. People exceptionally talented in the Individualization theme low to figure out how different people work together productively. Strong Individualization appreciates the uniqueness of each person and can customize their approach accordingly. Individualization is like a casting director, it positions people to do what they do best, and in so doing, leads to a more enjoyable and productive experience for everyone. Individualization is open-minded and curious about the human element of a process."
+}
+preAlphabeticalSeasons[2][22] = seasonsAZ[2][22] = seasonsDate[2][22] = { 
+  "date": "7/15/2016",
+  "strength": "Input",
+  "title": "A Tangible Tool to Help Others",
+  "watchLink": "http://coaching.gallup.com/2016/07/input-s2-tangible-tool-to-help-others.html",
+  "companion": "http://products.gallup.com/193373/theme-thursday-companion-guide-pdf-input.aspx",
+  "youtubeEmbed": "qX4q5N_JsCo",
+  "description": "People strong in Input have a craving to know more. They collect and archive all kinds of information. Input is a relevant and tangible tool that can help others. It’s not just collecting, but collecting in order to use the information for yourself or other people when it’s needed in the future. It may not be instantly useful, but could be down the road. People say Learner and Input sound alike. But, Learner is grabbing information to get mastery and then possibly forgetting later, while Input will collect ideas and information for future purpose."
+}
+preAlphabeticalSeasons[2][23] = seasonsAZ[2][23] = seasonsDate[2][23] = {
+  "date": "7/19/2016",
+  "strength": "Intellection",
+  "title": "Thinking Deeply About the World",
+  "watchLink": "http://coaching.gallup.com/2016/07/intellection-s2.html",
+  "companion": "http://products.gallup.com/193481/theme-thursday-companion-guide-pdf-intellection.aspx",
+  "youtubeEmbed": "_jkDVmODaWw",
+  "description": "People exceptionally talented in the Intellectual theme enjoy intellectual activity, being introspective and appreciate intellectual discussions. Intellection is boundless, infinite and deep. Intellection is about boundless capacity for consideration and enhanced awareness. Intellection loves the process of thinking and considers ideas for 360 degrees. Intellection finds things that would otherwise be missed. Intellection can sometimes be misunderstood as intelligence -- it is not the same thing. It is the capacity to think and consider, and sometimes arrive at wisdom and clarity as a result. The power and edge of Intellection is its particular genius for processing ideas. It is a sounding board for others to solve their problems or enhance the quality of their work."
+}
+preAlphabeticalSeasons[2][24] = seasonsAZ[2][24] = seasonsDate[2][24] = {
+  "date": "8/5/2016",
+  "strength": "Learner",
+  "title": "Mastering New Subjects and Continuously Improving",
+  "watchLink": "http://coaching.gallup.com/2016/08/learner-s2.html",
+  "companion": "http://products.gallup.com/193790/theme-thursday-companion-guide-pdf-learner.aspx",
+  "youtubeEmbed": "UXpH6gHkPvE",
+  "description": "Learner is a thinking theme that focuses on mastering a lot of different subjects. People exceptionally talented in the Learner theme have a great desire to learn and want to continuously improve. The process of learning excites them rather than the outcome. People with Learner not only love to learn, they intuitively know how to learn best. It’s like having your eyes and brain open to what’s new; they ask themselves: \"what don’t I already know?\" It can help a team or organization stay on the leading edge of new processes and technologies."
+}
+preAlphabeticalSeasons[2][25] = seasonsAZ[2][25] = seasonsDate[2][25] = {
+  "date": "8/19/2016",
+  "strength": "Positivity",
+  "title": "Leader of Feelings",
+  "watchLink": "http://coaching.gallup.com/2016/08/s2-positivity-leader-of-feelings.html",
+  "companion": "http://products.gallup.com/193973/theme-thursday-companion-guide-pdf-positivity.aspx",
+  "youtubeEmbed": "Ft7DV2RSAqE",
+  "description": "Positivity is a contagious enthusiasm. It’s a relationship theme that celebrates people and gets others excited about what they are going to do. Positivity taps in to the emotion in a room and injects drama and energy into situations. People with Positivity are often the leader of feelings in a group. Others rely on them to keep things upbeat. Everyone feels better about life when people with Positivity are around."
+}
+preAlphabeticalSeasons[2][26] = seasonsAZ[2][26] = seasonsDate[2][26] = {
+  "date": "8/26/2016",
+  "strength": "Maximizer",
+  "title": "The \"Mic Drop\" Theme",
+  "watchLink": "http://coaching.gallup.com/2016/08/maximizer-s2-mic-drop-theme.html",
+  "companion": "http://products.gallup.com/193934/theme-thursday-companion-guide-pdf-maximizer.aspx",
+  "youtubeEmbed": "ntcV9ymQ7qA",
+  "description": "People with Maximizer ask, \"how do I go five steps further?\" Maika calls it the \"mic drop\" theme because Maximizer wants to deliver something better than people could imagine, not just \"good\". People with Maximizer have an impatience with mediocrity that drives their focus on excellence. They’re so attracted to excellence; they can’t ignore or minimize tiny problems that erode the ever sought-after top quality."
+}
+preAlphabeticalSeasons[2][27] = seasonsAZ[2][27] = seasonsDate[2][27] = {
+  "date": "8/30/2016",
+  "strength": "Relator",
+  "title": "Deep Satisfaction in Close Relationships",
+  "watchLink": "http://coaching.gallup.com/2016/08/relator-s2-deep-satisfaction-in-close.html",
+  "companion": "http://products.gallup.com/193976/theme-thursday-companion-guide-pdf-relator.aspx",
+  "youtubeEmbed": "H7jGbIiHE4w",
+  "description": "The heart of Relator is the courage to love. Relators take relationships very seriously. People exceptionally talented in the Relator theme enjoy close relationships with others. They find deep satisfaction in working with friends to achieve a goal. Friendship is a necessity for people with Relator. The power and edge of Relator is people who form especially strong, solid, genuine and mutually-rewarding relationships. These relationships are caring and trusting. Maika often thinks of Relator as \"social Intellection\" because it goes to a deeper level in its relationships. Relators intentionally build connections with others and is driven by wanting relationships with longevity and depth."
+}
+preAlphabeticalSeasons[2][28] = seasonsAZ[2][28] = seasonsDate[2][28] = {
+  "date": "9/2/2016",
+  "strength": "Responsibility",
+  "title": "Do You Act Out of Guilt or Joy?",
+  "watchLink": "http://coaching.gallup.com/2016/09/responsibility-s2-do-you-act-out-of.html",
+  "companion": "http://products.gallup.com/193979/theme-thursday-companion-guide-pdf-responsibility.aspx",
+  "youtubeEmbed": "6NNugzDdo-o",
+  "description": "The genius of people with Responsibility stems from their deep sense of dedication and ownership. If they say they will do something, they might as well tattoo it on their forehead – because they have a psychological ownership of their responsibilities. People exceptionally talented in Responsibility are committed to stable values such as honesty and loyalty. It’s an executing theme that brings a promise to any given task. Other people can rely and trust on Responsibility, and they enjoy receiving the follow-through."
+}
+preAlphabeticalSeasons[2][29] = seasonsAZ[2][29] = seasonsDate[2][29] = {
+  "date": "9/23/2016",
+  "strength": "Restorative",
+  "title": "A Solution Mindset to Daily Problems",
+  "watchLink": "http://coaching.gallup.com/2016/09/restorative-s2-solution-mindset-to.html",
+  "companion": "http://products.gallup.com/193982/theme-thursday-companion-guide-pdf-restorative.aspx",
+  "youtubeEmbed": "mT_FI2ts9Ho",
+  "description": "People exceptionally strong in Restorative are adept at dealing with problems. They enjoy figuring out what is wrong and resolving it. Restorative wants to take something that’s broken and bring it back to its’ original glory. Strong restorative brings a solution mindset to daily problems, readily taking on problems others think can’t be solved. They analyze situations, identify shortcomings and make the necessary adjustments to resolve things. It is an executing theme, that says \"I’m in the problem and I’m moving the problem towards a solution.\" It has a forward progression to it."
+}
+preAlphabeticalSeasons[2][30] = seasonsAZ[2][30] = seasonsDate[2][30] = {
+  "date": "10/20/2016",
+  "strength": "Significance",
+  "title": "A Comfort in the Spotlight",
+  "watchLink": "http://coaching.gallup.com/2016/10/significance-s2-comfort-in-spotlight.html",
+  "companion": "http://products.gallup.com/184139/theme-thursday-companion-guide-significance.aspx",
+  "youtubeEmbed": "2qhAbhWfOFc",
+  "description": "People exceptionally talented in the Significance theme want to be very important in others’ eyes. They are independent and want to be recognized. Significance is not a common theme; thus it is often misunderstood. At one point, the Significance theme was called desire, desire to have a positive effect on people. The genius of people with strong Significance begins and ends with the difference that they are determined to make. They want the world to be a better place because they are in it."
+}
+preAlphabeticalSeasons[2][31] = seasonsAZ[2][31] = seasonsDate[2][31] = {
+  "date": "11/3/2016",
+  "strength": "Strategic",
+  "title": "What Does Strategic Really Mean?",
+  "watchLink": "http://coaching.gallup.com/2016/11/strategic-s2-what-does-strategic-really.html",
+  "companion": "http://products.gallup.com/186122/theme-thursday-companion-guide-strategic.aspx",
+  "youtubeEmbed": "iAFqqFqDxwQ",
+  "description": "What does Strategic really mean? The word Strategic is such an admirable adjective, but we are rarely on the same page with how it is used. People exceptionally talented in the Strategic theme create an alternative way to proceed. Faced with any given scenario, they can quickly spot the relevant pattern and issues. It is almost a supernatural ability to be able to jump into the puzzle and see the patterns. It is not a skill you can learn, it is a distinct way of thinking. When we talk about Strategic we are not talking about how to create a map, how to be thoughtful about the future or how to go from A to B. We are talking about a natural, unteachable, way of thinking."
+}
+preAlphabeticalSeasons[2][32] = seasonsAZ[2][32] = seasonsDate[2][32] = {
+  "date": "11/15/2016",
+  "strength": "WOO",
+  "title": "The Social Catalysts",
+  "watchLink": "http://coaching.gallup.com/2016/11/woo-s2-social-catalysts.html",
+  "companion": "http://products.gallup.com/193988/theme-thursday-companion-guide-pdf-woo.aspx",
+  "youtubeEmbed": "oweu8291KLo",
+  "description": "People exceptionally talented in the WOO theme love the challenge of meeting new people and winning them over. They derive satisfaction from breaking the ice and making a connection with someone. WOO is a social initiative. It is a quickness of making that connection. It is the ability to quickly discover the right chemistry needed to connect with another person, and the quest for that chemistry. Those with the WOO theme can quickly read people and their posture. They can have a whole conversation that is tailored to you. WOO is about hospitality, charisma and magnetism. People with WOO are drawn to other people. It can be the same with reverse magnetism, people are drawn to those with WOO."
+}
+preAlphabeticalSeasons[2][33] = seasonsAZ[2][33] = seasonsDate[2][33] = {
+  "date": "11/23/2016",
+  "strength": "Self-Assurance",
+  "title": "The Ability to Bravely Lead the Way",
+  "watchLink": "http://coaching.gallup.com/2016/11/self-assurance-s2-ability-to-bravely.html",
+  "companion": "http://products.gallup.com/193985/theme-thursday-companion-guide-pdf-self-assurance.aspx",
+  "youtubeEmbed": "3r-amGqGjWY",
+  "description": "People exceptionally talented in the Self-Assurance theme feel confident in their ability to manage their own lives. They possess an inner compass that gives them confidence that their decisions are right. Self-Assurance can be less about confidence, and more about courage. It is not always that they know that their opinions are true, but it is that they naturally include themselves as part of the solution. They bring an ability to bravely lead the way. They bring something within themselves that is going to solve any issues they may come across. It is not influencing by pushing the group from behind. It is more going in front and realizing the group is attracted to following you. People with strong Self-Assurance can lead the way. Because they deeply trust their own instincts, they can forge ahead confidently, even on risky paths. They instill confidence in others and show initiative in the midst of turbulence and uncertainty."
+}
+preAlphabeticalSeasons[2][34] = seasonsAZ[2][34] = seasonsDate[2][34] = {
+  "date": "12/7/2016",
+  "strength": "Wrap-Party",
+  "title": "",
+  "watchLink": "http://coaching.gallup.com/2016/12/thats-wrap-theme-thursday-s2-wrap-party.html",
+  "companion": "",
+  "youtubeEmbed": "QYlf67CTThE",
+  "description": "Thank you for joining us on our wrap party for Theme Thursday Season 2 today. With season 2 we started out with a new concept and idea. We delved deep into the love and intricacy of the theme, and we made you think very specifically about Theme Dynamics for all 34 themes. We talked a little bit more on how to invest in these themes. You are never done. There is so much more growth to happen within your own themes. Real strengths-based development opens up doors. It gives you the ability to talk about what those themes are in your sleep. Be willing to take a risk. Think about the insights available as you are coaching, or even working through these on your own. It is a perfect way to create great questions. Make time every week to connect with somebody consistent who can help you delve deeper into your themes. Everybody needs a coach. They need someone with a connection and confidence to help you really dig in. If you need a coach, or if you are interested in coaching we would be happy to connect you to one at Gallup Exchange."
+}
+
+
+
+
+
+
+preAlphabeticalSeasons[3] = [];
+
+seasonsAZ[3] = [];
+
+seasonsDate[3] = [];
+
+preAlphabeticalSeasons[3][0] = seasonsAZ[3][0] = seasonsDate[3][0] = {
+  "date": "1/27/2017",
+  "strength": "Kick-Off",
+  "title": "",
+  "watchLink": "http://coaching.gallup.com/2017/01/theme-thursday-s3-kick-off-with-jacque.html",
+  "companion": "",
+  "youtubeEmbed": "eIVi1LHKVAE",
+  "description": "In Season 3 of Theme Thursday we will be exploring all 34 themes in a leadership capacity. We want to make sure as a coaching community that we are all speaking the same language. There is value in that shared honesty. We are focusing this season on Strengths Based Leadership. We want to make sure we are all aligned in our approach, so that we can be confident we are coming from the best place possible in terms of CliftonStrengths as a lense on top of leadership."
+
+}
+preAlphabeticalSeasons[3][1] = seasonsAZ[3][1] = seasonsDate[3][1] = {
+  "date": "2/6/2017",
+  "strength": "Achiever",
+  "title": "Living With a Whisper of Discontent",
+  "watchLink": "http://coaching.gallup.com/2017/02/achiever-living-with-whisper-of.html",
+  "companion": "http://products.gallup.com/205130/theme-thursday-season-companion-guide-achiever.aspx",
+  "youtubeEmbed": "jeuZsIQil4U",
+  "description": "Your Achiever theme helps explain your drive. Achiever describes a constant need for achievement. You feel as if every day starts at zero. By the end of the day, you must achieve something tangible in order to feel good about yourself. And by “every day” you mean every single day — workdays, weekends, vacations. No matter how much you may feel you deserve a day of rest, if the day passes without some form of achievement, no matter how small, you will feel dissatisfied. You have an internal fire burning inside you. It pushes you to do more, to achieve more. After each accomplishment is reached, the fire dwindles for a moment, but very soon it rekindles itself, forcing you toward the next accomplishment. Your relentless need for achievement might not be logical. It might not even be focused. But it will always be with you. As an Achiever, you must learn to live with this whisper of discontent. It does have its benefits. It brings you the energy you need to work long hours without burning out. It is the jolt you can always count on to get you started on new tasks, new challenges. It is the power supply that causes you to set the pace and define the levels of productivity for your workgroup. It is the theme that keeps you moving."
+}
+preAlphabeticalSeasons[3][2] = seasonsAZ[3][2] = seasonsDate[3][2] = {
+  "date": "2/16/2017",
+  "strength": "Arranger",
+  "title": "How to Sort Through the Clutter and Turn Chaos Into Order",
+  "watchLink": "http://coaching.gallup.com/2017/02/arranger-how-to-sort-through-clutter.html",
+  "companion": "http://products.gallup.com/205145/theme-thursday-season-companion-guide-arranger.aspx",
+  "youtubeEmbed": "NvfyMRWwPMc",
+  "description": "You are a conductor. When faced with a complex situation involving many factors, you enjoy managing all of the variables, aligning and realigning them until you are sure you have arranged them in the most productive configuration possible. In your mind, there is nothing special about what you are doing. You are simply trying to figure out the best way to get things done. But others, lacking this theme, will be in awe of your ability. \"How can you keep so many things in your head at once?\" they will ask. \"How can you stay so flexible, so willing to shelve well-laid plans in favor of some brand-new configuration that has just occurred to you?\" But you cannot imagine behaving in any other way. You are a shining example of effective flexibility, whether you are changing travel schedules at the last minute because a better fare has popped up or mulling over just the right combination of people and resources to accomplish a new project. From the mundane to the complex, you are always looking for the perfect configuration. Of course, you are at your best in dynamic situations. Confronted with the unexpected, some complain that plans devised with such care cannot be changed, while others take refuge in the existing rules or procedures. You don’t do either. Instead, you jump into the confusion, devising new options, hunting for new paths of least resistance and figuring out new partnerships — because, after all, there might just be a better way."
+}
+preAlphabeticalSeasons[3][3] = seasonsAZ[3][3] = seasonsDate[3][3] = {
+  "date": "3/2/2017",
+  "strength": "Consistency",
+  "title": "Consistent Actions Produce Consistent Results",
+  "watchLink": "http://coaching.gallup.com/2017/03/consistency-consistent-actions-produce.html",
+  "companion": "http://products.gallup.com/205163/theme-thursday-season-companion-guide-consistency.aspx",
+  "youtubeEmbed": "1jj6toysfuU",
+  "description": "Balance is important to you. You are keenly aware of the need to treat people the same, no matter what their station in life, so you do not want to see the scales tipped too far in any one person’s favor. In your view, this leads to selfishness and individualism. It leads to a world where some people gain an unfair advantage because of their connections or their background or their greasing of the wheels. This is truly offensive to you. You see yourself as a guardian against it. In direct contrast to this world of special favors, you believe that people function best in a consistent environment where the rules are clear and are applied to everyone equally. This is an environment where people know what is expected. It is predictable and evenhanded. It is fair. Here each person has an even chance to show his or her worth."
+}
+preAlphabeticalSeasons[3][4] = seasonsAZ[3][4] = seasonsDate[3][4] = {
+  "date": "3/9/2017",
+  "strength": "Deliberative",
+  "title": "Outstanding Decision Maker",
+  "watchLink": "http://coaching.gallup.com/2017/03/deliberative-outstanding-decision-maker.html",
+  "companion": "http://products.gallup.com/205169/theme-thursday-season-companion-guide-deliberative.aspx",
+  "youtubeEmbed": "uTKftRjIqqM",
+  "description": "You are careful. You are vigilant. You are a private person. You know that the world is an unpredictable place. Everything may seem in order, but beneath the surface you sense many risks. Rather than denying these risks, you draw each one out into the open. Then each risk can be identified, assessed and ultimately reduced. Thus, you are a fairly serious person who approaches life with a certain reserve. For example, you like to plan ahead so as to anticipate what might go wrong. You select your friends cautiously and keep your own counsel when the conversation turns to personal matters. You are careful not to give too much praise and recognition, lest it be misconstrued. If some people don’t like you because you are not as effusive as others, then so be it. For you, life is not a popularity contest. Life is something of a minefield. Others can run through it recklessly if they so choose, but you take a different approach. You identify the dangers, weigh their relative impact and then place your feet deliberately. You walk with care."
+}
+preAlphabeticalSeasons[3][5] = seasonsAZ[3][5] = seasonsDate[3][5] = {
+  "date": "3/16/2017",
+  "strength": "Discipline",
+  "title": "Leading With Purpose",
+  "watchLink": "http://coaching.gallup.com/2017/03/discipline-leading-with-purpose-theme.html",
+  "companion": "http://products.gallup.com/205175/theme-thursday-season-companion-guide-discipline.aspx",
+  "youtubeEmbed": "4VntMvvrX5I",
+  "description": "Your world needs to be predictable. It needs to be ordered and planned. So you instinctively impose structure on your world. You set up routines. You focus on timelines and deadlines. You break long-term projects into a series of specific short-term plans, and you work through each plan diligently. You are not necessarily neat and clean, but you do need precision. Faced with the inherent messiness of life, you want to feel in control. The routines, the timelines, the structure, all of these help create this feeling of control. Lacking this theme of Discipline, others may sometimes resent your need for order, but there need not be conflict. You must understand that not everyone feels your urge for predictability; they have other ways of getting things done. Likewise, you can help them understand and even appreciate your need for structure. Your dislike of surprises, your impatience with errors, your routines and your detail orientation don’t need to be misinterpreted as controlling behaviors that box people in. Rather, these behaviors can be understood as your instinctive method for maintaining your progress and your productivity in the face of life’s many distractions."
+}
+preAlphabeticalSeasons[3][6] = seasonsAZ[3][6] = seasonsDate[3][6] = {
+  "date": "3/27/2017",
+  "strength": "Focus",
+  "title": "Beneficial Tunnel Vision",
+  "watchLink": "http://coaching.gallup.com/2017/03/focus-beneficial-tunnel-vision-theme.html",
+  "companion": "http://products.gallup.com/205181/theme-thursday-season-companion-guide-focus.aspx",
+  "youtubeEmbed": "qeIXn_hlTZ8",
+  "description": "\"Where am I headed?\" you ask yourself. You ask this question every day. Guided by this theme of Focus, you need a clear destination. Lacking one, your life and your work can quickly become frustrating. And so each year, each month and even each week, you set goals. These goals then serve as your compass, helping you determine priorities and make the necessary corrections to get back on course. Your Focus is powerful because it forces you to filter; you instinctively evaluate whether or not a particular action will help you move toward your goal. Those that don’t are ignored. In the end, then, your Focus forces you to be efficient. Naturally, the flip side of this is that it causes you to become impatient with delays, obstacles and even tangents, no matter how intriguing they appear to be. This makes you an extremely valuable team member. When others start to wander down other avenues, you bring them back to the main road. Your Focus reminds everyone that if something is not helping you move toward your destination, then it is not important. And if it is not important, then it is not worth your time. You keep everyone on point."
+}
+preAlphabeticalSeasons[3][7] = seasonsAZ[3][7] = seasonsDate[3][7] = {
+  "date": "3/30/2017",
+  "strength": "Responsibility",
+  "title": "Building Your Filter of Integrity",
+  "watchLink": "http://coaching.gallup.com/2017/03/responsibility-building-your-filter-of.html",
+  "companion": "http://products.gallup.com/205220/theme-thursday-season-companion-guide-responsibility.aspx",
+  "youtubeEmbed": "DHnBX6_llGI",
+  "description": "Your Responsibility theme forces you to take psychological ownership for anything you commit to, and whether large or small, you feel emotionally bound to follow it through to completion. Your good name depends on it. If for some reason you cannot deliver, you automatically start to look for ways to make it up to the other person. Apologies are not enough. Excuses and rationalizations are totally unacceptable. You will not quite be able to live with yourself until you have made restitution. This conscientiousness, this near obsession for doing things right, and your impeccable ethics combine to create your reputation: utterly dependable. When assigning new responsibilities, people will look to you first because they know it will get done. When people come to you for help — and they soon will — you must be selective. Your willingness to volunteer may sometimes lead you to take on more than you should."
+}
+preAlphabeticalSeasons[3][8] = seasonsAZ[3][8] = seasonsDate[3][8] = {
+  "date": "4/13/2017",
+  "strength": "Belief",
+  "title": "Leading With Your Heart",
+  "watchLink": "http://coaching.gallup.com/2017/04/belief-leading-with-your-heart-theme_13.html",
+  "companion": "http://products.gallup.com/205148/theme-thursday-season-companion-guide-belief.aspx",
+  "youtubeEmbed": "3P2YB2BOuVk",
+  "description": "If you possess a strong Belief theme, you have certain core values that are enduring. These values vary from one person to another, but ordinarily your Belief theme causes you to be family-oriented, altruistic - even spiritual.  And, to value responsibility and high ethics — both in yourself and others. These core values affect your behavior in many ways. They give your life meaning and satisfaction. In your view, success is more than money and prestige.Your values provide direction, guiding you through the temptations and distractions of life toward a consistent set of priorities. This consistency is the foundation for all your relationships. Your friends call you dependable. \"I know where you stand,\" they say. Your Belief makes you easy to trust. It also demands that you find work that meshes with your values. Your work must be meaningful; it must matter to you. And guided by your Belief theme, it will matter only if it gives you a chance to live out your values."
+}
+preAlphabeticalSeasons[3][9] = seasonsAZ[3][9] = seasonsDate[3][9] = {
+  "date": "4/20/2017",
+  "strength": "Activator",
+  "title": "How to Position Yourself for Powerful Starting",
+  "watchLink": "http://coaching.gallup.com/2017/04/activator-how-to-position-yourself-for.html",
+  "companion": "http://products.gallup.com/205133/theme-thursday-season-companion-guide-activator.aspx",
+  "youtubeEmbed": "ow2bHkeB7Io",
+  "description": "\"When can we start?\" This is a recurring question in your life. You are impatient for action. You may concede that analysis has its uses or that debate and discussion can occasionally yield some valuable insights, but deep down you know that only action is real. Only action can make things happen. Only action leads to performance. Once a decision is made, you cannot not act. Others may worry that \"there are still some things we don’t know,\" but this doesn’t seem to slow you. If the decision has been made to go across town, you know that the fastest way to get there is to go stoplight to stoplight. You are not going to sit around waiting until all the lights have turned green. Besides, in your view, action and thinking are not opposites. In fact, guided by your Activator theme, you believe that action is the best device for learning. You make a decision, you take action, you look at the result, and you learn. This learning informs your next action and your next. How can you grow if you have nothing to react to? Well, you believe you can’t."
+}
+preAlphabeticalSeasons[3][10] = seasonsAZ[3][10] = seasonsDate[3][10] = {
+  "date": "4/27/2017",
+  "strength": "Command",
+  "title": "A Persuasive Presence Undeterred by Opposition",
+  "watchLink": "http://coaching.gallup.com/2017/04/command-persuasive-presence-undeterred.html",
+  "companion": "http://products.gallup.com/205151/theme-thursday-season-companion-guide-command.aspx",
+  "youtubeEmbed": "AIg3kMcYymc",
+  "description": "Command leads you to take charge. Unlike some people, you feel no discomfort with imposing your views on others. On the contrary, once your opinion is formed, you need to share it with others. Once your goal is set, you feel restless until you have aligned others with you. You are not frightened by confrontation; rather, you know that confrontation is the first step toward resolution. Whereas others may avoid facing up to life’s unpleasantness, you feel compelled to present the facts or the truth, no matter how unpleasant it may be. You need things to be clear between people and challenge them to be clear-eyed and honest. You push them to take risks. You may even intimidate them. And while some may resent this, labeling you opinionated, they often willingly hand you the reins. People are drawn toward those who take a stance and ask them to move in a certain direction. Therefore, people will be drawn to you. You have presence. You have Command."
+}
+preAlphabeticalSeasons[3][11] = seasonsAZ[3][11] = seasonsDate[3][11] = {
+  "date": "5/11/2017",
+  "strength": "Communication",
+  "title": "How to Translate an Idea into a Story",
+  "watchLink": "http://coaching.gallup.com/2017/05/communication-how-to-translate-idea.html",
+  "companion": "http://products.gallup.com/205154/theme-thursday-season-companion-guide-communication.aspx",
+  "youtubeEmbed": "xIlt8HQBqr0",
+  "description": "You like to explain, to describe, to host, to speak in public and to write. This is your Communication theme at work. Ideas are a dry beginning. Events are static. You feel a need to bring them to life, to energize them, to make them exciting and vivid. And so you turn events into stories and practice telling them. You take the dry idea and enliven it with images and examples and metaphors. You believe that most people have a very short attention span. They are bombarded by information, but very little of it survives. You want your information — whether an idea, an event, a product’s features and benefits, a discovery, or a lesson — to survive. You want to divert their attention toward you and then capture it, lock it in. This is what drives your hunt for the perfect phrase. This is what draws you toward dramatic words and powerful word combinations. This is why people like to listen to you. Your word pictures pique their interest, sharpen their world and inspire them to act."
+}
+preAlphabeticalSeasons[3][12] = seasonsAZ[3][12] = seasonsDate[3][12] = {
+  "date": "5/19/2017",
+  "strength": "Competition",
+  "title": "Living for the Victory of the Game",
+  "watchLink": "http://coaching.gallup.com/2017/05/competition-living-for-victory-of-game.html",
+  "companion": "http://products.gallup.com/205157/theme-thursday-season-companion-guide-competition.aspx",
+  "youtubeEmbed": "HGGD0LzmKWM",
+  "description": "Competition is rooted in comparison. When you look at the world, you are instinctively aware of other people’s performance. Their performance is the ultimate yardstick. No matter how hard you tried, no matter how worthy your intentions, if you reached your goal but did not outperform your peers, the achievement feels hollow. Like all competitors, you need other people. You need to compare. If you can compare, you can compete, and if you can compete, you can win. And when you win, there is no feeling quite like it. You like measurement because it facilitates comparisons. You like other competitors because they invigorate you. You like contests because they must produce a winner. You particularly like contests where you know you have the inside track to be the winner. Although you are gracious to your fellow competitors and even stoic in defeat, you don’t compete for the fun of competing. You compete to win. Over time, you will come to avoid contests where winning seems unlikely"
+}
+preAlphabeticalSeasons[3][13] = seasonsAZ[3][13] = seasonsDate[3][13] = {
+  "date": "5/25/2017",
+  "strength": "Maximizer",
+  "title": "Seeing Improvement in Greatness",
+  "watchLink": "http://coaching.gallup.com/2017/05/maximizer-seeing-improvement-in.html",
+  "companion": "http://products.gallup.com/205211/theme-thursday-season-companion-guide-maximizer.aspx",
+  "youtubeEmbed": "bOo_SzrfxtY",
+  "description": "Excellence, not average, is your measure. Taking something from below average to slightly above average takes a great deal of effort and in your opinion is not very rewarding. Transforming something strong into something superb takes just as much effort but is much more thrilling. Strengths, whether yours or someone else’s, fascinate you. Like a diver after pearls, you search them out, watching for the telltale signs of a strength. A glimpse of untutored excellence, rapid learning, a skill mastered without recourse to steps — all these are clues that a strength may be in play. And having found a strength, you feel compelled to nurture it, refine it and stretch it toward excellence. You polish the pearl until it shines. This natural sorting of strengths means that others see you as discriminating. You choose to spend time with people who appreciate your particular strengths. Likewise, you are attracted to others who seem to have found and cultivated their own strengths. You tend to avoid those who want to fix you and make you well-rounded. You don’t want to spend your life bemoaning what you lack. Rather, you want to capitalize on the gifts with which you are blessed. It’s more fun. It’s more productive. And, counterintuitively, it is more demanding."
+}
+preAlphabeticalSeasons[3][14] = seasonsAZ[3][14] = seasonsDate[3][14] = {
+  "date": "6/1/2017",
+  "strength": "Self-Assurance",
+  "title": "The Keel of a Ship to Keep You on Course",
+  "watchLink": "http://coaching.gallup.com/2017/06/self-assurance-keel-of-ship-to-keep-you.html",
+  "companion": "http://products.gallup.com/205226/theme-thursday-season-companion-guide-self-assurance.aspx",
+  "youtubeEmbed": "DfjZQFVVc2k",
+  "description": "Self-Assurance is similar to self-confidence. In the deepest part of you, you have faith in your strengths. You know that you are able — able to take risks, able to meet new challenges, able to stake claims and, most important, able to deliver. But Self-Assurance is more than just self-confidence. Blessed with the theme of Self-Assurance, you have confidence not only in your abilities but in your judgment. When you look at the world, you know that your perspective is unique and distinct. And because no one sees exactly what you see, you know that no one can make your decisions for you. No one can tell you what to think. They can guide. They can suggest. But you alone have the authority to form conclusions, make decisions and act. This authority, this final accountability for the living of your life, does not intimidate you. On the contrary, it feels natural to you. No matter what the situation, you seem to know what the right decision is. This theme lends you an aura of certainty. Unlike many, you are not easily swayed by someone else’s arguments, no matter how persuasive they may be. This Self-Assurance may be quiet or loud, depending on your other themes, but it is solid. It is strong. Like the keel of a ship, it withstands many different pressures and keeps you on your course."
+}
+preAlphabeticalSeasons[3][15] = seasonsAZ[3][15] = seasonsDate[3][15] = {
+  "date": "6/15/2017",
+  "strength": "Significance",
+  "title": "Building a Legacy of Distinction",
+  "watchLink": "http://coaching.gallup.com/2017/06/significance-building-legacy-of.html",
+  "companion": "http://products.gallup.com/205229/theme-thursday-season-companion-guide-significance.aspx",
+  "youtubeEmbed": "_R2bLzebX_8",
+  "description": "You want to be very significant in the eyes of other people. In the truest sense of the word, you want to be recognized. You want to be heard. You want to stand out. You want to be known. In particular, you want to be known and appreciated for the unique strengths you bring. You feel a need to be admired as credible, professional and successful. Likewise, you want to associate with others who are credible, professional and successful. And if they aren’t, you will push them to achieve until they are. Or you will move on. An independent spirit, you want your work to be a way of life rather than a job, and in that work, you want to be given free rein, the leeway to do things your way. Your yearnings feel intense to you, and you honor those yearnings. And so your life is filled with goals, achievements or qualifications that you crave. Whatever your focus — and each person is distinct — your Significance theme will keep pulling you upward, away from the mediocre toward the exceptional. It is the theme that keeps you reaching."
+}
+preAlphabeticalSeasons[3][16] = seasonsAZ[3][16] = seasonsDate[3][16] = {
+  "date": "6/22/2017",
+  "strength": "WOO",
+  "title": "Authentic Social Courage",
+  "watchLink": "http://coaching.gallup.com/2017/06/woo-authentic-social-courage-theme.html",
+  "companion": "http://products.gallup.com/205235/theme-thursday-season-companion-guide-woo.aspx",
+  "youtubeEmbed": "ZtZ73KubcLM",
+  "description": "WOO stands for winning others over. You enjoy the challenge of meeting new people and getting them to like you. Strangers are rarely intimidating to you. On the contrary, strangers can be energizing. You are drawn to them. You want to learn their names, ask them questions and find some area of common interest so that you can strike up a conversation and build rapport. Some people shy away from starting up conversations because they worry about running out of things to say. You don’t. Not only are you rarely at a loss for words, you actually enjoy initiating with strangers because you derive satisfaction from breaking the ice and making a connection. Once that connection is made, you are quite happy to wrap it up and move on. There are new people to meet, new rooms to work, new crowds to mingle in. In your world there are no strangers, only friends you haven’t met yet — lots of them."
+}
+preAlphabeticalSeasons[3][17] = seasonsAZ[3][17] = seasonsDate[3][17] = {
+  "date": "6/29/2017",
+  "strength": "Adaptability",
+  "title": "Calmness and Clarity During Change",
+  "watchLink": "http://coaching.gallup.com/2017/06/adaptability-calmness-and-clarity.html",
+  "companion": "http://products.gallup.com/205136/theme-thursday-season-companion-guide-adaptability.aspx",
+  "youtubeEmbed": "D1AL9obeLUA",
+  "description": "You live in the moment. You don’t see the future as a fixed destination. Instead, you see it as a place that you create out of the choices that you make right now. And so you discover your future one choice at a time. This doesn’t mean that you don’t have plans. You probably do. But this theme of Adaptability does enable you to respond willingly to the demands of the moment even if they pull you away from your plans. Unlike some, you don’t resent sudden requests or unforeseen detours. You expect them. They are inevitable. Indeed, on some level you actually look forward to them. You are, at heart, a very flexible person who can stay productive when the demands of work are pulling you in many different directions at once."
+}
+preAlphabeticalSeasons[3][18] = seasonsAZ[3][18] = seasonsDate[3][18] = {
+  "date": "7/6/2017",
+  "strength": "Developer",
+  "title": "Discussing a Language of Progress",
+  "watchLink": "http://coaching.gallup.com/2017/07/developer-discussing-language-of.html",
+  "companion": "http://products.gallup.com/205172/theme-thursday-season-companion-guide-developer.aspx",
+  "youtubeEmbed": "XxLHZ0szAOI",
+  "description": "You see the potential in others. Very often, in fact, potential is all you see. In your view, no individual is fully formed. On the contrary, each individual is a work in progress, alive with possibilities. And you are drawn toward people for this very reason. When you interact with others, your goal is to help them experience success. You look for ways to challenge them. You devise interesting experiences that can stretch them and help them grow. And all the while, you are on the lookout for the signs of growth — a new behavior learned or modified, a slight improvement in a skill, a glimpse of excellence or of \"flow\" where previously there were only halting steps. For you, these small increments — invisible to some — are clear signs of potential being realized. These signs of growth in others are your fuel. They bring you strength and satisfaction. Over time, many will seek you out for help and encouragement because on some level they know that your helpfulness is both genuine and fulfilling to you."
+}
+preAlphabeticalSeasons[3][19] = seasonsAZ[3][19] = seasonsDate[3][19] = {
+  "date": "7/28/2017",
+  "strength": "Connectedness",
+  "title": "Everything Happens for a Reason",
+  "watchLink": "http://coaching.gallup.com/2017/07/connectedness-everything-happens-for.html",
+  "companion": "http://products.gallup.com/205160/theme-thursday-season-companion-guide-connectedness.aspx",
+  "youtubeEmbed": "d73blYYRu_U",
+  "description": "Things happen for a reason. You are sure of it. You are sure of it because in your soul you know that we are all connected. Yes, we are individuals, responsible for our own judgments and in possession of our own free will, but nonetheless we are part of something larger. Some may call it the collective unconscious. Others may label it spirit or life force. But whatever your word of choice, you gain confidence from knowing that we are not isolated from one another or from the earth and the life on it. This feeling of Connectedness implies certain responsibilities. If we are all part of a larger picture, then we must not harm others because we will be harming ourselves. We must not exploit because we will be exploiting ourselves. Your awareness of these responsibilities creates your value system. You are considerate, caring and accepting. Certain of the unity of humankind, you are a bridge builder for people of different cultures. Sensitive to the invisible hand, you can give others comfort that there is a purpose beyond our humdrum lives. The exact articles of your faith will depend on your upbringing and your culture, but your faith is strong. It sustains you and your close friends in the face of life’s mysteries."
+}
+preAlphabeticalSeasons[3][20] = seasonsAZ[3][20] = seasonsDate[3][20] = {
+  "date": "8/3/2017",
+  "strength": "Harmony",
+  "title": "The Power of Consensus",
+  "watchLink": "http://coaching.gallup.com/2017/08/harmony-power-of-consensus-theme.html",
+  "companion": "http://products.gallup.com/205187/theme-thursday-season-companion-guide-harmony.aspx",
+  "youtubeEmbed": "Ro_p-gT-ssA",
+  "description": "You look for areas of agreement. In your view, there is little to be gained from conflict and friction, so you seek to hold these to a minimum. When you know that the people around you hold differing views, you try to find the common ground. You try to steer them away from confrontation and toward harmony. In fact, harmony is one of your guiding values. You can’t quite believe how much time is wasted by people trying to impose their views on others. Wouldn’t we all be more productive if we kept our opinions in check and instead looked for consensus and support? You believe we would, and you live by that belief. When others are sounding off about their goals, their claims and their fervently held opinions, you hold your peace. When others strike out in a direction, you will, in the service of harmony, willingly modify your own objectives to merge with theirs (as long as their basic values do not clash with yours). When others start to argue about their pet theory or concept, you steer clear of the debate, preferring to talk about practical, down-to-earth matters on which you can all agree. In your view, we are all in the same boat, and we need this boat to get where we are going. It is a good boat. There is no need to rock it just to show that you can."
+}
+preAlphabeticalSeasons[3][21] = seasonsAZ[3][21] = seasonsDate[3][21] = {
+  "date": "8/10/2017",
+  "strength": "Includer",
+  "title": "Building a Diverse and Inclusive Leadership Pipeline",
+  "watchLink": "http://coaching.gallup.com/2017/08/includer-building-diverse-and-inclusive.html",
+  "companion": "http://products.gallup.com/205196/theme-thursday-season-companion-guide-includer.aspx",
+  "youtubeEmbed": "P2-cW02RM9U",
+  "description": "\"Stretch the circle wider.\" This is the philosophy around which you orient your life. You want to include people and make them feel part of the group. In direct contrast to those who are drawn only to exclusive groups, you actively avoid those groups that exclude others. You want to expand the group so that as many people as possible can benefit from its support. You hate the sight of someone on the outside looking in. You want to draw them in so that they can feel the warmth of the group. You are an instinctively accepting person.Regardless of race or sex or nationality or personality or faith, you cast few judgments. Judgments can hurt a person’s feelings. Why do that if you don’t have to? Your accepting nature does not necessarily rest on a belief that each of us is different and that one should respect these differences. Rather, it rests on your conviction that fundamentally we are all the same. We are all equally important. Thus, no one should be ignored. Each of us should be included. It is the least we all deserve."
+}
+preAlphabeticalSeasons[3][22] = seasonsAZ[3][22] = seasonsDate[3][22] = {
+  "date": "8/16/2017",
+  "strength": "Individualization",
+  "title": "Delving Through a Lens of Uniqueness",
+  "watchLink": "http://coaching.gallup.com/2017/08/individualization-delving-through-lens.html",
+  "companion": "http://products.gallup.com/205199/theme-thursday-season-companion-guide-individualization.aspx",
+  "youtubeEmbed": "feNiMXc24Ns",
+  "description": "Your Individualization theme leads you to be intrigued by the unique qualities of each person. You are impatient with generalizations or \"types\" because you don’t want to obscure what is special and distinct about each person. Instead, you focus on the differences between individuals. You instinctively observe each person’s style, each person’s motivation, how each thinks and how each builds relationships. You hear the one-of-a-kind stories in each person’s life. This theme explains why you pick your friends just the right birthday gift, why you know that one person prefers praise in public and another detests it, and why you tailor your teaching style to accommodate one person’s need to be shown and another’s desire to \"figure it out as I go.\" Because you are such a keen observer of other people’s strengths, you can draw out the best in each person. This Individualization theme also helps you build productive teams. While some search for the perfect team \"structure\" or \"process,\" you know instinctively that the secret to great teams is casting by individual strengths so that everyone can do a lot of what they do well."
+}
+preAlphabeticalSeasons[3][23] = seasonsAZ[3][23] = seasonsDate[3][23] = {
+  "date": "8/23/2017",
+  "strength": "Empathy",
+  "title": "Seeing the World Through Others' Eyes",
+  "watchLink": "http://coaching.gallup.com/2017/08/empathy-seeing-world-through-others.html",
+  "companion": "http://products.gallup.com/205178/theme-thursday-season-companion-guide-empathy.aspx",
+  "youtubeEmbed": "xr1VyL_5gU8",
+  "description": "You can sense the emotions of those around you. You can feel what they are feeling as though their feelings are your own. Intuitively, you are able to see the world through their eyes and share their perspective. You do not necessarily agree with each person’s perspective. You do not necessarily feel pity for each person’s predicament — this would be sympathy, not Empathy. You do not necessarily condone the choices each person makes, but you do understand. This instinctive ability to understand is powerful. You hear the unvoiced questions. You anticipate the need. Where others grapple for words, you seem to find the right words and the right tone. You help people find the right phrases to express their feelings — to themselves as well as to others. You help them give voice to their emotional life. For all these reasons, other people are drawn to you."
+}
+preAlphabeticalSeasons[3][24] = seasonsAZ[3][24] = seasonsDate[3][24] = {
+  "date": "9/6/2017",
+  "strength": "Relator",
+  "title": "Cultivating Relationships with Depth and Longevity",
+  "watchLink": "http://coaching.gallup.com/2017/09/relator-cultivating-relationships-with.html",
+  "companion": "http://products.gallup.com/205217/theme-thursday-season-companion-guide-relator.aspx",
+  "youtubeEmbed": "yOUITvwFkKE",
+  "description": "Relator describes your attitude toward your relationships. In simple terms, the Relator theme pulls you toward people you already know. You do not necessarily shy away from meeting new people — in fact, you may have other themes that cause you to enjoy the thrill of turning strangers into friends — but you do derive a great deal of pleasure and strength from being around your close friends. You are comfortable with intimacy. Once the initial connection has been made, you deliberately encourage a deepening of the relationship. You want to understand their feelings, their goals, their fears and their dreams, and you want them to understand yours. You know that this kind of closeness implies a certain amount of risk — you might be taken advantage of — but you are willing to accept that risk. For you, a relationship has value only if it is genuine. And the only way to know that is to entrust yourself to the other person. The more you share with each other, the more you risk together. The more you risk together, the more each of you proves your caring is genuine. These are your steps toward real friendship, and you take them willingly."
+}
+preAlphabeticalSeasons[3][25] = seasonsAZ[3][25] = seasonsDate[3][25] = {
+  "date": "9/20/2017",
+  "strength": "Analytical",
+  "title": "The Insistence that Theories be Sound",
+  "watchLink": "http://coaching.gallup.com/2017/09/analytical-insistence-that-theories-be.html",
+  "companion": "http://products.gallup.com/205139/theme-thursday-season-companion-guide-analytical.aspx",
+  "youtubeEmbed": "iw9Hk8WDJ14",
+  "description": "Your Analytical theme challenges other people: \"Prove it. Show me why what you are claiming is true.\" In the face of this kind of questioning, some will find that their brilliant theories wither and die. For you, this is precisely the point. You do not necessarily want to destroy other people’s ideas, but you do insist that their theories be sound. You see yourself as objective and dispassionate. You like data because they are value free. They have no agenda. Armed with these data, you search for patterns and connections. You want to understand how certain patterns affect one another. How do they combine? What is their outcome? Does this outcome fit with the theory being offered or the situation being confronted? These are your questions. You peel the layers back until, gradually, the root cause or causes are revealed. Others see you as logical and rigorous. Over time, they will come to you in order to expose someone’s \"wishful thinking\" or \"clumsy thinking\" to your refining mind. It is hoped that your analysis is never delivered too harshly. Otherwise, others may avoid you when that \"wishful thinking\" is their own."
+}
+preAlphabeticalSeasons[3][26] = seasonsAZ[3][26] = seasonsDate[3][26] = {
+  "date": "9/27/2017",
+  "strength": "Context",
+  "title": "Looking to the Past to Discover a Powerful Future",
+  "watchLink": "http://coaching.gallup.com/2017/09/context-looking-to-past-to-discover.html",
+  "companion": "http://products.gallup.com/205166/theme-thursday-season-companion-guide-context.aspx",
+  "youtubeEmbed": "YID3URJc-SA",
+  "description": "You look back. You look back because that is where the answers lie. You look back to understand the present. From your vantage point, the present is unstable, a confusing clamor of competing voices. It is only by casting your mind back to an earlier time, a time when the plans were being drawn up, that the present regains its stability. The earlier time was a simpler time. It was a time of blueprints. As you look back, you begin to see these blueprints emerge. You realize what the initial intentions were. These blueprints or intentions have since become so embellished that they are almost unrecognizable, but now this Context theme reveals them again. This understanding brings you confidence. No longer disoriented, you make better decisions because you sense the underlying structure. You become a better partner because you understand how your colleagues came to be who they are. And counterintuitively, you become wiser about the future because you saw its seeds being sown in the past. Faced with new people and new situations, it will take you a little time to orient yourself, but you must give yourself this time. You must discipline yourself to ask the questions and allow the blueprints to emerge because no matter what the situation, if you haven’t seen the blueprints, you will have less confidence in your decisions."
+}
+preAlphabeticalSeasons[3][27] = seasonsAZ[3][27] = seasonsDate[3][27] = {
+  "date": "10/5/2017",
+  "strength": "Futuristic",
+  "title": "Creating a Vivid Picture of the Future”",
+  "watchLink": "http://coaching.gallup.com/2017/10/futuristic-creating-vivid-picture-of.html",
+  "companion": "http://products.gallup.com/205184/theme-thursday-season-companion-guide-futuristic.aspx",
+  "youtubeEmbed": "EVUhJHm4D6k",
+  "description": "\"Wouldn’t it be great if ...\" You are the kind of person who loves to peer over the horizon. The future fascinates you. As if it were projected on the wall, you see in detail what the future might hold, and this detailed picture keeps pulling you forward, into tomorrow. While the exact content of the picture will depend on your other strengths and interests — a better product, a better team, a better life or a better world — it will always be inspirational to you. You are a dreamer who sees visions of what could be and who cherishes those visions. When the present proves too frustrating and the people around you too pragmatic, you conjure up your visions of the future, and they energize you. They can energize others too. In fact, very often people look to you to describe your visions of the future. They want a picture that can raise their sights and thereby their spirits. You can paint it for them. Practice. Choose your words carefully. Make the picture as vivid as possible. People will want to latch on to the hope you bring."
+}
+preAlphabeticalSeasons[3][28] = seasonsAZ[3][28] = seasonsDate[3][28] = {
+  "date": "10/20/2017",
+  "strength": "Ideation",
+  "title": "A New Perspective on Familiar Challenges",
+  "watchLink": "http://coaching.gallup.com/2017/10/ideation-new-perspective-on-familiar.html",
+  "companion": "http://products.gallup.com/205193/theme-thursday-season-companion-guide-ideation.aspx",
+  "youtubeEmbed": "ti8eyvAtCr0",
+  "description": "You are fascinated by ideas. What is an idea? An idea is a concept, the best explanation of the most events. You are delighted when you discover beneath the complex surface an elegantly simple concept to explain why things are the way they are. An idea is a connection. Yours is the kind of mind that is always looking for connections, and so you are intrigued when seemingly disparate phenomena can be linked by an obscure connection. An idea is a new perspective on familiar challenges. You revel in taking the world we all know and turning it around so we can view it from a strange but strangely enlightening angle. You love all these ideas because they are profound, because they are novel, because they are clarifying, because they are contrary and because they are bizarre. For all these reasons, you derive a jolt of energy whenever a new idea occurs to you. Others may label you creative or original or conceptual or even smart. Perhaps you are all of these. Who can be sure? What you are sure of is that ideas are thrilling. And on most days, this is enough."
+}
+preAlphabeticalSeasons[3][29] = seasonsAZ[3][29] = seasonsDate[3][29] = {
+  "date": "10/26/2017",
+  "strength": "Input",
+  "title": "The Art of Adding Information to Your Archives",
+  "watchLink": "http://coaching.gallup.com/2017/10/input-art-of-adding-information-to-your_26.html",
+  "companion": "http://products.gallup.com/205202/theme-thursday-season-companion-guide-input.aspx",
+  "youtubeEmbed": "e09WHtySosw",
+  "description": "You are inquisitive. You collect things. You might collect information — words, facts, books and quotations — or you might collect tangible objects such as butterflies, baseball cards, porcelain dolls or sepia photographs. Whatever you collect, you collect it because it interests you. And yours is the kind of mind that finds so many things interesting. The world is exciting precisely because of its infinite variety and complexity. If you read a great deal, it is not necessarily to refine your theories, but rather to add more information to your archives. If you like to travel, it is because each new location offers novel artifacts and facts. These can be acquired and then stored away. Why are they worth storing? At the time of storing, it is often hard to say exactly when or why you might need them, but who knows when they might become useful? With all those possible uses in mind, you really don’t feel comfortable throwing anything away. So you keep acquiring and compiling and filing stuff away. It’s interesting. It keeps your mind fresh. And perhaps one day, some of it will prove valuable."
+}
+preAlphabeticalSeasons[3][30] = seasonsAZ[3][30] = seasonsDate[3][30] = {
+  "date": "11/2/2017",
+  "strength": "Intellection",
+  "title": "Understanding of Pragmatic Thinking",
+  "watchLink": "http://coaching.gallup.com/2017/11/intellection-understanding-of-pragmatic.html",
+  "companion": "http://products.gallup.com/205205/theme-thursday-season-companion-guide-intellection.aspx",
+  "youtubeEmbed": "6MI-SgiPb_k",
+  "description": "You like to think. You like mental activity. You like exercising the \"muscles\" of your brain, stretching them in multiple directions. This need for mental activity may be focused; for example, you may be trying to solve a problem or develop an idea or understand another person’s feelings. The exact focus will depend on your other strengths. On the other hand, this mental activity may very well lack focus. The theme of Intellection does not dictate what you are thinking about; it simply describes that you like to think. You are the kind of person who enjoys your time alone because it is your time for musing and reflection. You are introspective. In a sense, you are your own best companion, as you pose yourself questions and try out answers on yourself to see how they sound. This introspection may lead you to a slight sense of discontent as you compare what you are actually doing with all the thoughts and ideas that your mind conceives. Or this introspection may tend toward more pragmatic matters such as the events of the day or a conversation that you plan to have later. Wherever it leads you, this mental hum is one of the constants of your life."
+}
+preAlphabeticalSeasons[3][31] = seasonsAZ[3][31] = seasonsDate[3][31] = {
+  "date": "11/9/2017",
+  "strength": "Learner",
+  "title": "The Journey from Ignorance to Competence",
+  "watchLink": "http://coaching.gallup.com/2017/11/learner-journey-from-ignorance-to.html",
+  "companion": "http://products.gallup.com/205208/theme-thursday-season-companion-guide-learner.aspx",
+  "youtubeEmbed": "wsQ5zllXcbE",
+  "description": "You love to learn. The subject matter that interests you most will be determined by your other themes and experiences, but whatever the subject, you will always be drawn to the process of learning. The process, more than the content or the result, is especially exciting for you. You are energized by the steady and deliberate journey from ignorance to competence. The thrill of the first few facts, the early efforts to recite or practice what you have learned, the growing confidence of a skill mastered — this is the process that entices you. Your excitement leads you to engage in adult learning experiences — yoga or piano lessons or graduate classes. It enables you to thrive in dynamic work environments where you are asked to take on short project assignments and are expected to learn a lot about the new subject matter in a short period of time and then move on to the next one. This Learner theme does not necessarily mean that you seek to become the subject matter expert or that you are striving for the respect that accompanies a professional or academic credential. The outcome of the learning is less significant than the \"getting there\"."
+}
+preAlphabeticalSeasons[3][32] = seasonsAZ[3][32] = seasonsDate[3][32] = {
+  "date": "11/16/2017",
+  "strength": "Positivity",
+  "title": "Opening Pathways of Possibilities",
+  "watchLink": "http://coaching.gallup.com/2017/11/positivity-opening-pathways-of.html",
+  "companion": "http://products.gallup.com/205214/theme-thursday-season-companion-guide-positivity.aspx",
+  "youtubeEmbed": "SRnbpFhlcLo",
+  "description": "You are generous with praise, quick to smile and always on the lookout for the positive in the situation. Some call you lighthearted. Others just wish that their glass were as full as yours seems to be. But either way, people want to be around you. Their world looks better around you because your enthusiasm is contagious. Lacking your energy and optimism, some find their world drab with repetition or, worse, heavy with pressure. You seem to find a way to lighten their spirit. You inject drama into every project. You celebrate every achievement. You find ways to make everything more exciting and more vital. Some cynics may reject your energy, but you are rarely dragged down. Your Positivity won’t allow it. Somehow you can’t quite escape your conviction that it is good to be alive, that work can be fun and that no matter what the setbacks, one must never lose one’s sense of humor."
+}
+preAlphabeticalSeasons[3][33] = seasonsAZ[3][33] = seasonsDate[3][33] = {
+  "date": "11/30/2017",
+  "strength": "Strategic",
+  "title": "Seeing Patterns Where Others See Complexity",
+  "watchLink": "http://coaching.gallup.com/2017/11/strategic-seeing-patterns-where-others.html",
+  "companion": "http://products.gallup.com/205232/theme-thursday-season-companion-guide-strategic.aspx",
+  "youtubeEmbed": "7flFah6kiKI",
+  "description": "The Strategic theme enables you to sort through the clutter and find the best route. It is not a skill that can be taught. It is a distinct way of thinking, a special perspective on the world at large. This perspective allows you to see patterns where others simply see complexity. Mindful of these patterns, you play out alternative scenarios, always asking, \"What if this happened? OK, well what if this happened?\" This recurring question helps you see around the next corner. There you can evaluate accurately the potential obstacles. Guided by where you see each path leading, you start to make selections. You discard the paths that lead nowhere. You discard the paths that lead straight into resistance. You discard the paths that lead into a fog of confusion. You cull and make selections until you arrive at the chosen path — your strategy. Armed with your strategy, you strike forward. This is your Strategic theme at work: \"What if?\" Select. Strike."
+}
+preAlphabeticalSeasons[3][34] = seasonsAZ[3][34] = seasonsDate[3][34] = {
+  "date": "12/7/2017",
+  "strength": "Restorative",
+  "title": "Bringing Things Back to Life",
+  "watchLink": "http://coaching.gallup.com/2017/12/restorative-bringing-things-back-to.html",
+  "companion": "http://products.gallup.com/205223/theme-thursday-season-companion-guide-restorative.aspx",
+  "youtubeEmbed": "V2yW4cZvpLM",
+  "description": "You love to solve problems. Whereas some are dismayed when they encounter yet another breakdown, you can be energized by it. You enjoy the challenge of analyzing the symptoms, identifying what is wrong and finding the solution. You may prefer practical problems or conceptual ones or personal ones. You may seek out specific kinds of problems that you have met many times before and that you are confident you can fix. Or you may feel the greatest push when faced with complex and unfamiliar problems. Your exact preferences are determined by your other themes and experiences. But what is certain is that you enjoy bringing things back to life. It is a wonderful feeling to identify the undermining factor(s, eradicate them and restore something to its true glory. Intuitively, you know that without your intervention, this thing — this machine, this technique, this person, this company — might have ceased to function. You fixed it, resuscitated it, rekindled its vitality. Phrasing it the way you might, you saved it."
+}
+
+
+
+
+
+
+preAlphabeticalSeasons[4] = [];
+
+seasonsAZ[4] = [];
+
+seasonsDate[4] = [];
+
+preAlphabeticalSeasons[4][0] = seasonsAZ[4][0] = seasonsDate[4][0] = {
+  "date": "3/23/2018",
+  "strength": "Kick-Off",
+  "title": "",
+  "watchLink": "http://coaching.gallup.com/2018/03/season-4-kick-off-theme-thursday-season.html",
+  "companion": "",
+  "youtubeEmbed": "ag1JRkWzKxs",
+  "description": "Welcome back to another exciting season of Theme Thursday! We would like to begin by recapping all of the great content in Season 3. For Season 3 we focused on Strengths-Based Leadership. If you read Strengths-Based Leadership you will find that it’s different from any other business success book. Whereas those books may teach you how to become successful by being like them, Strengths-Based Leadership teaches you to succeed by being yourself. We were able to talk to 34 different leaders to tap into their unique way of being successful. There is no single set of Themes that lead to successful leadership. There isn’t a set profile of a leader, but the way that the Themes are constructed help influence the work that they do. As we think about Season 4 we want to focus on success. We will be thinking about strategies and factors for that success. The interest and enthusiasm towards CliftonStrengths is going to be geared towards performance. We want you to think about not just how can you name each theme, but how can you aim them. We are going to go in-depth with suggesting the action you can take while diving into all 34."
+}
+preAlphabeticalSeasons[4][1] = seasonsAZ[4][1] = seasonsDate[4][1] = {
+  "date": "3/29/2018",
+  "strength": "Achiever",
+  "title": "A Commitment Towards Completion",
+  "watchLink": "http://coaching.gallup.com/2018/03/achiever-commitment-towards-completion.html",
+  "companion": "",
+  "youtubeEmbed": "97Dt9urfWkk",
+  "description": "What does Achiever look like when it is in its best form? As an Achiever you are an attainer, a doer, a pusher, a tracker, and a pace setter. It is about the stamina to complete. It is a countdown to completion. When you are at your very best as an Achiever it looks like pushing yourself and others towards milestones. It is also about exuding and inspiring more energy than other people. Achievers are constantly on, constantly going, and constantly pushing towards the finish line. In its best state it is also about pushing other people to work harder. It is an understanding of what needs to be done, and how to get there. It is also about crushing your to-do list in a way that advances your own accomplishments. Achiever is a great awareness piece in the back of your mind that grows and tracks progress. There’s an element of counting and qualifying to move towards a goal. The thing that stands alone to an Achiever is that it is something that restarts daily. Your Achiever focus is able to look at the progress towards the day to meet your goals."
+}
+preAlphabeticalSeasons[4][2] = seasonsAZ[4][2] = seasonsDate[4][2] = {
+  "date": "4/12/2018",
+  "strength": "Activator",
+  "title": "The Brave First Step",
+  "watchLink": "http://coaching.gallup.com/2018/04/activator-brave-first-step-theme.html",
+  "companion": "",
+  "youtubeEmbed": "7R-TAC3brQ4",
+  "description": "If you’re an Activator you’re a starter, a realizer. You can really quickly take an idea and make it into something going on. There’s confidence and courage in Activator. It is about taking opportunity in the moment. You have more courage than others to begin. The beauty of Activator is that it takes a brave first step on situations others had been too scared to begin. You have the ability to think through next steps, and are able to get things moving with these steps. An Activator dreams about the act of pushing things off center and getting things going. Who are you when you’re at your best? You are taking advantage of opportunities that other people are missing. You are finding your area of expertise that will catapult your career to a new place. An Activator can not only start their own progress, but can also inspire others to take that first step. At its best Activator is also about taking action on ideas that others are still considering. There is a continual motion to always start something. There is a gracefulness in knowing to push that first domino when others are still working on getting them set-up. There is a lot of risk in starting something, and Activators are willing to take that risk."
+}
+preAlphabeticalSeasons[4][3] = seasonsAZ[4][3] = seasonsDate[4][3] = {
+  "date": "4/20/2018",
+  "strength": "Adaptability",
+  "title": "Putting Yourself in Chaos' Way",
+  "watchLink": "http://coaching.gallup.com/2018/04/adaptability-putting-yourself-in-chaos.html",
+  "companion": "",
+  "youtubeEmbed": "-TnCvNPn4rQ",
+  "description": "Adaptability is about being urgent, current, present, responsive, in touch, and calm. It can be a protector from chaos. Adaptability has an openness to it. It lets you be very in touch with what is going on. If other themes are textbooks, Adaptability is Twitter. It’s an unplanned moment, 280 characters and go. It is just in time fulfillment. When Adaptability is at its best you are gracefully responding to the needs of those around you. This may be responding to clients or teammates. You are masterfully navigating the here and now. Adaptability has the ability to constantly have your finger on the pulse of what is going on. This theme thrives under change, and individuals who are high in it can’t wait to find that change."
+}
+preAlphabeticalSeasons[4][4] = seasonsAZ[4][4] = seasonsDate[4][4] = {
+  "date": "4/26/2018",
+  "strength": "Analytical",
+  "title": "Boiling Ideas Down to an Essence",
+  "watchLink": "http://coaching.gallup.com/2018/04/analytical-boiling-ideas-down-to.html",
+  "companion": "",
+  "youtubeEmbed": "8v9UIOTXZ4Q",
+  "description": "Analytical is about boiling ideas down to an essence. It is thoughtful and curiosity based. Individuals with high Analytical value evidence and truth. If you have strong Analytical you don’t just take something at face value, you dive into the individual particles that make up that idea. When Analytical is at its best it is innovative. You are constantly discovering new ideas, because you don’t just assume everything is true. You can see all the parts to an assumption, which can lead us to new discoveries. You are the go-to for objective problem solving. Your search for truth can create clarity. You can offer new ways to measure and track success. You can help others think about what they have to demonstrate their success. Analytical can provide a lot of compassion by not being swept up in the emotion."
+}
+preAlphabeticalSeasons[4][5] = seasonsAZ[4][5] = seasonsDate[4][5] = {
+  "date": "5/4/2018",
+  "strength": "Arranger",
+  "title": "Become an Orchestrator of Improvement",
+  "watchLink": "http://coaching.gallup.com/2018/05/arranger-become-orchestrator-of.html",
+  "companion": "",
+  "youtubeEmbed": "93n_I0koFXc",
+  "description": "Arrangers are jugglers and orchestrators of improvement. You are comfortable initiating reconfiguration. You are aware of the pieces and how to make them all fit. An Arranger wants productivity in the most efficient way possible. Being able to brave something really complex, and doing it with delight and mastery, is really what Arranger is all about. The value that you bring when you are at your best is being able to embrace complexity that allows others to relax. It can also be about tweaking the plan to improve the original outcome by making small changes. It is about speaking a language of possibility. Arranger can also facilitate collaborative teamwork. Gracefully manage multiple demands on your own time and attention in a way that looks effortless. Raise your hand for complex projects that have many moving parts. Raise your hand for chaos. Get yourself in over your head to make sure you can swim. Sign up for things that are difficult and include a lot of multiplicity. Have one similar specialty. Focus on one nuance in your industry. Think about this as your home base, and then think about similar opportunities to take you further into areas you haven’t quite mastered to create some complexity. It isn’t just about pulling all of your ideas together, it is about making them do something powerful."
+}
+preAlphabeticalSeasons[4][6] = seasonsAZ[4][6] = seasonsDate[4][6] = {
+  "date": "5/17/2018",
+  "strength": "Belief",
+  "title": "Aligning Passion and Purpose",
+  "watchLink": "http://coaching.gallup.com/2018/05/belief-aligning-passion-and-purpose.html",
+  "companion": "",
+  "youtubeEmbed": "RkdvVbrsF2o",
+  "description": "Belief is a values driven Theme. People high with Belief tend to have unchanging core values that help them prioritize, motivate them and take them where they want to go. There is an element of practicality to Belief. It may be rooted in something that feels very emotional and invisible, but it is about translating your internal values into something external. A by-product of Belief is that you are informing others with your passion and beliefs over everything you do. When Belief is at its best it is able to translate values and beliefs into execution at work. It is about an alignment with passion and purpose. You are not just doing something for the sake of doing it. You are doing something that has a deep meaning for you, and has the opportunity to extend your value into your community. It is that idea that you are making more of what you believe, rather than holding it all in. Belief at its best is both transparent and consistent. Belief can rally others around your cause. It is about not just having values, but rolling up your sleeves and taking action on them. It is knowing to your core what is right and what is wrong."
+}
+preAlphabeticalSeasons[4][7] = seasonsAZ[4][7] = seasonsDate[4][7] = {
+  "date": "5/25/2018",
+  "strength": "Command",
+  "title": "The Ability to Take Leadership When None Exists",
+  "watchLink": "http://coaching.gallup.com/2018/05/command-ability-to-take-leadership-when.html",
+  "companion": "",
+  "youtubeEmbed": "oJRc1waIkNA",
+  "description": "When you think of Command you think about cutting through the noise and getting down to business. They are unintimidated, decisive and socially brave. They can take a stance on things they find important that makes other people follow. The best of Command is knowing when to take charge, and doing it effortlessly. Serve others by being an advocate with your social courage. Individuals with high Command can help further a cause. They can help others see things in a different way. Command knows when resoluteness is needed, and can almost sense when there’s a void of decisiveness that needs to be filled. Answer that call for a challenge. Look for things that intimidate others. Command gives you the ability to be able to see where other people are not stepping up. How do you know when Command is needed? It could be when you sense fear, or it could be when you sense clarity. Be better at following that feeling. Understand when you need the podium to move the project forward. Ask the question that nobody else has asked that helps provide some clarity."
+}
+preAlphabeticalSeasons[4][8] = seasonsAZ[4][8] = seasonsDate[4][8] = {
+  "date": "6/1/2018",
+  "strength": "Communication",
+  "title": "The Desire to be Understood",
+  "watchLink": "http://coaching.gallup.com/2018/06/communication-desire-to-be-understood.html",
+  "companion": "",
+  "youtubeEmbed": "5Is6GuI8OW4",
+  "description": "Communication is the ability to put ideas into words. It is about clarity, and the promotion of understanding. Communication gets the point across. Individuals high in Communication can move from concept to story. They can take pieces and bits of ideas and put them into form. Communication is an external theme. It is the desire to bring things to light. It is not so much what happens in your head, but what effect it has on other people. Communication takes something internal, and puts it into a space that can be absorbed that is external. At its best it can attract and hold others’ attention. Individuals high in Communication have the ability to cut through noise. They have the ability to illustrate life through stories and words. They can bridge any gaps in understanding. They have a desire to be understood. There is a drive to make something stick in the minds of other people."
+}
+preAlphabeticalSeasons[4][9] = seasonsAZ[4][9] = seasonsDate[4][9] = {
+  "date": "6/8/2018",
+  "strength": "Connectedness",
+  "title": "Moving Forward Through the Mystery",
+  "watchLink": "http://coaching.gallup.com/2018/06/connectedness-moving-forward-through.html",
+  "companion": "",
+  "youtubeEmbed": "R3r0B1b7480",
+  "description": "Connectedness is about anticipating and embracing the seen and unseen connection between all things. It is about being in-tuned to something beyond the immediate. There is an aspect of timelessness to this theme. People with Connectedness can be quite curious, but also quite aware. They have no problem accepting mysteries. They have a calm when things don’t make sense. They can move forward through that mystery. The value that Connectedness brings is a calming emotion about the current moment. It does this by expanding our awareness of something bigger. Connectedness is unrestrained by time and practicality. It is about creativity and offering an enhanced perspective. It is valuable because you can help others see the effects that their actions have. There is an awareness that everything that you do has a ripple effect. It is not just a linear process. Connectedness can be about zooming out and seeing the whole picture."
+}
+preAlphabeticalSeasons[4][10] = seasonsAZ[4][10] = seasonsDate[4][10] = {
+  "date": "6/15/2018",
+  "strength": "Consistency",
+  "title": "Establishing Stability Through Predictability",
+  "watchLink": "http://coaching.gallup.com/2018/06/consistency-establishing-stability.html",
+  "companion": "",
+  "youtubeEmbed": "4Tp3qz6Pdig",
+  "description": "Consistency can be described as fairness, equity and equality. It is the ability to see where things are not equal, and bring them into balance. People with high Consistency are good at setting up clear rules based on what works, and then following them. It is about getting things done not just for efficiency’s sake, but also in a fair way that understands that there are reasons we follow rules. If you have high Consistency the value you bring is establishing stability through predictability. It is about following rules that make sense, not just creating rules. You really understand what promotes equality, and are able to translate that into something you do all the time. Consistency at its best is going beyond that awareness of when things are unfair and unbalanced, but following through with an internal nudge to take this outside of yourself. You are able to steer your organization and your family towards a more justified approach. Consistency does what works because it works over and over again. Consistency is about giving everyone the same starting point."
+}
+preAlphabeticalSeasons[4][11] = seasonsAZ[4][11] = seasonsDate[4][11] = {
+  "date": "6/22/2018",
+  "strength": "Context",
+  "title": "Comprehend the Present by Knowing the Past",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "DURaab_Fy_I",
+  "description": "Context is about comprehending the present by knowing the past. There is a value in being able to not miss things that have been relevant and important in the past, especially as you are thinking about how to move through the present and into the future. If you are high in Context you create safety by ensuring that mistakes are not repeated. You can promote inclusivity by understanding individual and group histories. When Context is at its best those high in it are well informed. They are prepared for anything. They can calmly reference what they know when faced with a problem. It is helpful to show the path that lead to where you are today, and explore the steps on how you got there."
+}
+preAlphabeticalSeasons[4][12] = seasonsAZ[4][12] = seasonsDate[4][12] = {
+  "date": "6/29/2018",
+  "strength": "Competition",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][13] = seasonsAZ[4][13] = seasonsDate[4][13] = {
+  "date": "7/6/2018",
+  "strength": "Deliberative",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][14] = seasonsAZ[4][14] = seasonsDate[4][14] = {
+  "date": "7/13/2018",
+  "strength": "Developer",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][15] = seasonsAZ[4][15] = seasonsDate[4][15] = {
+  "date": "7/20/2018",
+  "strength": "Discipline",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][16] = seasonsAZ[4][16] = seasonsDate[4][16] = {
+  "date": "7/27/2018",
+  "strength": "Empathy",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][17] = seasonsAZ[4][17] = seasonsDate[4][17] = {
+  "date": "8/3/2018",
+  "strength": "Focus",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][18] = seasonsAZ[4][18] = seasonsDate[4][18] = {
+  "date": "8/10/2018",
+  "strength": "Futuristic",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][19] = seasonsAZ[4][19] = seasonsDate[4][19] = {
+  "date": "8/17/2018",
+  "strength": "Harmony",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][20] = seasonsAZ[4][20] = seasonsDate[4][20] = {
+  "date": "8/24/2018",
+  "strength": "Ideation",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][21] = seasonsAZ[4][21] = seasonsDate[4][21] = {
+  "date": "8/31/2018",
+  "strength": "Includer",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][22] = seasonsAZ[4][22] = seasonsDate[4][22] = {
+  "date": "9/7/2018",
+  "strength": "Individualization",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][23] = seasonsAZ[4][23] = seasonsDate[4][23] = {
+  "date": "9/14/2018",
+  "strength": "Input",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][24] = seasonsAZ[4][24] = seasonsDate[4][24] = {
+  "date": "9/21/2018",
+  "strength": "Intellection",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][25] = seasonsAZ[4][25] = seasonsDate[4][25] = {
+  "date": "9/28/2018",
+  "strength": "Learner",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][26] = seasonsAZ[4][26] = seasonsDate[4][26] = {
+  "date": "10/5/2018",
+  "strength": "Maximizer",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][27] = seasonsAZ[4][27] = seasonsDate[4][27] = {
+  "date": "10/12/2018",
+  "strength": "Positivity",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][28] = seasonsAZ[4][28] = seasonsDate[4][28] = {
+  "date": "10/19/2018",
+  "strength": "Relator",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][29] = seasonsAZ[4][29] = seasonsDate[4][29] = {
+  "date": "10/26/2018",
+  "strength": "Responsibility",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][30] = seasonsAZ[4][30] = seasonsDate[4][30] = {
+  "date": "11/2/2018",
+  "strength": "Restorative",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][31] = seasonsAZ[4][31] = seasonsDate[4][31] = {
+  "date": "11/9/2018",
+  "strength": "Self-Assurance",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][32] = seasonsAZ[4][32] = seasonsDate[4][32] = {
+  "date": "11/16/2018",
+  "strength": "Significance",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][33] = seasonsAZ[4][33] = seasonsDate[4][33] = {
+  "date": "11/23/2018",
+  "strength": "Strategic",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
+}
+preAlphabeticalSeasons[4][34] = seasonsAZ[4][34] = seasonsDate[4][34] = {
+  "date": "11/30/2018",
+  "strength": "WOO",
+  "title": "",
+  "watchLink": "https://www.eventbrite.com/o/gallup-3974422565",
+  "companion": "register",
+  "youtubeEmbed": "",
+  "description": ""
 }
