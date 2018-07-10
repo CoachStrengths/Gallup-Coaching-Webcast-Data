@@ -1,0 +1,330 @@
+/*Better consolidation of data using an array of objects*/
+
+/*Themes A to Z*/
+var preAlphabeticalSeasons = [];
+
+/*Seasons w/Themes A to Z*/
+var seasonsAZ = [];
+
+/*Seasons w/Themes by Date*/
+var seasonsDate = [];
+
+/*Latest Thumbnail for "Coming Soon!"*/
+var latestThumbnail = "https://img.youtube.com/vi/97Dt9urfWkk/mqdefault.jpg";
+
+
+
+
+/*season = i;*/ /*index 0 does not exist, keep i = season#*/
+preAlphabeticalSeasons[1] = [];
+
+seasonsAZ[1] = [];
+
+seasonsDate[1] = [];
+
+preAlphabeticalSeasons[1][0] = seasonsAZ[1][0] = seasonsDate[1][0] = {
+  "date": "6/2/2017",
+  "strength": "Aprendedor",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "lwnIOIKgag4",
+  "description": ""
+}
+preAlphabeticalSeasons[1][1] = seasonsAZ[1][1] = seasonsDate[1][1] = {
+  "date": "6/2/2017",
+  "strength": "Afinidad",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "_ptthTGZQUc",
+  "description": ""
+}
+preAlphabeticalSeasons[1][2] = seasonsAZ[1][2] = seasonsDate[1][2] = {
+  "date": "6/2/2017",
+  "strength": "Significación",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "C4ndqhJGahY",
+  "description": ""
+}
+preAlphabeticalSeasons[1][3] = seasonsAZ[1][3] = seasonsDate[1][3] = {
+  "date": "9/13/2017",
+  "strength": "Logrador",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "apVowrkRvhI",
+  "description": ""
+}
+preAlphabeticalSeasons[1][4] = seasonsAZ[1][4] = seasonsDate[1][4] = {
+  "date": "9/13/2017",
+  "strength": "Positivo",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "XQXH4ojpl3s",
+  "description": ""
+}
+preAlphabeticalSeasons[1][5] = seasonsAZ[1][5] = seasonsDate[1][5] = {
+  "date": "9/13/2017",
+  "strength": "Estratégico",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "kuD07Jy6Yus",
+  "description": ""
+}
+preAlphabeticalSeasons[1][6] = seasonsAZ[1][6] = seasonsDate[1][6] = {
+  "date": "9/13/2017",
+  "strength": "Responsabilidad",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "DHT5GCE0j28",
+  "description": ""
+}
+preAlphabeticalSeasons[1][7] = seasonsAZ[1][7] = seasonsDate[1][7] = {
+  "date": "3/26/2018",
+  "strength": "Activador",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "nUwWptTT3zs",
+  "description": ""
+}
+preAlphabeticalSeasons[1][8] = seasonsAZ[1][8] = seasonsDate[1][8] = {
+  "date": "3/26/2018",
+  "strength": "Deliberativo",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "p6z-CraF3Hc",
+  "description": ""
+}
+preAlphabeticalSeasons[1][9] = seasonsAZ[1][9] = seasonsDate[1][9] = {
+  "date": "3/26/2018",
+  "strength": "Restaurador",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "l49rf_Jdm4o",
+  "description": ""
+}
+preAlphabeticalSeasons[1][10] = seasonsAZ[1][10] = seasonsDate[1][10] = {
+  "date": "3/26/2018",
+  "strength": "Maximizador",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "DOE_llFaHtg",
+  "description": ""
+}
+preAlphabeticalSeasons[1][11] = seasonsAZ[1][11] = seasonsDate[1][11] = {
+  "date": "3/26/2018",
+  "strength": "Individualización",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "RNVM2MdzDiM",
+  "description": ""
+}
+preAlphabeticalSeasons[1][12] = seasonsAZ[1][12] = seasonsDate[1][12] = {
+  "date": "3/26/2018",
+  "strength": "Armonía",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "nBIBj8IXhgE",
+  "description": ""
+}
+preAlphabeticalSeasons[1][13] = seasonsAZ[1][13] = seasonsDate[1][13] = {
+  "date": "3/30/2018",
+  "strength": "Competitivo",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "ut1g2Az5Gl4",
+  "description": ""
+}
+preAlphabeticalSeasons[1][14] = seasonsAZ[1][14] = seasonsDate[1][14] = {
+  "date": "3/30/2018",
+  "strength": "Inclusión",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "dx3B6-ioTJI",
+  "description": ""
+}
+preAlphabeticalSeasons[1][15] = seasonsAZ[1][15] = seasonsDate[1][15] = {
+  "date": "4/9/2018",
+  "strength": "Coleccionador",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "GxBB1vIpbJI",
+  "description": ""
+}
+preAlphabeticalSeasons[1][16] = seasonsAZ[1][16] = seasonsDate[1][16] = {
+  "date": "4/10/2018",
+  "strength": "Sociable",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "m-3jeII0S-Y",
+  "description": ""
+}
+preAlphabeticalSeasons[1][17] = seasonsAZ[1][17] = seasonsDate[1][17] = {
+  "date": "4/10/2018",
+  "strength": "Coordinador",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "9MCSjdFTX8Y",
+  "description": ""
+}
+preAlphabeticalSeasons[1][18] = seasonsAZ[1][18] = seasonsDate[1][18] = {
+  "date": "4/10/2018",
+  "strength": "Adaptabilidad",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "UCSwSW8T9CA",
+  "description": ""
+}
+preAlphabeticalSeasons[1][19] = seasonsAZ[1][19] = seasonsDate[1][19] = {
+  "date": "4/10/2018",
+  "strength": "Auto-Confianza",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "M33Vx_37T0k",
+  "description": ""
+}
+preAlphabeticalSeasons[1][20] = seasonsAZ[1][20] = seasonsDate[1][20] = {
+  "date": "4/10/2018",
+  "strength": "Enfoque",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "6OqdD4de3Qc",
+  "description": ""
+}
+preAlphabeticalSeasons[1][21] = seasonsAZ[1][21] = seasonsDate[1][21] = {
+  "date": "4/12/2018",
+  "strength": "Consistente",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "QcJBdaeVjfA",
+  "description": ""
+}
+preAlphabeticalSeasons[1][22] = seasonsAZ[1][22] = seasonsDate[1][22] = {
+  "date": "4/12/2018",
+  "strength": "Creencia",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "S27ck5Rkp1w",
+  "description": ""
+}
+preAlphabeticalSeasons[1][23] = seasonsAZ[1][23] = seasonsDate[1][23] = {
+  "date": "4/21/2018",
+  "strength": "Comunicación",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "uLA0Gs08SEU",
+  "description": ""
+}
+preAlphabeticalSeasons[1][24] = seasonsAZ[1][24] = seasonsDate[1][24] = {
+  "date": "4/30/2018",
+  "strength": "Mando",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "UdEBjHjtwtE",
+  "description": ""
+}
+preAlphabeticalSeasons[1][25] = seasonsAZ[1][25] = seasonsDate[1][25] = {
+  "date": "4/30/2018",
+  "strength": "Desarrollador",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "PfhGpGRYGek",
+  "description": ""
+}
+preAlphabeticalSeasons[1][26] = seasonsAZ[1][26] = seasonsDate[1][26] = {
+  "date": "5/4/2018",
+  "strength": "Conexión",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "m8gLfbC5l-g",
+  "description": ""
+}
+preAlphabeticalSeasons[1][27] = seasonsAZ[1][27] = seasonsDate[1][27] = {
+  "date": "5/20/2018",
+  "strength": "Intelección",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "W54FJNNmrD4",
+  "description": ""
+}
+preAlphabeticalSeasons[1][28] = seasonsAZ[1][28] = seasonsDate[1][28] = {
+  "date": "5/20/2018",
+  "strength": "Contexto",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "DxS57-8Wi70",
+  "description": ""
+}
+preAlphabeticalSeasons[1][29] = seasonsAZ[1][29] = seasonsDate[1][29] = {
+  "date": "5/20/2018",
+  "strength": "Analítico",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "Dt48MXp7U2g",
+  "description": ""
+}
+preAlphabeticalSeasons[1][30] = seasonsAZ[1][30] = seasonsDate[1][30] = {
+  "date": "5/20/2018",
+  "strength": "Idear",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "pWESd-T6jlM",
+  "description": ""
+}
+preAlphabeticalSeasons[1][31] = seasonsAZ[1][31] = seasonsDate[1][31] = {
+  "date": "5/24/2018",
+  "strength": "Empatía",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "ciXeaDRWvlo",
+  "description": ""
+}
+preAlphabeticalSeasons[1][32] = seasonsAZ[1][32] = seasonsDate[1][32] = {
+  "date": "5/25/2018",
+  "strength": "Disciplina",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "P70FvCVlx0g",
+  "description": ""
+}
+preAlphabeticalSeasons[1][33] = seasonsAZ[1][33] = seasonsDate[1][33] = {
+  "date": "5/25/2018",
+  "strength": "Futurista",
+  "title": "",
+  "watchLink": "",
+  "companion": "",
+  "youtubeEmbed": "-HgW2rgx-1g",
+  "description": ""
+}
