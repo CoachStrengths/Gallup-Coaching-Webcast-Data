@@ -1,0 +1,132 @@
+/*Better consolidation of data using an array of objects*/
+
+/*Talents A to Z*/
+var preAlphabeticalSeasons = [];
+
+/*Seasons w/Talents A to Z*/
+var seasonsAZ = [];
+
+/*Seasons w/Talents by Date*/
+var seasonsDate = [];
+
+/*Latest Thumbnail for "Coming Soon!"*/
+var latestThumbnail = "http://res.cloudinary.com/maxmaxs5/image/upload/v1530554124/Banner-BTT_e6dxxx.png";
+
+
+
+
+/*season = i;*/ /*index 0 does not exist, keep i = season#*/
+preAlphabeticalSeasons[1] = [];
+
+seasonsAZ[1] = [];
+
+seasonsDate[1] = [];
+
+preAlphabeticalSeasons[1][0] = seasonsAZ[1][0] = seasonsDate[1][0] = {
+  date: new Date("2/14/2017"),
+  talent: "Kick-Off",
+  title: "with Rod Karr",
+  watchLink: "http:///2017/03/season-premier-with-rod-karr-builder.html",
+  companion: "",
+  youtubeEmbed: "cBqWWgrlbYk",
+  description: "Welcome to the premier of our new program Builder Talent Tuesday. We will structure this program as we go through the season a lot like Theme Thursday. Today we will be talking about what the Builder Profile is. What is the tool? Where does it come from? Builder Profile is the result of an initiative to try to understand the unique talents that people bring that have an entrepreneurial gift. These are people that don’t just start things, but they build and sustain things. It is not just about innovation, but it is something that is created in which a customer will buy. This is something a business can be built around. The assessment was designed to discover this need, and in that discovery process we found that there are 10 Builder Talents that we focus on and what their intensity is for each of these. The great and successful builders of business possess, or account for, all 10 talents. Even if they do not possess all 10 Talents, they have the capacity to bring connections to help account for that portion of the business.",
+}
+preAlphabeticalSeasons[1][0] = seasonsAZ[1][0] = seasonsDate[1][0] = {
+  date: new Date("3/1/2017"),
+  talent: "Kick-Off",
+  title: "with Rod Karr",
+  watchLink: "http:///2017/03/season-premier-with-rod-karr-builder.html",
+  companion: "",
+  youtubeEmbed: "cBqWWgrlbYk",
+  description: "Welcome to the premier of our new program Builder Talent Tuesday. We will structure this program as we go through the season a lot like Theme Thursday. Today we will be talking about what the Builder Profile is. What is the tool? Where does it come from? Builder Profile is the result of an initiative to try to understand the unique talents that people bring that have an entrepreneurial gift. These are people that don’t just start things, but they build and sustain things. It is not just about innovation, but it is something that is created in which a customer will buy. This is something a business can be built around. The assessment was designed to discover this need, and in that discovery process we found that there are 10 Builder Talents that we focus on and what their intensity is for each of these. The great and successful builders of business possess, or account for, all 10 talents. Even if they do not possess all 10 Talents, they have the capacity to bring connections to help account for that portion of the business.",
+}
+preAlphabeticalSeasons[1][1] = seasonsAZ[1][1] = seasonsDate[1][1] = {
+  date: new Date("3/14/2017"),
+  talent: "Knowledge",
+  title: "Your Competitive Advantage",
+  watchLink: "http:///2017/03/knowledge-your-competitive-advantage.html",
+  companion: "https://products.gallup.com/205259/builder-talent-tuesday-companion-guide-knowledge.aspx",
+  youtubeEmbed: "U1GlXblduaA",
+  description: "People who are especially talented in the Knowledge talent understand that information is a valuable asset. They have a deep desire to acquire knowledge about all aspects of their business. They search for new information to solve problems and succeed in complex business environments. They are obsessed with their business. They gather an incredible amount of information about every aspect of it. They use their vast mental library to plan for future products and services. People with Knowledge \"do the leg work\". They have a constant craving to know more and a courage to ask and stay open minded. People with Knowledge are curious and usually obtain a competitive advantage in the market by staying on top of trends.",
+}
+preAlphabeticalSeasons[1][2] = seasonsAZ[1][2] = seasonsDate[1][2] = {
+  date: new Date("3/28/2017"),
+  talent: "Independence",
+  title: "Exploring Your Own World",
+  watchLink: "http:///2017/03/independence-exploring-your-own-world.html",
+  companion: "https://products.gallup.com/205256/builder-talent-tuesday-companion-guide-independence.aspx",
+  youtubeEmbed: "XrP5-gl2f8E",
+  description: "People who are especially talented in the Independence talent can single-handedly start and operate a business. They rely on high energy and extreme commitment to succeed in the grueling grind of business creation. They firmly believe that their actions decide the fate of their business and are motivated to make things happen. Individuals high in Independence are drawn to the multiplicity of a start-up. They crave every aspect that plays into starting and running a business. People with high Independence are drawn to a one man band approach. They receive joy in running the whole show themselves by walking to the beat of their own drum. The ability to do this all themselves is incredibly motivating. It means they can survive a start-up and multi-task successfully.",
+}
+preAlphabeticalSeasons[1][3] = seasonsAZ[1][3] = seasonsDate[1][3] = {
+  date: new Date("4/11/2017"),
+  talent: "Selling",
+  title: "Winning Over Champions",
+  watchLink: "http:///2017/04/selling-winning-over-champions-builder.html",
+  companion: "https://products.gallup.com/205271/builder-talent-tuesday-companion-guide-selling.aspx",
+  youtubeEmbed: "Oyto63yQ5t0",
+  description: "People who are especially talented in the Selling talent speak boldly on behalf of their company. They consistently communicate a clear vision of their business to customers and employees. They are great salespeople with an ability to form deep relationships and convince others to follow their well-defined business growth strategy. Selling’s power and edge stems from communication. They communicate the essence of the business, their idea, or their new product or service through stories. They are excellent communicators and easily influence others. They are incredibly persuasive and are great salespeople for the business.",
+}
+preAlphabeticalSeasons[1][4] = seasonsAZ[1][4] = seasonsDate[1][4] = {
+  date: new Date("4/25/2017"),
+  talent: "Risk",
+  title: "Enthusiasm in the Face of Challenge",
+  watchLink: "http:///2017/04/risk-enthusiasm-in-face-of-challenge.html",
+  companion: "https://products.gallup.com/205268/builder-talent-tuesday-companion-guide-risk.aspx",
+  youtubeEmbed: "OTdimK3ax_o",
+  description: "People who are especially talented in the Risk talent embrace challenges with enthusiasm. They have a strong, charismatic and confident personality. They naturally focus on the rewards of success instead of potential failure. They emotionally connect with customers and exceed their expectations. They are comfortable with ambiguity and have a highly optimistic perception of risk. When encountering a challenging decision, they take an analytical approach. They meticulously gather information and calculate the odds of success before taking action.",
+}
+preAlphabeticalSeasons[1][5] = seasonsAZ[1][5] = seasonsDate[1][5] = {
+  date: new Date("5/2/2017"),
+  talent: "Profitability",
+  title: "Speaking the Language of Profit",
+  watchLink: "http:///2017/05/profitability-speaking-language-of.html",
+  companion: "https://products.gallup.com/205262/builder-talent-tuesday-companion-guide-profitability.aspx",
+  youtubeEmbed: "AQa_nzvrg44",
+  description: "People who are especially talented in the Profitability talent couple sharp business instincts and a fascination with making money. They have an uncanny ability to look at data from which they can form unique insights. Ultimately, they evaluate decisions through the prism of profitability. They establish clear financial goals and use data to measure progress. They formulate unique insights from the data that others may miss. Individuals possessing this talent have a constant strategic nature of weighing business decisions, relationships and opportunities against the potential to make money. It is keeping their return on investment at the very front of how they run their business. They weigh decisions in the terms of the connection between their inputs, and the profitability of their outputs.",
+}
+preAlphabeticalSeasons[1][6] = seasonsAZ[1][6] = seasonsDate[1][6] = {
+  date: new Date("5/23/2017"),
+  talent: "Disruptor",
+  title: "Creating What Customers Are Going to Want",
+  watchLink: "http:///2017/05/disruptor-creating-what-customers-are.html",
+  companion: "https://products.gallup.com/205253/builder-talent-tuesday-companion-guide-disruptor.aspx",
+  youtubeEmbed: "KM-ZFzUb2uE",
+  description: "The Disruptor theme is all about asking \"what if\" and dealing with possibility. Disruptors push beyond boundaries in ways that others would never imagine. People who are especially talented in the Disruptor talent have a curious intellect that helps them constantly imagine new products, services and solutions. They are quick learners who explore various options and consider novel solutions as they anticipate the future needs of their customers. They have the unique ability to take an idea and quickly transform it into a business that generates revenue to stay ahead of the competition. They have a mind that is typically firing with multiple ideas. They constantly dream up new products and services for their customers.",
+}
+preAlphabeticalSeasons[1][7] = seasonsAZ[1][7] = seasonsDate[1][7] = {
+  date: new Date("6/6/2017"),
+  talent: "Determination",
+  title: "How to See Possibilities When Others See Barriers",
+  watchLink: "http:///2017/06/determination-how-to-see-possibilities.html",
+  companion: "https://products.gallup.com/205250/builder-talent-tuesday-companion-guide-determination.aspx",
+  youtubeEmbed: "vKEudk8Plb8",
+  description: "People who are especially talented in the Determination talent pursue their goals with tenacity. They are intensely committed to success and are eager to take quick action. They rely on high motivation to turn adversity into opportunity. They can see beyond roadblocks and visualize a better future. Determination is the stick to it no matter what theme. It can be stubborn at times when it exercises its perseverance and grit. There is a great combination between creativity and work ethic. Individuals with this theme are persistent and tenacious in pursuing their goals. They have a tremendous work ethic and unique ability to overcome obstacles and setbacks. They do whatever it takes to achieve the desired business outcomes. What does Determination look like in action? You can confront obstacles head on. There is also a quick recovery to any setbacks. This leads to a recognition of opportunities that others might miss. This could be in business or relationships. Determination leads to incredible start up creation. This can lead to attainment of business goals, and energizing employees.",
+}
+preAlphabeticalSeasons[1][8] = seasonsAZ[1][8] = seasonsDate[1][8] = {
+  date: new Date("6/13/2017"),
+  talent: "Relationship",
+  title: "Cultivate a Diverse Network of Opportunity",
+  watchLink: "http:///2017/06/relationship-cultivate-diverse-network.html",
+  companion: "https://products.gallup.com/205265/builder-talent-tuesday-companion-guide-relationship.aspx",
+  youtubeEmbed: "5dlXMCsV9tE",
+  description: "People who are especially talented in the Relationship talent have strong interpersonal skills that allow them to build a robust and diverse personal network. They rely on relationships to access resources and information essential to the success of their business. They have a high social awareness. They share experiences, exchange ideas and make new contacts with people inside and outside the industry. They have a robust and diversified network that they use effectively for the survival and success of the business.",
+}
+preAlphabeticalSeasons[1][9] = seasonsAZ[1][9] = seasonsDate[1][9] = {
+  date: new Date("6/27/2017"),
+  talent: "Delegator",
+  title: "Mastering the Art of Inspiration and Delegation",
+  watchLink: "http:///2017/06/delegator-mastering-art-of-inspiration.html",
+  companion: "https://products.gallup.com/205247/builder-talent-tuesday-companion-guide-delegator.aspx",
+  youtubeEmbed: "yEu7oxaZ3cU",
+  description: "People who are especially talented in the Delegator talent can trust and empower others to help grow their business. They know what their employees do best and position them to take responsibility for tasks at which they are most likely to excel. They can relinquish control and focus on growing the business. They recognize that a growing business requires a shift from a do-it-yourself style, which is helpful in the early stages, to a handing-it-over-to-others style as the business starts to grow. They are willing to relinquish control and hand over authority for certain tasks to others who are better equipped to handle them.",
+}
+preAlphabeticalSeasons[1][10] = seasonsAZ[1][10] = seasonsDate[1][10] = {
+  date: new Date("7/26/2017"),
+  talent: "Confidence",
+  title: "Confidence Wins Over Doubt",
+  watchLink: "http:///2017/07/confidence-confidence-wins-over-doubt.html",
+  companion: "https://products.gallup.com/205244/builder-talent-tuesday-companion-guide-confidence.aspx",
+  youtubeEmbed: "ZsFuQeuj71g",
+  description: "People who are especially talented in the Confidence talent are keenly aware of their abilities. They harness this awareness to take quick and decisive action. They seize opportunities knowing they will succeed and use their talents to persist in the face of uncertainty and failure. They have a strong sense of self-belief. They know they have what it takes to be a successful entrepreneur. They have confidence in their ideas and their ability to make things happen. They can easily convince others of their ability to get results.",
+}
