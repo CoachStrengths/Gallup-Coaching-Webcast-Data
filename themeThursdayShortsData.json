@@ -29,7 +29,7 @@ preAlphabeticalSeasons[1][0] = seasonsAZ[1][0] = seasonsDate[1][0] = {
   "watchLink": "",
   "companion": "",
   "youtubeEmbed": "FCb-pFAWrWU",
-  "description": "Achievers get things done. They thrive on being busy and accomplishing tasks. It gives them energy. Most Achievers love to check off items on a list. They rarely have a "day off" and even consider their weekends to be an opportunity to complete a project. Some may call it a strong work ethic; an Achiever would call it their day-to-day reality."
+  "description": "Achievers get things done. They thrive on being busy and accomplishing tasks. It gives them energy. Most Achievers love to check off items on a list. They rarely have a \"day off\" and even consider their weekends to be an opportunity to complete a project. Some may call it a strong work ethic; an Achiever would call it their day-to-day reality."
 }
 preAlphabeticalSeasons[1][1] = seasonsAZ[1][1] = seasonsDate[1][1] = {
   "date": "11/11/2014",
@@ -200,7 +200,7 @@ preAlphabeticalSeasons[1][19] = seasonsAZ[1][19] = seasonsDate[1][19] = {
   "watchLink": "",
   "companion": "",
   "youtubeEmbed": "wIPpGS9V6ac",
-  "description": "Ideation is all about ideas. People with Ideation are fascinated by ideas and a new idea makes their day. Ideation revels in taking the world as we know it and turning it around so it can be viewed in a strange, but strangely enlightening, way. Ideation generates excitement and energy for those who possess it. Creativity, Complexity and Connectivity are the "Three Cs" of Ideation. Creativity drives those with Ideation to ask, \"What if?\" and explore new ideas. Ideation loves complexity for complexity's sake, but Ideation is also keen on complexity because people with Ideation want to make the complex simple. People with Ideation are adept at connecting seemingly disparate ideas -- this is their love of Connectivity in action."
+  "description": "Ideation is all about ideas. People with Ideation are fascinated by ideas and a new idea makes their day. Ideation revels in taking the world as we know it and turning it around so it can be viewed in a strange, but strangely enlightening, way. Ideation generates excitement and energy for those who possess it. Creativity, Complexity and Connectivity are the \"Three Cs\" of Ideation. Creativity drives those with Ideation to ask, \"What if?\" and explore new ideas. Ideation loves complexity for complexity's sake, but Ideation is also keen on complexity because people with Ideation want to make the complex simple. People with Ideation are adept at connecting seemingly disparate ideas -- this is their love of Connectivity in action."
 }
 preAlphabeticalSeasons[1][20] = seasonsAZ[1][20] = seasonsDate[1][20] = {
   "date": "11/11/2014",
