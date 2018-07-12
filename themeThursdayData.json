@@ -1,5 +1,4 @@
 {
-  "latestThumbnail": "https://img.youtube.com/vi/97Dt9urfWkk/mqdefault.jpg",
   "1": [
     {
       "date": "1/17/2015",
@@ -1222,5 +1221,6 @@
       "youtubeEmbed": "",
       "description": ""
     }
-  ]
+  ],
+  "latestThumbnail": "https://img.youtube.com/vi/97Dt9urfWkk/mqdefault.jpg"
 }
