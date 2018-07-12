@@ -1,5 +1,4 @@
 {
-  "latestThumbnail": "https://secureimg.stitcher.com/feedimageswide/480x270_149710.jpg",
   "1": [
     {
       "date": "6/2/2017",
@@ -298,5 +297,6 @@
       "youtubeEmbed": "-HgW2rgx-1g",
       "description": ""
     }
-  ]
+  ],
+  "latestThumbnail": "https://secureimg.stitcher.com/feedimageswide/480x270_149710.jpg"
 }
