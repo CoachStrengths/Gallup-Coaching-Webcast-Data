@@ -2,7 +2,7 @@
   "1": [
     {
       "date": "1/10/2015",
-      "strength": "Achiever",
+      "type": "TESTINGTYPE",
       "title": "The Drive to do More",
       "watchLink": "http://coaching.gallup.com/2016/01/gwsw-achiever-drive-to-do-more.html",
       "companion": "http://products.gallup.com/185189/theme-thursday-companion-guide-achiever.aspx",
@@ -11,7 +11,7 @@
     },
     {
       "date": "1/17/2015",
-      "strength": "Activator",
+      "type": "TESTINGTYPE",
       "title": "Thriving on Moving Forward",
       "watchLink": "http://coaching.gallup.com/2016/01/gwsw-activator-thriving-on-moving.html",
       "companion": "http://products.gallup.com/188087/theme-thursday-companion-guide-activator.aspx",
@@ -20,7 +20,7 @@
     },
     {
       "date": "1/24/2015",
-      "strength": "Adaptability",
+      "type": "TESTINGTYPE",
       "title": "The Future One Choice at a Time",
       "watchLink": "http://coaching.gallup.com/2016/01/gwsw-adaptability-future-one-choice-at.html",
       "companion": "http://products.gallup.com/188759/theme-thursday-companion-guide-adaptability.aspx",
@@ -29,7 +29,7 @@
     },
     {
       "date": "1/31/2015",
-      "strength": "Analytical",
+      "type": "TESTINGTYPE",
       "title": "Seeking an Objective Understanding of the World",
       "watchLink": "http://coaching.gallup.com/2016/01/gwsw-analytical-seeking-objective.html",
       "companion": "http://products.gallup.com/186104/theme-thursday-companion-guide-analytical.aspx",
@@ -38,7 +38,7 @@
     },
     {
       "date": "2/7/2015",
-      "strength": "Arranger",
+      "type": "TESTINGTYPE",
       "title": "Bringing People, Processes and Productivity Together",
       "watchLink": "http://coaching.gallup.com/2016/02/gwsw-arranger-bringing-people-processes.html",
       "companion": "http://products.gallup.com/189095/theme-thursday-companion-guide-arranger.aspx",
@@ -47,7 +47,7 @@
     },
     {
       "date": "2/14/2015",
-      "strength": "Belief",
+      "type": "TESTINGTYPE",
       "title": "Motivation Ignited by Values",
       "watchLink": "http://coaching.gallup.com/2016/02/gwsw-belief-motivation-ignited-by-values.html",
       "companion": "http://products.gallup.com/189197/theme-thursday-companion-guide-belief.aspx",
@@ -56,7 +56,7 @@
     },
     {
       "date": "2/21/2015",
-      "strength": "Command",
+      "type": "TESTINGTYPE",
       "title": "The Power to Persuade and Inspire Others",
       "watchLink": "http://coaching.gallup.com/2016/02/gwsw-command-power-to-persuade-and.html",
       "companion": "http://products.gallup.com/189491/theme-thursday-companion-guide-command.aspx",
@@ -65,7 +65,7 @@
     },
     {
       "date": "3/6/2015",
-      "strength": "Communication",
+      "type": "TESTINGTYPE",
       "title": "Great Speakers and Great Listeners",
       "watchLink": "http://coaching.gallup.com/2016/03/gwsw-communication-great-speakers-and.html",
       "companion": "http://products.gallup.com/189572/theme-thursday-companion-guide-communication.aspx",
@@ -74,7 +74,7 @@
     },
     {
       "date": "3/13/2015",
-      "strength": "Competition",
+      "type": "TESTINGTYPE",
       "title": "Grit, Determination and Boundless Energy",
       "watchLink": "http://coaching.gallup.com/2016/03/gwsw-competition-grit-determination-and.html",
       "companion": "http://products.gallup.com/185186/theme-thursday-companion-guide-competition.aspx",
@@ -83,7 +83,7 @@
     },
     {
       "date": "3/20/2015",
-      "strength": "Connectedness",
+      "type": "TESTINGTYPE",
       "title": "Seeing the Bigger Picture",
       "watchLink": "http://coaching.gallup.com/2016/03/gwsw-connectedness-seeing-bigger-picture.html",
       "companion": "http://products.gallup.com/190070/theme-thursday-companion-guide-connectedness.aspx",
@@ -92,7 +92,7 @@
     },
     {
       "date": "3/27/2015",
-      "strength": "Consistency",
+      "type": "TESTINGTYPE",
       "title": "Even-handed, Egalitarian and Fair",
       "watchLink": "http://coaching.gallup.com/2016/03/gwsw-consistency-even-handed.html",
       "companion": "http://products.gallup.com/186113/theme-thursday-companion-guide-consistency.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
@@ -101,7 +101,7 @@
     },
     {
       "date": "4/3/2015",
-      "strength": "Context",
+      "type": "TESTINGTYPE",
       "title": "Understanding the Present and Future Through the Past",
       "watchLink": "http://coaching.gallup.com/2016/04/gwsw-context-understanding-present-and.html",
       "companion": "http://products.gallup.com/183008/theme-thursday-companion-guide-context.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
@@ -110,16 +110,16 @@
     },
     {
       "date": "4/17/2015",
-      "strength": "Deliberative",
+      "type": "TESTINGTYPE",
       "title": "Approaching Issues with Thought and Care",
       "watchLink": "http://coaching.gallup.com/2016/04/gwsw-deliberative-approaching-issues.html",
       "companion": "http://products.gallup.com/190805/theme-thursday-companion-guide-deliberative.aspx?utm_source=coaches%27blog&utm_medium=copy&utm_campaign=coaches%27blog",
       "youtubeEmbed": "p9EgVFQbjUo",
-      "description": "People with high Deliberative have a keen awareness and sensitivity to risk. This drives them to be careful decision-makers, constantly striving to prevent adverse things from happening. The Deliberative theme plays a significant role in a person's tendency to make well thought out decisions. Deliberators aren’t cautious for the sake of being cautious; people who are high in Deliberative exercise calculated restraint for the sake of success. One phrase that rings true for Deliberative is, “An ounce of prevention is worth a pound of cure.” That is, not all successful people are “early birds who get the worm.” Sometimes it is imperative to use caution and think things through. This is something that those with Deliberative in their top five do well."
+      "description": "People with high Deliberative have a keen awareness and sensitivity to risk. This drives them to be careful decision-makers, constantly striving to prevent adverse things from happening. The Deliberative theme plays a significant role in a person's tendency to make well thought out decisions. Deliberators aren’t cautious for the sake of being cautious; people who are high in Deliberative exercise calculated restraint for the sake of success. One phrase that rings true for Deliberative is, "An ounce of prevention is worth a pound of cure." That is, not all successful people are "early birds who get the worm." Sometimes it is imperative to use caution and think things through. This is something that those with Deliberative in their top five do well."
     },
     {
       "date": "4/24/2015",
-      "strength": "Developer",
+      "type": "TESTINGTYPE",
       "title": "Rejoicing in the Growth of Others",
       "watchLink": "http://coaching.gallup.com/2016/04/gwsw-developer-rejoicing-in-growth-of.html",
       "companion": "http://products.gallup.com/186116/theme-thursday-companion-guide-developer.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
@@ -128,7 +128,7 @@
     },
     {
       "date": "5/1/2015",
-      "strength": "Discipline",
+      "type": "TESTINGTYPE",
       "title": "Embracing Routines and Order",
       "watchLink": "http://coaching.gallup.com/2016/05/gwsw-discipline-embracing-routines-and.html",
       "companion": "http://products.gallup.com/191165/theme-thursday-companion-guide-discipline.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
@@ -137,7 +137,7 @@
     },
     {
       "date": "5/8/2015",
-      "strength": "Empathy",
+      "type": "TESTINGTYPE",
       "title": "Attentiveness to the Emotions of Others",
       "watchLink": "http://coaching.gallup.com/2016/05/gwsw-empathy-attentiveness-to-emotions.html",
       "companion": "http://products.gallup.com/182822/theme-thursday-companion-guide-empathy.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
@@ -146,7 +146,7 @@
     },
     {
       "date": "5/15/2015",
-      "strength": "Focus",
+      "type": "TESTINGTYPE",
       "title": "Starting with the End in Mind",
       "watchLink": "http://coaching.gallup.com/2016/05/gwsw-focus-starting-with-end-in-mind.html",
       "companion": "http://products.gallup.com/184454/theme-thursday-companion-guide-focus.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
@@ -155,7 +155,7 @@
     },
     {
       "date": "5/22/2015",
-      "strength": "Futuristic",
+      "type": "TESTINGTYPE",
       "title": "A Vision for Tomorrow and Beyond",
       "watchLink": "http://coaching.gallup.com/2016/05/futuristic-s2-vision-for-tomorrow-and.html",
       "companion": "http://products.gallup.com/186119/theme-thursday-companion-guide-futuristic.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
@@ -164,7 +164,7 @@
     },
     {
       "date": "5/29/2015",
-      "strength": "Harmony",
+      "type": "TESTINGTYPE",
       "title": "Getting Along with People and Getting Things Done",
       "watchLink": "http://coaching.gallup.com/2016/05/gwsw-harmony-getting-along-with-people.html",
       "companion": "http://products.gallup.com/191930/theme-thursday-companion-guide-harmony.aspx?utm_source=coaches%27blog&utm_medium=copy&utm_campaign=coaches%27blog",
@@ -173,7 +173,7 @@
     },
     {
       "date": "6/12/2015",
-      "strength": "Ideation",
+      "type": "TESTINGTYPE",
       "title": "Energy from Creativity and Connectivity",
       "watchLink": "http://coaching.gallup.com/2016/06/gwsw-ideation-energy-from-creativity.html",
       "companion": "http://products.gallup.com/186110/theme-thursday-companion-guide-ideation.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
@@ -182,7 +182,7 @@
     },
     {
       "date": "6/19/2015",
-      "strength": "Includer",
+      "type": "TESTINGTYPE",
       "title": "Bringing Others In",
       "watchLink": "http://coaching.gallup.com/2016/06/gwsw-includer-bringing-others-in.html",
       "companion": "http://products.gallup.com/192593/theme-thursday-companion-guide-includer.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
@@ -191,7 +191,7 @@
     },
     {
       "date": "6/26/2015",
-      "strength": "Individualization",
+      "type": "TESTINGTYPE",
       "title": "Appreciating the Uniqueness of Others",
       "watchLink": "http://coaching.gallup.com/2016/06/gwsw-individualization-appreciating.html",
       "companion": "http://products.gallup.com/193130/theme-thursday-companion-guide-individualization.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
@@ -200,7 +200,7 @@
     },
     {
       "date": "7/3/2015",
-      "strength": "Input",
+      "type": "TESTINGTYPE",
       "title": "Sharing Resources and Curiosity with Others",
       "watchLink": "http://coaching.gallup.com/2016/07/gwsw-input-sharing-resources-and.html",
       "companion": "http://products.gallup.com/193367/theme-thursday-companion-guide-input.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
@@ -209,7 +209,7 @@
     },
     {
       "date": "7/10/2015",
-      "strength": "Intellection",
+      "type": "TESTINGTYPE",
       "title": "The Reward is in Truly Understanding",
       "watchLink": "http://coaching.gallup.com/2016/07/gwsw-intellection-reward-is-in-truly.html",
       "companion": "http://products.gallup.com/193475/theme-thursday-companion-guide-intellection.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
@@ -218,7 +218,7 @@
     },
     {
       "date": "7/17/2015",
-      "strength": "Learner",
+      "type": "TESTINGTYPE",
       "title": "A Natural Curiosity and Love of Learning",
       "watchLink": "http://coaching.gallup.com/2016/07/gwsw-learner-natural-curiosity-and-love.html",
       "companion": "http://products.gallup.com/193784/theme-thursday-companion-guide-learner.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
@@ -227,7 +227,7 @@
     },
     {
       "date": "7/31/2015",
-      "strength": "Maximizer",
+      "type": "TESTINGTYPE",
       "title": "Taking Things From Good to Great",
       "watchLink": "http://coaching.gallup.com/2016/07/gwsw-maximizer-taking-things-from-good.html",
       "companion": "http://products.gallup.com/193928/theme-thursday-companion-guide-maximizer.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
@@ -236,7 +236,7 @@
     },
     {
       "date": "8/7/2015",
-      "strength": "Positivity",
+      "type": "TESTINGTYPE",
       "title": "Bringing Enthusiasm to Others",
       "watchLink": "http://coaching.gallup.com/2016/08/gwsw-positivity-bringing-enthusiasm-to.html",
       "companion": "http://products.gallup.com/193937/theme-thursday-companion-guide-positivity.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
@@ -245,7 +245,7 @@
     },
     {
       "date": "8/14/2015",
-      "strength": "Relator",
+      "type": "TESTINGTYPE",
       "title": "Caring Deeply for Others",
       "watchLink": "http://coaching.gallup.com/2016/08/gwsw-relator-caring-deeply-for-others.html",
       "companion": "http://products.gallup.com/193940/theme-thursday-companion-guide-relator.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
@@ -254,7 +254,7 @@
     },
     {
       "date": "8/21/2015",
-      "strength": "Responsibility",
+      "type": "TESTINGTYPE",
       "title": "Driven by Commitments to Others",
       "watchLink": "http://coaching.gallup.com/2016/08/gwsw-responsibility-driven-by.html",
       "companion": "http://products.gallup.com/193943/theme-thursday-companion-guide-responsibility.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
@@ -263,7 +263,7 @@
     },
     {
       "date": "9/4/2015",
-      "strength": "Restorative",
+      "type": "TESTINGTYPE",
       "title": "Finding the Root of the Problem",
       "watchLink": "http://coaching.gallup.com/2016/09/gwsw-restorative-finding-root-of-problem.html",
       "companion": "http://products.gallup.com/193946/theme-thursday-companion-guide-restorative.aspx?utm_source=coachesblog&utm_medium=copy&utm_campaign=coachesblog",
@@ -272,7 +272,7 @@
     },
     {
       "date": "9/25/2015",
-      "strength": "Significance",
+      "type": "TESTINGTYPE",
       "title": "Champion, Change Agent and Advocate",
       "watchLink": "http://coaching.gallup.com/2016/09/gwsw-signifcance-champion-change-agent.html",
       "companion": "http://products.gallup.com/184127/theme-thursday-companion-guide-significance.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
@@ -281,7 +281,7 @@
     },
     {
       "date": "10/9/2015",
-      "strength": "Strategic",
+      "type": "TESTINGTYPE",
       "title": "A Distinct Way of Thinking",
       "watchLink": "http://coaching.gallup.com/2016/10/gwsw-distinct-way-of-thinking.html",
       "companion": "http://products.gallup.com/186101/theme-thursday-companion-guide-strategic.aspx?utm_source=coaches%27blogGWSW&utm_medium=copy&utm_campaign=coaches%27blogGWSW",
@@ -290,7 +290,7 @@
     },
     {
       "date": "10/16/2015",
-      "strength": "WOO",
+      "type": "TESTINGTYPE",
       "title": "Not Afraid to Start Conversations With Strangers",
       "watchLink": "http://coaching.gallup.com/2016/10/gwsw-woo-not-afraid-to-start.html",
       "companion": "http://products.gallup.com/193952/theme-thursday-companion-guide-woo.aspx",
@@ -299,7 +299,7 @@
     },
     {
       "date": "10/30/2015",
-      "strength": "Self-Assurance",
+      "type": "TESTINGTYPE",
       "title": "Self-Assurance Leads the Way",
       "watchLink": "http://coaching.gallup.com/2016/10/people-with-strong-self-assurance.html",
       "companion": "http://products.gallup.com/193949/theme-thursday-companion-guide-self-assurance.aspx",
@@ -310,7 +310,7 @@
   "2": [
     {
       "date": "1/22/2016",
-      "strength": "Achiever",
+      "type": "TESTINGTYPE",
       "title": "Satisfaction from Trimming the Roses",
       "watchLink": "http://coaching.gallup.com/2016/01/achiever-s2-satisfaction-from-trimming.html",
       "companion": "http://products.gallup.com/185192/theme-thursday-companion-guide-achiever.aspx",
@@ -319,7 +319,7 @@
     },
     {
       "date": "2/5/2016",
-      "strength": "Activator",
+      "type": "TESTINGTYPE",
       "title": "Impatient is not a Bad Word",
       "watchLink": "http://coaching.gallup.com/2016/02/activator-s2-impatient-is-not-bad-word.html",
       "companion": "http://products.gallup.com/188084/theme-thursday-companion-guide-pdf-activator.aspx",
@@ -328,7 +328,7 @@
     },
     {
       "date": "2/12/2016",
-      "strength": "Adaptability",
+      "type": "TESTINGTYPE",
       "title": "Engaging with Change Enthusiastically",
       "watchLink": "http://coaching.gallup.com/2016/02/adaptability-s2-engaging-with-change.html",
       "companion": "http://products.gallup.com/188762/theme-thursday-companion-guide-pdf-adaptability.aspx",
@@ -337,7 +337,7 @@
     },
     {
       "date": "2/13/2016",
-      "strength": "Analytical",
+      "type": "TESTINGTYPE",
       "title": "Taking Information to the Lowest Common Denominator",
       "watchLink": "http://coaching.gallup.com/2016/02/analytical-s2-taking-information-to.html",
       "companion": "http://products.gallup.com/186125/theme-thursday-companion-guide-analytical.aspx",
@@ -346,7 +346,7 @@
     },
     {
       "date": "2/25/2016",
-      "strength": "Arranger",
+      "type": "TESTINGTYPE",
       "title": "Turning Chaos into Progress",
       "watchLink": "http://coaching.gallup.com/2016/02/arranger-s2-turning-chaos-into-progress.html",
       "companion": "http://products.gallup.com/189101/theme-thursday-companion-guide-pdf-arranger.aspx",
@@ -355,7 +355,7 @@
     },
     {
       "date": "3/3/2016",
-      "strength": "Belief",
+      "type": "TESTINGTYPE",
       "title": "An Anchor that Grounds You During the Storm",
       "watchLink": "http://coaching.gallup.com/2016/03/belief-s2-anchor-that-grounds-you.html",
       "companion": "http://products.gallup.com/189209/theme-thursday-companion-guide-pdf-belief.aspx",
@@ -364,7 +364,7 @@
     },
     {
       "date": "3/16/2016",
-      "strength": "Command",
+      "type": "TESTINGTYPE",
       "title": "Leadership and Inspiration for Others",
       "watchLink": "http://coaching.gallup.com/2016/03/command-s2-leadership-and-inspiration.html",
       "companion": "http://products.gallup.com/189497/theme-thursday-companion-guide-pdf-command.aspx",
@@ -373,7 +373,7 @@
     },
     {
       "date": "3/28/2016",
-      "strength": "Communication",
+      "type": "TESTINGTYPE",
       "title": "A Passionate Relationship with Words",
       "watchLink": "http://coaching.gallup.com/2016/03/communication-s2-passionate.html",
       "companion": "http://products.gallup.com/189575/theme-thursday-companion-guide-pdf-communication.aspx",
@@ -382,7 +382,7 @@
     },
     {
       "date": "3/30/2016",
-      "strength": "Competition",
+      "type": "TESTINGTYPE",
       "title": "Being at the Very Top is Success",
       "watchLink": "http://coaching.gallup.com/2016/03/competition-s2-being-at-very-top-is.html",
       "companion": "http://products.gallup.com/185195/theme-thursday-companion-guide-competition.aspx",
@@ -391,7 +391,7 @@
     },
     {
       "date": "4/5/2016",
-      "strength": "Connectedness",
+      "type": "TESTINGTYPE",
       "title": "An Innate Understanding of the Links Between Everything",
       "watchLink": "http://coaching.gallup.com/2016/04/connectedness-s2-innate-understanding.html",
       "companion": "http://products.gallup.com/190076/theme-thursday-companion-guide-pdf-connectedness.aspx",
@@ -400,7 +400,7 @@
     },
     {
       "date": "4/13/2016",
-      "strength": "Consistency",
+      "type": "TESTINGTYPE",
       "title": "Driven by Fairness, Equality and the Rules",
       "watchLink": "http://coaching.gallup.com/2016/04/consistency-s2-driven-by-fairness.html",
       "companion": "http://products.gallup.com/186131/theme-thursday-companion-guide-consistency.aspx",
@@ -409,7 +409,7 @@
     },
     {
       "date": "4/29/2016",
-      "strength": "Context",
+      "type": "TESTINGTYPE",
       "title": "Using the Past to Frame the Present",
       "watchLink": "http://coaching.gallup.com/2016/04/context-s2-using-past-to-frame-present.html",
       "companion": "http://products.gallup.com/182999/theme-thursday-companion-guide-context.aspx",
@@ -418,7 +418,7 @@
     },
     {
       "date": "5/11/2016",
-      "strength": "Deliberative",
+      "type": "TESTINGTYPE",
       "title": "Wisdom in Slowing Down",
       "watchLink": "http://coaching.gallup.com/2016/05/deliberative-s2-wisdom-in-slowing-down.html",
       "companion": "http://products.gallup.com/190811/theme-thursday-companion-guide-pdf-deliberative.aspx",
@@ -427,7 +427,7 @@
     },
     {
       "date": "5/18/2016",
-      "strength": "Developer",
+      "type": "TESTINGTYPE",
       "title": "Celebrating in the Moment Improvement",
       "watchLink": "http://coaching.gallup.com/2016/05/developer-s2-celebrating-in-moment.html",
       "companion": "http://products.gallup.com/186134/theme-thursday-companion-guide-developer.aspx",
@@ -436,7 +436,7 @@
     },
     {
       "date": "5/20/2016",
-      "strength": "Discipline",
+      "type": "TESTINGTYPE",
       "title": "Preempting Chaos with Structure and Order",
       "watchLink": "http://coaching.gallup.com/2016/05/discipline-s2-preempting-chaos-with.html",
       "companion": "http://products.gallup.com/191171/theme-thursday-companion-guide-pdf-discipline.aspx",
@@ -445,7 +445,7 @@
     },
     {
       "date": "6/1/2016",
-      "strength": "Empathy",
+      "type": "TESTINGTYPE",
       "title": "The X-ray of Other People's Feelings",
       "watchLink": "http://coaching.gallup.com/2016/06/empathy-s2-x-ray-of-other-peoples.html",
       "companion": "http://products.gallup.com/182834/theme-thursday-companion-guide-empathy.aspx",
@@ -454,7 +454,7 @@
     },
     {
       "date": "6/2/2016",
-      "strength": "Focus",
+      "type": "TESTINGTYPE",
       "title": "A Laser Beam to What Matters",
       "watchLink": "http://coaching.gallup.com/2016/06/focus-s2-laser-beam-to-what-matters.html",
       "companion": "http://products.gallup.com/184460/theme-thursday-companion-guide-focus.aspx",
@@ -463,7 +463,7 @@
     },
     {
       "date": "6/10/2016",
-      "strength": "Harmony",
+      "type": "TESTINGTYPE",
       "title": "Harmony Wants Progress, Harmony Gets Progress",
       "watchLink": "http://coaching.gallup.com/2016/06/harmony-s2-harmony-wants-progress.html",
       "companion": "http://products.gallup.com/191936/theme-thursday-companion-guide-pdf-harmony.aspx",
@@ -472,7 +472,7 @@
     },
     {
       "date": "6/16/2016",
-      "strength": "Futuristic",
+      "type": "TESTINGTYPE",
       "title": "A Catalyst to New Heights",
       "watchLink": "http://coaching.gallup.com/2016/06/s2-futuristic-catalyst-to-new-heights.html",
       "companion": "http://products.gallup.com/186137/theme-thursday-companion-guide-futuristic.aspx",
@@ -481,7 +481,7 @@
     },
     {
       "date": "6/24/2016",
-      "strength": "Ideation",
+      "type": "TESTINGTYPE",
       "title": "Are All Ideas Good?",
       "watchLink": "http://coaching.gallup.com/2016/06/s2-ideation-are-all-ideas-good.html",
       "companion": "http://products.gallup.com/186128/theme-thursday-companion-guide-ideation.aspx",
@@ -490,7 +490,7 @@
     },
     {
       "date": "7/6/2016",
-      "strength": "Includer",
+      "type": "TESTINGTYPE",
       "title": "An Awareness and Drive to Invite Others In",
       "watchLink": "http://coaching.gallup.com/2016/07/includer-s2-awareness-and-drive-to.html",
       "companion": "http://products.gallup.com/192599/theme-thursday-companion-guide-pdf-includer.aspx",
@@ -499,7 +499,7 @@
     },
     {
       "date": "7/12/2016",
-      "strength": "Individualization",
+      "type": "TESTINGTYPE",
       "title": "Knowing People Intuitively",
       "watchLink": "http://coaching.gallup.com/2016/07/individualization-s2-knowing-people.html",
       "companion": "http://products.gallup.com/193136/theme-thursday-companion-guide-pdf-individualization.aspx",
@@ -508,7 +508,7 @@
     },
     {
       "date": "7/15/2016",
-      "strength": "Input",
+      "type": "TESTINGTYPE",
       "title": "A Tangible Tool to Help Others",
       "watchLink": "http://coaching.gallup.com/2016/07/input-s2-tangible-tool-to-help-others.html",
       "companion": "http://products.gallup.com/193373/theme-thursday-companion-guide-pdf-input.aspx",
@@ -517,7 +517,7 @@
     },
     {
       "date": "7/19/2016",
-      "strength": "Intellection",
+      "type": "TESTINGTYPE",
       "title": "Thinking Deeply About the World",
       "watchLink": "http://coaching.gallup.com/2016/07/intellection-s2.html",
       "companion": "http://products.gallup.com/193481/theme-thursday-companion-guide-pdf-intellection.aspx",
@@ -526,7 +526,7 @@
     },
     {
       "date": "8/5/2016",
-      "strength": "Learner",
+      "type": "TESTINGTYPE",
       "title": "Mastering New Subjects and Continuously Improving",
       "watchLink": "http://coaching.gallup.com/2016/08/learner-s2.html",
       "companion": "http://products.gallup.com/193790/theme-thursday-companion-guide-pdf-learner.aspx",
@@ -535,7 +535,7 @@
     },
     {
       "date": "8/19/2016",
-      "strength": "Positivity",
+      "type": "TESTINGTYPE",
       "title": "Leader of Feelings",
       "watchLink": "http://coaching.gallup.com/2016/08/s2-positivity-leader-of-feelings.html",
       "companion": "http://products.gallup.com/193973/theme-thursday-companion-guide-pdf-positivity.aspx",
@@ -544,7 +544,7 @@
     },
     {
       "date": "8/26/2016",
-      "strength": "Maximizer",
+      "type": "TESTINGTYPE",
       "title": "The \"Mic Drop\" Theme",
       "watchLink": "http://coaching.gallup.com/2016/08/maximizer-s2-mic-drop-theme.html",
       "companion": "http://products.gallup.com/193934/theme-thursday-companion-guide-pdf-maximizer.aspx",
@@ -553,7 +553,7 @@
     },
     {
       "date": "8/30/2016",
-      "strength": "Relator",
+      "type": "TESTINGTYPE",
       "title": "Deep Satisfaction in Close Relationships",
       "watchLink": "http://coaching.gallup.com/2016/08/relator-s2-deep-satisfaction-in-close.html",
       "companion": "http://products.gallup.com/193976/theme-thursday-companion-guide-pdf-relator.aspx",
@@ -562,7 +562,7 @@
     },
     {
       "date": "9/2/2016",
-      "strength": "Responsibility",
+      "type": "TESTINGTYPE",
       "title": "Do You Act Out of Guilt or Joy?",
       "watchLink": "http://coaching.gallup.com/2016/09/responsibility-s2-do-you-act-out-of.html",
       "companion": "http://products.gallup.com/193979/theme-thursday-companion-guide-pdf-responsibility.aspx",
@@ -571,7 +571,7 @@
     },
     {
       "date": "9/23/2016",
-      "strength": "Restorative",
+      "type": "TESTINGTYPE",
       "title": "A Solution Mindset to Daily Problems",
       "watchLink": "http://coaching.gallup.com/2016/09/restorative-s2-solution-mindset-to.html",
       "companion": "http://products.gallup.com/193982/theme-thursday-companion-guide-pdf-restorative.aspx",
@@ -580,7 +580,7 @@
     },
     {
       "date": "10/20/2016",
-      "strength": "Significance",
+      "type": "TESTINGTYPE",
       "title": "A Comfort in the Spotlight",
       "watchLink": "http://coaching.gallup.com/2016/10/significance-s2-comfort-in-spotlight.html",
       "companion": "http://products.gallup.com/184139/theme-thursday-companion-guide-significance.aspx",
@@ -589,7 +589,7 @@
     },
     {
       "date": "11/3/2016",
-      "strength": "Strategic",
+      "type": "TESTINGTYPE",
       "title": "What Does Strategic Really Mean?",
       "watchLink": "http://coaching.gallup.com/2016/11/strategic-s2-what-does-strategic-really.html",
       "companion": "http://products.gallup.com/186122/theme-thursday-companion-guide-strategic.aspx",
@@ -598,7 +598,7 @@
     },
     {
       "date": "11/15/2016",
-      "strength": "WOO",
+      "type": "TESTINGTYPE",
       "title": "The Social Catalysts",
       "watchLink": "http://coaching.gallup.com/2016/11/woo-s2-social-catalysts.html",
       "companion": "http://products.gallup.com/193988/theme-thursday-companion-guide-pdf-woo.aspx",
@@ -607,7 +607,7 @@
     },
     {
       "date": "11/23/2016",
-      "strength": "Self-Assurance",
+      "type": "TESTINGTYPE",
       "title": "The Ability to Bravely Lead the Way",
       "watchLink": "http://coaching.gallup.com/2016/11/self-assurance-s2-ability-to-bravely.html",
       "companion": "http://products.gallup.com/193985/theme-thursday-companion-guide-pdf-self-assurance.aspx",
@@ -616,7 +616,7 @@
     },
     {
       "date": "12/7/2016",
-      "strength": "Wrap-Party",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "http://coaching.gallup.com/2016/12/thats-wrap-theme-thursday-s2-wrap-party.html",
       "companion": "",
@@ -627,7 +627,7 @@
   "3": [
     {
       "date": "1/27/2017",
-      "strength": "Kick-Off",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "http://coaching.gallup.com/2017/01/theme-thursday-s3-kick-off-with-jacque.html",
       "companion": "",
@@ -636,16 +636,16 @@
     },
     {
       "date": "2/6/2017",
-      "strength": "Achiever",
+      "type": "TESTINGTYPE",
       "title": "Living With a Whisper of Discontent",
       "watchLink": "http://coaching.gallup.com/2017/02/achiever-living-with-whisper-of.html",
       "companion": "http://products.gallup.com/205130/theme-thursday-season-companion-guide-achiever.aspx",
       "youtubeEmbed": "jeuZsIQil4U",
-      "description": "Your Achiever theme helps explain your drive. Achiever describes a constant need for achievement. You feel as if every day starts at zero. By the end of the day, you must achieve something tangible in order to feel good about yourself. And by “every day” you mean every single day — workdays, weekends, vacations. No matter how much you may feel you deserve a day of rest, if the day passes without some form of achievement, no matter how small, you will feel dissatisfied. You have an internal fire burning inside you. It pushes you to do more, to achieve more. After each accomplishment is reached, the fire dwindles for a moment, but very soon it rekindles itself, forcing you toward the next accomplishment. Your relentless need for achievement might not be logical. It might not even be focused. But it will always be with you. As an Achiever, you must learn to live with this whisper of discontent. It does have its benefits. It brings you the energy you need to work long hours without burning out. It is the jolt you can always count on to get you started on new tasks, new challenges. It is the power supply that causes you to set the pace and define the levels of productivity for your workgroup. It is the theme that keeps you moving."
+      "description": "Your Achiever theme helps explain your drive. Achiever describes a constant need for achievement. You feel as if every day starts at zero. By the end of the day, you must achieve something tangible in order to feel good about yourself. And by "every day" you mean every single day — workdays, weekends, vacations. No matter how much you may feel you deserve a day of rest, if the day passes without some form of achievement, no matter how small, you will feel dissatisfied. You have an internal fire burning inside you. It pushes you to do more, to achieve more. After each accomplishment is reached, the fire dwindles for a moment, but very soon it rekindles itself, forcing you toward the next accomplishment. Your relentless need for achievement might not be logical. It might not even be focused. But it will always be with you. As an Achiever, you must learn to live with this whisper of discontent. It does have its benefits. It brings you the energy you need to work long hours without burning out. It is the jolt you can always count on to get you started on new tasks, new challenges. It is the power supply that causes you to set the pace and define the levels of productivity for your workgroup. It is the theme that keeps you moving."
     },
     {
       "date": "2/16/2017",
-      "strength": "Arranger",
+      "type": "TESTINGTYPE",
       "title": "How to Sort Through the Clutter and Turn Chaos Into Order",
       "watchLink": "http://coaching.gallup.com/2017/02/arranger-how-to-sort-through-clutter.html",
       "companion": "http://products.gallup.com/205145/theme-thursday-season-companion-guide-arranger.aspx",
@@ -654,7 +654,7 @@
     },
     {
       "date": "3/2/2017",
-      "strength": "Consistency",
+      "type": "TESTINGTYPE",
       "title": "Consistent Actions Produce Consistent Results",
       "watchLink": "http://coaching.gallup.com/2017/03/consistency-consistent-actions-produce.html",
       "companion": "http://products.gallup.com/205163/theme-thursday-season-companion-guide-consistency.aspx",
@@ -663,7 +663,7 @@
     },
     {
       "date": "3/9/2017",
-      "strength": "Deliberative",
+      "type": "TESTINGTYPE",
       "title": "Outstanding Decision Maker",
       "watchLink": "http://coaching.gallup.com/2017/03/deliberative-outstanding-decision-maker.html",
       "companion": "http://products.gallup.com/205169/theme-thursday-season-companion-guide-deliberative.aspx",
@@ -672,7 +672,7 @@
     },
     {
       "date": "3/16/2017",
-      "strength": "Discipline",
+      "type": "TESTINGTYPE",
       "title": "Leading With Purpose",
       "watchLink": "http://coaching.gallup.com/2017/03/discipline-leading-with-purpose-theme.html",
       "companion": "http://products.gallup.com/205175/theme-thursday-season-companion-guide-discipline.aspx",
@@ -681,7 +681,7 @@
     },
     {
       "date": "3/27/2017",
-      "strength": "Focus",
+      "type": "TESTINGTYPE",
       "title": "Beneficial Tunnel Vision",
       "watchLink": "http://coaching.gallup.com/2017/03/focus-beneficial-tunnel-vision-theme.html",
       "companion": "http://products.gallup.com/205181/theme-thursday-season-companion-guide-focus.aspx",
@@ -690,7 +690,7 @@
     },
     {
       "date": "3/30/2017",
-      "strength": "Responsibility",
+      "type": "TESTINGTYPE",
       "title": "Building Your Filter of Integrity",
       "watchLink": "http://coaching.gallup.com/2017/03/responsibility-building-your-filter-of.html",
       "companion": "http://products.gallup.com/205220/theme-thursday-season-companion-guide-responsibility.aspx",
@@ -699,7 +699,7 @@
     },
     {
       "date": "4/13/2017",
-      "strength": "Belief",
+      "type": "TESTINGTYPE",
       "title": "Leading With Your Heart",
       "watchLink": "http://coaching.gallup.com/2017/04/belief-leading-with-your-heart-theme_13.html",
       "companion": "http://products.gallup.com/205148/theme-thursday-season-companion-guide-belief.aspx",
@@ -708,7 +708,7 @@
     },
     {
       "date": "4/20/2017",
-      "strength": "Activator",
+      "type": "TESTINGTYPE",
       "title": "How to Position Yourself for Powerful Starting",
       "watchLink": "http://coaching.gallup.com/2017/04/activator-how-to-position-yourself-for.html",
       "companion": "http://products.gallup.com/205133/theme-thursday-season-companion-guide-activator.aspx",
@@ -717,7 +717,7 @@
     },
     {
       "date": "4/27/2017",
-      "strength": "Command",
+      "type": "TESTINGTYPE",
       "title": "A Persuasive Presence Undeterred by Opposition",
       "watchLink": "http://coaching.gallup.com/2017/04/command-persuasive-presence-undeterred.html",
       "companion": "http://products.gallup.com/205151/theme-thursday-season-companion-guide-command.aspx",
@@ -726,7 +726,7 @@
     },
     {
       "date": "5/11/2017",
-      "strength": "Communication",
+      "type": "TESTINGTYPE",
       "title": "How to Translate an Idea into a Story",
       "watchLink": "http://coaching.gallup.com/2017/05/communication-how-to-translate-idea.html",
       "companion": "http://products.gallup.com/205154/theme-thursday-season-companion-guide-communication.aspx",
@@ -735,7 +735,7 @@
     },
     {
       "date": "5/19/2017",
-      "strength": "Competition",
+      "type": "TESTINGTYPE",
       "title": "Living for the Victory of the Game",
       "watchLink": "http://coaching.gallup.com/2017/05/competition-living-for-victory-of-game.html",
       "companion": "http://products.gallup.com/205157/theme-thursday-season-companion-guide-competition.aspx",
@@ -744,7 +744,7 @@
     },
     {
       "date": "5/25/2017",
-      "strength": "Maximizer",
+      "type": "TESTINGTYPE",
       "title": "Seeing Improvement in Greatness",
       "watchLink": "http://coaching.gallup.com/2017/05/maximizer-seeing-improvement-in.html",
       "companion": "http://products.gallup.com/205211/theme-thursday-season-companion-guide-maximizer.aspx",
@@ -753,7 +753,7 @@
     },
     {
       "date": "6/1/2017",
-      "strength": "Self-Assurance",
+      "type": "TESTINGTYPE",
       "title": "The Keel of a Ship to Keep You on Course",
       "watchLink": "http://coaching.gallup.com/2017/06/self-assurance-keel-of-ship-to-keep-you.html",
       "companion": "http://products.gallup.com/205226/theme-thursday-season-companion-guide-self-assurance.aspx",
@@ -762,7 +762,7 @@
     },
     {
       "date": "6/15/2017",
-      "strength": "Significance",
+      "type": "TESTINGTYPE",
       "title": "Building a Legacy of Distinction",
       "watchLink": "http://coaching.gallup.com/2017/06/significance-building-legacy-of.html",
       "companion": "http://products.gallup.com/205229/theme-thursday-season-companion-guide-significance.aspx",
@@ -771,7 +771,7 @@
     },
     {
       "date": "6/22/2017",
-      "strength": "WOO",
+      "type": "TESTINGTYPE",
       "title": "Authentic Social Courage",
       "watchLink": "http://coaching.gallup.com/2017/06/woo-authentic-social-courage-theme.html",
       "companion": "http://products.gallup.com/205235/theme-thursday-season-companion-guide-woo.aspx",
@@ -780,7 +780,7 @@
     },
     {
       "date": "6/29/2017",
-      "strength": "Adaptability",
+      "type": "TESTINGTYPE",
       "title": "Calmness and Clarity During Change",
       "watchLink": "http://coaching.gallup.com/2017/06/adaptability-calmness-and-clarity.html",
       "companion": "http://products.gallup.com/205136/theme-thursday-season-companion-guide-adaptability.aspx",
@@ -789,7 +789,7 @@
     },
     {
       "date": "7/6/2017",
-      "strength": "Developer",
+      "type": "TESTINGTYPE",
       "title": "Discussing a Language of Progress",
       "watchLink": "http://coaching.gallup.com/2017/07/developer-discussing-language-of.html",
       "companion": "http://products.gallup.com/205172/theme-thursday-season-companion-guide-developer.aspx",
@@ -798,7 +798,7 @@
     },
     {
       "date": "7/28/2017",
-      "strength": "Connectedness",
+      "type": "TESTINGTYPE",
       "title": "Everything Happens for a Reason",
       "watchLink": "http://coaching.gallup.com/2017/07/connectedness-everything-happens-for.html",
       "companion": "http://products.gallup.com/205160/theme-thursday-season-companion-guide-connectedness.aspx",
@@ -807,7 +807,7 @@
     },
     {
       "date": "8/3/2017",
-      "strength": "Harmony",
+      "type": "TESTINGTYPE",
       "title": "The Power of Consensus",
       "watchLink": "http://coaching.gallup.com/2017/08/harmony-power-of-consensus-theme.html",
       "companion": "http://products.gallup.com/205187/theme-thursday-season-companion-guide-harmony.aspx",
@@ -816,7 +816,7 @@
     },
     {
       "date": "8/10/2017",
-      "strength": "Includer",
+      "type": "TESTINGTYPE",
       "title": "Building a Diverse and Inclusive Leadership Pipeline",
       "watchLink": "http://coaching.gallup.com/2017/08/includer-building-diverse-and-inclusive.html",
       "companion": "http://products.gallup.com/205196/theme-thursday-season-companion-guide-includer.aspx",
@@ -825,7 +825,7 @@
     },
     {
       "date": "8/16/2017",
-      "strength": "Individualization",
+      "type": "TESTINGTYPE",
       "title": "Delving Through a Lens of Uniqueness",
       "watchLink": "http://coaching.gallup.com/2017/08/individualization-delving-through-lens.html",
       "companion": "http://products.gallup.com/205199/theme-thursday-season-companion-guide-individualization.aspx",
@@ -834,7 +834,7 @@
     },
     {
       "date": "8/23/2017",
-      "strength": "Empathy",
+      "type": "TESTINGTYPE",
       "title": "Seeing the World Through Others' Eyes",
       "watchLink": "http://coaching.gallup.com/2017/08/empathy-seeing-world-through-others.html",
       "companion": "http://products.gallup.com/205178/theme-thursday-season-companion-guide-empathy.aspx",
@@ -843,7 +843,7 @@
     },
     {
       "date": "9/6/2017",
-      "strength": "Relator",
+      "type": "TESTINGTYPE",
       "title": "Cultivating Relationships with Depth and Longevity",
       "watchLink": "http://coaching.gallup.com/2017/09/relator-cultivating-relationships-with.html",
       "companion": "http://products.gallup.com/205217/theme-thursday-season-companion-guide-relator.aspx",
@@ -852,7 +852,7 @@
     },
     {
       "date": "9/20/2017",
-      "strength": "Analytical",
+      "type": "TESTINGTYPE",
       "title": "The Insistence that Theories be Sound",
       "watchLink": "http://coaching.gallup.com/2017/09/analytical-insistence-that-theories-be.html",
       "companion": "http://products.gallup.com/205139/theme-thursday-season-companion-guide-analytical.aspx",
@@ -861,7 +861,7 @@
     },
     {
       "date": "9/27/2017",
-      "strength": "Context",
+      "type": "TESTINGTYPE",
       "title": "Looking to the Past to Discover a Powerful Future",
       "watchLink": "http://coaching.gallup.com/2017/09/context-looking-to-past-to-discover.html",
       "companion": "http://products.gallup.com/205166/theme-thursday-season-companion-guide-context.aspx",
@@ -870,8 +870,8 @@
     },
     {
       "date": "10/5/2017",
-      "strength": "Futuristic",
-      "title": "Creating a Vivid Picture of the Future”",
+      "type": "TESTINGTYPE",
+      "title": "Creating a Vivid Picture of the Future"",
       "watchLink": "http://coaching.gallup.com/2017/10/futuristic-creating-vivid-picture-of.html",
       "companion": "http://products.gallup.com/205184/theme-thursday-season-companion-guide-futuristic.aspx",
       "youtubeEmbed": "EVUhJHm4D6k",
@@ -879,7 +879,7 @@
     },
     {
       "date": "10/20/2017",
-      "strength": "Ideation",
+      "type": "TESTINGTYPE",
       "title": "A New Perspective on Familiar Challenges",
       "watchLink": "http://coaching.gallup.com/2017/10/ideation-new-perspective-on-familiar.html",
       "companion": "http://products.gallup.com/205193/theme-thursday-season-companion-guide-ideation.aspx",
@@ -888,7 +888,7 @@
     },
     {
       "date": "10/26/2017",
-      "strength": "Input",
+      "type": "TESTINGTYPE",
       "title": "The Art of Adding Information to Your Archives",
       "watchLink": "http://coaching.gallup.com/2017/10/input-art-of-adding-information-to-your_26.html",
       "companion": "http://products.gallup.com/205202/theme-thursday-season-companion-guide-input.aspx",
@@ -897,7 +897,7 @@
     },
     {
       "date": "11/2/2017",
-      "strength": "Intellection",
+      "type": "TESTINGTYPE",
       "title": "Understanding of Pragmatic Thinking",
       "watchLink": "http://coaching.gallup.com/2017/11/intellection-understanding-of-pragmatic.html",
       "companion": "http://products.gallup.com/205205/theme-thursday-season-companion-guide-intellection.aspx",
@@ -906,7 +906,7 @@
     },
     {
       "date": "11/9/2017",
-      "strength": "Learner",
+      "type": "TESTINGTYPE",
       "title": "The Journey from Ignorance to Competence",
       "watchLink": "http://coaching.gallup.com/2017/11/learner-journey-from-ignorance-to.html",
       "companion": "http://products.gallup.com/205208/theme-thursday-season-companion-guide-learner.aspx",
@@ -915,7 +915,7 @@
     },
     {
       "date": "11/16/2017",
-      "strength": "Positivity",
+      "type": "TESTINGTYPE",
       "title": "Opening Pathways of Possibilities",
       "watchLink": "http://coaching.gallup.com/2017/11/positivity-opening-pathways-of.html",
       "companion": "http://products.gallup.com/205214/theme-thursday-season-companion-guide-positivity.aspx",
@@ -924,7 +924,7 @@
     },
     {
       "date": "11/30/2017",
-      "strength": "Strategic",
+      "type": "TESTINGTYPE",
       "title": "Seeing Patterns Where Others See Complexity",
       "watchLink": "http://coaching.gallup.com/2017/11/strategic-seeing-patterns-where-others.html",
       "companion": "http://products.gallup.com/205232/theme-thursday-season-companion-guide-strategic.aspx",
@@ -933,7 +933,7 @@
     },
     {
       "date": "12/7/2017",
-      "strength": "Restorative",
+      "type": "TESTINGTYPE",
       "title": "Bringing Things Back to Life",
       "watchLink": "http://coaching.gallup.com/2017/12/restorative-bringing-things-back-to.html",
       "companion": "http://products.gallup.com/205223/theme-thursday-season-companion-guide-restorative.aspx",
@@ -944,7 +944,7 @@
   "4": [
     {
       "date": "3/23/2018",
-      "strength": "Kick-Off",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "http://coaching.gallup.com/2018/03/season-4-kick-off-theme-thursday-season.html",
       "companion": "",
@@ -953,7 +953,7 @@
     },
     {
       "date": "3/29/2018",
-      "strength": "Achiever",
+      "type": "TESTINGTYPE",
       "title": "A Commitment Towards Completion",
       "watchLink": "http://coaching.gallup.com/2018/03/achiever-commitment-towards-completion.html",
       "companion": "",
@@ -962,7 +962,7 @@
     },
     {
       "date": "4/12/2018",
-      "strength": "Activator",
+      "type": "TESTINGTYPE",
       "title": "The Brave First Step",
       "watchLink": "http://coaching.gallup.com/2018/04/activator-brave-first-step-theme.html",
       "companion": "",
@@ -971,7 +971,7 @@
     },
     {
       "date": "4/20/2018",
-      "strength": "Adaptability",
+      "type": "TESTINGTYPE",
       "title": "Putting Yourself in Chaos' Way",
       "watchLink": "http://coaching.gallup.com/2018/04/adaptability-putting-yourself-in-chaos.html",
       "companion": "",
@@ -980,7 +980,7 @@
     },
     {
       "date": "4/26/2018",
-      "strength": "Analytical",
+      "type": "TESTINGTYPE",
       "title": "Boiling Ideas Down to an Essence",
       "watchLink": "http://coaching.gallup.com/2018/04/analytical-boiling-ideas-down-to.html",
       "companion": "",
@@ -989,7 +989,7 @@
     },
     {
       "date": "5/4/2018",
-      "strength": "Arranger",
+      "type": "TESTINGTYPE",
       "title": "Become an Orchestrator of Improvement",
       "watchLink": "http://coaching.gallup.com/2018/05/arranger-become-orchestrator-of.html",
       "companion": "",
@@ -998,7 +998,7 @@
     },
     {
       "date": "5/17/2018",
-      "strength": "Belief",
+      "type": "TESTINGTYPE",
       "title": "Aligning Passion and Purpose",
       "watchLink": "http://coaching.gallup.com/2018/05/belief-aligning-passion-and-purpose.html",
       "companion": "",
@@ -1007,7 +1007,7 @@
     },
     {
       "date": "5/25/2018",
-      "strength": "Command",
+      "type": "TESTINGTYPE",
       "title": "The Ability to Take Leadership When None Exists",
       "watchLink": "http://coaching.gallup.com/2018/05/command-ability-to-take-leadership-when.html",
       "companion": "",
@@ -1016,7 +1016,7 @@
     },
     {
       "date": "6/1/2018",
-      "strength": "Communication",
+      "type": "TESTINGTYPE",
       "title": "The Desire to be Understood",
       "watchLink": "http://coaching.gallup.com/2018/06/communication-desire-to-be-understood.html",
       "companion": "",
@@ -1025,7 +1025,7 @@
     },
     {
       "date": "6/8/2018",
-      "strength": "Connectedness",
+      "type": "TESTINGTYPE",
       "title": "Moving Forward Through the Mystery",
       "watchLink": "http://coaching.gallup.com/2018/06/connectedness-moving-forward-through.html",
       "companion": "",
@@ -1034,7 +1034,7 @@
     },
     {
       "date": "6/15/2018",
-      "strength": "Consistency",
+      "type": "TESTINGTYPE",
       "title": "Establishing Stability Through Predictability",
       "watchLink": "http://coaching.gallup.com/2018/06/consistency-establishing-stability.html",
       "companion": "",
@@ -1043,7 +1043,7 @@
     },
     {
       "date": "6/22/2018",
-      "strength": "Context",
+      "type": "TESTINGTYPE",
       "title": "Comprehend the Present by Knowing the Past",
       "watchLink": "http://coaching.gallup.com/2018/06/context-comprehend-present-by-knowing.html",
       "companion": "",
@@ -1052,7 +1052,7 @@
     },
     {
       "date": "7/6/2018",
-      "strength": "Deliberative",
+      "type": "TESTINGTYPE",
       "title": "Bringing Confidence Through Diligence",
       "watchLink": "http://coaching.gallup.com/2018/07/deliberative-bringing-confidence.html",
       "companion": "",
@@ -1061,7 +1061,7 @@
     },
     {
       "date": "7/26/2018",
-      "strength": "Competition",
+      "type": "TESTINGTYPE",
       "title": "Comparison Driven Performance",
       "watchLink": "http://coaching.gallup.com/2018/07/competition-comparison-driven.html",
       "companion": "",
@@ -1070,7 +1070,7 @@
     },
     {
       "date": "8/2/2018",
-      "strength": "Developer",
+      "type": "TESTINGTYPE",
       "title": "Spotting Signs of Progress in Others",
       "watchLink": "http://coaching.gallup.com/2018/08/developer-spotting-signs-progress-others.html",
       "companion": "",
@@ -1079,7 +1079,7 @@
     },
     {
       "date": "8/6/2018",
-      "strength": "Discipline",
+      "type": "TESTINGTYPE",
       "title": "Creating Structure",
       "watchLink": "http://coaching.gallup.com/2018/08/discipline-theme-thursday-season-4.html",
       "companion": "",
@@ -1088,7 +1088,7 @@
     },
     {
       "date": "8/9/2018",
-      "strength": "Empathy",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1097,7 +1097,7 @@
     },
     {
       "date": "8/16/2018",
-      "strength": "Focus",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1106,7 +1106,7 @@
     },
     {
       "date": "8/23/2018",
-      "strength": "Futuristic",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1115,7 +1115,7 @@
     },
     {
       "date": "8/30/2018",
-      "strength": "Harmony",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1124,7 +1124,7 @@
     },
     {
       "date": "9/3/2018",
-      "strength": "Ideation",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1133,7 +1133,7 @@
     },
     {
       "date": "9/5/2018",
-      "strength": "Includer",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1142,7 +1142,7 @@
     },
     {
       "date": "9/7/2018",
-      "strength": "Individualization",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1151,7 +1151,7 @@
     },
     {
       "date": "9/14/2018",
-      "strength": "Input",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1160,7 +1160,7 @@
     },
     {
       "date": "9/21/2018",
-      "strength": "Intellection",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1169,7 +1169,7 @@
     },
     {
       "date": "9/28/2018",
-      "strength": "Learner",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1178,7 +1178,7 @@
     },
     {
       "date": "10/5/2018",
-      "strength": "Maximizer",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1187,7 +1187,7 @@
     },
     {
       "date": "10/12/2018",
-      "strength": "Positivity",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1196,7 +1196,7 @@
     },
     {
       "date": "10/19/2018",
-      "strength": "Relator",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1205,7 +1205,7 @@
     },
     {
       "date": "10/26/2018",
-      "strength": "Responsibility",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1214,7 +1214,7 @@
     },
     {
       "date": "11/2/2018",
-      "strength": "Restorative",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1223,7 +1223,7 @@
     },
     {
       "date": "11/9/2018",
-      "strength": "Self-Assurance",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1232,7 +1232,7 @@
     },
     {
       "date": "11/16/2018",
-      "strength": "Significance",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1241,7 +1241,7 @@
     },
     {
       "date": "11/23/2018",
-      "strength": "Strategic",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
@@ -1250,7 +1250,7 @@
     },
     {
       "date": "11/30/2018",
-      "strength": "WOO",
+      "type": "TESTINGTYPE",
       "title": "",
       "watchLink": "",
       "companion": "register",
